@@ -1,4 +1,4 @@
-# AI-powered Automation with Power Automate - Lab Guide
+# Innovate with AI in automation - Lab Guide
 
 This course covers a hands-on approach to using Power Automate for AI-driven automation solutions, focusing on streamlining business processes and workflows.
 
