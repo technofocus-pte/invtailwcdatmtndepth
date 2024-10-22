@@ -11,9 +11,9 @@ Power Automate and Power Apps.
 
 **Estimated Time:** 45 mins
 
-# Exercise 1: Create your first model
+## Exercise 1: Create your first model
 
-## Task 1: Sign in to AI Builder
+### Task 1: Sign in to AI Builder
 
 1.  **Navigate** to power automate with the help of
     <https://www.microsoft.com/en-us/power-platform/products/power-automate>
@@ -42,42 +42,43 @@ style="width:6.26042in;height:2.64583in" />
 5.  If you are using your own documents, ensure you have at least five
     examples with the same layout. Alternatively, download the sample
     data available in <https://go.microsoft.com/fwlink/?linkid=2128080>
-    or <https://go.microsoft.com/fwlink/?linkid=2186887.
+    or https://go.microsoft.com/fwlink/?linkid=2186887.
 
 6.  Scroll Down and click on **Create custom model** to proceed.
 
     <img src="./media/image5.png"
 style="width:6.26806in;height:3.18611in" />
 
-## Task 2: Choose document type
+### Task 2: Choose document type
 
 1.  When choosing the document type, you have three options:
 
-- **Fixed template documents:** This option is ideal when, for a given
-  layout, the fields, tables, checkboxes, and other items can be found
-  in similar places. You can teach this model to extract data from
-  structured documents that have different layouts. This model has a
-  quick training time.
+    - **Fixed template documents:** This option is ideal when, for a given
+      layout, the fields, tables, checkboxes, and other items can be found
+      in similar places. You can teach this model to extract data from
+      structured documents that have different layouts. This model has a
+      quick training time.
 
-- **General documents:** This option is ideal for any kind of documents,
-  especially when there is no set structure or when the format is
-  complex. You can teach this model to extract data from structured or
-  unstructured documents that have different layouts. This model is
-  powerful but had long training time.
+    - **General documents:** This option is ideal for any kind of documents,
+      especially when there is no set structure or when the format is
+      complex. You can teach this model to extract data from structured or
+      unstructured documents that have different layouts. This model is
+      powerful but had long training time.
 
-- **Invoices:** Invoice documents are standard account payable forms.
-  This model type comes with standards fields, and you can teach this
-  model to extract additional custom data or update the standard data.
+    - **Invoices:** Invoice documents are standard account payable forms.
+      This model type comes with standards fields, and you can teach this
+      model to extract additional custom data or update the standard data.
 
 2.  Select Fixed template documents and click **Next**.
 
-    <img src="./media/image6.png" style="width:6.26042in;height:2.6875in" />
+    <img src="./media/image6.png"
+style="width:6.26806in;height:2.64931in" />
 
-## Task 3: Choose information to extract
+### Task 3: Choose information to extract
 
-Define the fields and tables you want your model to extract. The sample
-data provided includes invoices in both
-<https://go.microsoft.com/fwlink/?linkid=2128080and
+Define the fields and tables you want your model to extract. Donwload
+sample data provided includes invoices in both **English :**
+<https://go.microsoft.com/fwlink/?linkid=2128080and **Japanese :**
 <https://go.microsoft.com/fwlink/?linkid=2186887from two different
 providers. We'll extract the following fields:
 
@@ -89,10 +90,10 @@ providers. We'll extract the following fields:
 
 - Due date
 
-1.  Click **+** **Add** and select Text field, then click Next.
+1.  Click **+** **Add** and select Text field, then click **Next**.
 
     <img src="./media/image7.png"
-style="width:6.26042in;height:2.54167in" />
+style="width:6.26806in;height:2.85556in" />
 
     <img src="./media/image8.png"
 style="width:6.26806in;height:3.40556in" />
@@ -106,10 +107,11 @@ style="width:4.14167in;height:2.52778in" />
 3.  Click **+ Add** and select **Number field** (preview), then click
     Next.
 
-    <img src="./media/image10.png" style="width:6.26042in;height:2.25in" />
+    <img src="./media/image10.png"
+style="width:6.26806in;height:2.26111in" />
 
     <img src="./media/image11.png"
-style="width:6.26042in;height:2.51042in" />
+style="width:6.26806in;height:2.47014in" />
 
 4.  Enter the number field name as **Total amount** and select **Done**.
 
@@ -119,10 +121,10 @@ style="width:6.26042in;height:2.5625in" />
 5.  Click **+ Add** and select Date field (preview).
 
     <img src="./media/image13.png"
-style="width:6.26806in;height:2.52431in" />
+style="width:6.26806in;height:2.41875in" />
 
     <img src="./media/image14.png"
-style="width:6.26806in;height:2.46181in" />
+style="width:6.26806in;height:2.48611in" />
 
 6.  Enter the date field name as **Due Date** and select **Done**.
 
@@ -134,15 +136,15 @@ style="width:4.06702in;height:4.21703in" />
     select Date field (preview).
 
     <img src="./media/image16.png"
-style="width:6.26806in;height:2.52292in" />
+style="width:6.26806in;height:2.48889in" />
 
 8.  Select Add and then **Table**, and click **Next**.
 
     <img src="./media/image17.png"
-style="width:6.26806in;height:2.55833in" />
+style="width:6.26806in;height:2.96181in" />
 
-9.  Define the table name as Items. **Next, add two columns: Description
-    and Item total**.
+9.  Define the table name as **Items**. **Next, add two columns:
+    Description and Item total**.
 
 10. Select Column1 and rename it to Description, then click Confirm.
 
@@ -150,14 +152,14 @@ style="width:6.26806in;height:2.55833in" />
     select Add. Finally, click **Done**.
 
     <img src="./media/image18.png"
-style="width:6.26806in;height:2.59097in" />
+style="width:6.26806in;height:2.95208in" />
 
 12. Click **Next** to proceed to the next step in your model.
 
     <img src="./media/image19.png"
-style="width:4.85976in;height:2.04007in" />
+style="width:6.26806in;height:2.63056in" />
 
-## Task 4: Define collections and upload documents
+### Task 4: Define collections and upload documents
 
 Define collections and upload documents. A collection groups documents
 with the same layout. Create a collection for each unique layout your
@@ -170,17 +172,18 @@ different templates, we'll create two collections.
 2.  Add another **New collection** and name it **Contoso**.
 
     <img src="./media/image20.png"
-style="width:6.26806in;height:2.53819in" />
+style="width:6.26806in;height:2.65486in" />
 
 3.  Click on the Adatum and then click on the Add document. Then select
-    My device, For **Adatum**, upload the five documents from the **AI
-    Builder Document Processing Sample Data/Adatum/Train** folder.
+    My device, For **Adatum**, upload the five documents which we
+    download in previous step from the **AI Builder Document Processing
+    Sample Data\Invoices\Adatum\Train** folder.
 
     <img src="./media/image21.png"
-style="width:6.26806in;height:2.62361in" />
+style="width:6.26806in;height:2.66944in" />
 
     <img src="./media/image22.png"
-style="width:6.26806in;height:2.58958in" />
+style="width:6.26806in;height:2.71528in" />
 
 4.  Click on the **Upload 5 document** and then click on **Done**.
 
@@ -195,26 +198,26 @@ style="width:6.26806in;height:4.16111in" />
     Builder Document Processing Sample Data/Contoso /Train** folder.
 
     <img src="./media/image25.png"
-style="width:6.26806in;height:2.65486in" />
+style="width:6.26806in;height:2.64236in" />
 
-    <img src="./media/image22.png"
-style="width:6.26806in;height:2.65069in" />
+    <img src="./media/image26.png"
+style="width:6.26806in;height:2.62917in" />
 
 6.  Click on the **Upload 5 document** and then click on **Done**.
 
-    <img src="./media/image26.png"
+    <img src="./media/image27.png"
 style="width:6.26806in;height:3.69861in" />
 
-    <img src="./media/image27.png"
+    <img src="./media/image28.png"
 style="width:6.26806in;height:4.13958in" />
 
 7.  After uploading the sample documents to each collection, select
     **Next** to continue.
 
-    <img src="./media/image28.png"
-style="width:6.26806in;height:2.61875in" />
+    <img src="./media/image29.png"
+style="width:6.26806in;height:2.64861in" />
 
-## Task 5: Tag documents
+### Task 5: Tag documents
 
 Start teaching your AI model how to extract the fields and tables by
 tagging the sample documents you've uploaded. As you tag the expected
@@ -224,12 +227,12 @@ red dot at the top corner will disappear.
 1.  Select the **Contoso** collection from the right panel to begin
     tagging.
 
-    <img src="./media/image29.png"
-style="width:6.26806in;height:2.62083in" />
+    <img src="./media/image30.png"
+style="width:6.26806in;height:2.64028in" />
 
-2.  Tag Fields:
+2.  **Tag Fields:**
 
-- Start by tagging fields like **Invoice number, Due date, and Total
+- Start by tagging fields like **Invoice Number,** **Due date, and Total
   amount.**
 
 - Draw a rectangle around each field in the document, then select the
@@ -238,8 +241,14 @@ style="width:6.26806in;height:2.62083in" />
 - Resize your selection if needed. Hovering over words will show light
   blue boxes, indicating where you can draw rectangles.
 
-    <img src="./media/image30.png"
-style="width:5.64881in;height:2.13285in" />
+    <img src="./media/image31.png"
+style="width:6.26806in;height:2.66111in" />
+
+    <img src="./media/image32.png"
+style="width:6.26806in;height:2.61181in" />
+
+    <img src="./media/image33.png"
+style="width:6.26806in;height:2.65069in" />
 
 3.  Field or Table Not in Document:
 
@@ -247,7 +256,8 @@ style="width:5.64881in;height:2.13285in" />
   collection, select the ellipsis **(…)** next to the field on the right
   panel and choose **Not available in the document**.
 
-    <img src="./media/image31.png" style="width:4.75in;height:2.40605in" />
+    <img src="./media/image34.png"
+style="width:6.26806in;height:2.64583in" />
 
 4.  Tag Tables:
 
@@ -264,26 +274,90 @@ style="width:5.64881in;height:2.13285in" />
     - If you've tagged the table's header, select Ignore first row to
       prevent it from being extracted as content.
 
-    <img src="./media/image32.png"
-style="width:6.26806in;height:2.60139in" />
+    <img src="./media/image35.png"
+style="width:6.26806in;height:2.62778in" />
 
-    <img src="./media/image33.png"
-style="width:6.26806in;height:2.60972in" />
+    <img src="./media/image36.png" style="width:6.26806in;height:2.65in" />
 
-1.  Tag all Documents
+    <img src="./media/image37.png"
+style="width:6.26806in;height:2.66528in" />
 
-- Once you've tagged a document, move to the next one using the
-  navigation arrows at the top right of the document preview.
+1.  Tag all five documents with same process. Once you've tagged a
+    document, move to the next one using the navigation arrows at the
+    top right of the document preview.
 
-- After tagging all documents in one collection, go back to the
-  collection list to tag the second collection.
+    <img src="./media/image38.png"
+style="width:6.26806in;height:2.63611in" />
 
-## Task 6: Model summary and train
+1.  Now select the **Adatum** Collection.
+
+    <img src="./media/image39.png"
+style="width:6.26806in;height:2.63542in" />
+
+1.  **Tag Fields:**
+
+    - Start by tagging fields like **Invoice Number, Customer ID and Total
+      amount.**
+
+    - Draw a rectangle around each field in the document, then select the
+      corresponding field name.
+
+    - Resize your selection if needed. Hovering over words will show light
+      blue boxes, indicating where you can draw rectangles.
+
+    <img src="./media/image40.png"
+style="width:6.26806in;height:2.65208in" />
+
+    <img src="./media/image41.png"
+style="width:6.26806in;height:2.64097in" />
+
+    <img src="./media/image42.png"
+style="width:6.26806in;height:2.61597in" />
+
+1.  Go to **Due Date** option and select **Not available in
+    collection.**
+
+    <img src="./media/image43.png"
+style="width:6.26806in;height:2.38125in" />
+
+1.  Tag Tables:
+
+    - Draw a rectangle around the table you want to tag and select the
+      table name.
+
+    - Draw rows by left-clicking between row separators.
+
+    - Draw columns by pressing Ctrl + left-click (or ⌘ left-click on
+      macOS).
+
+    - Assign the headers by selecting the header column and mapping it
+      to the desired one.
+
+    - If you've tagged the table's header, select Ignore first row to
+      prevent it from being extracted as content.
+
+    <img src="./media/image44.png"
+style="width:5.35081in;height:2.23672in" />
+
+    <img src="./media/image45.png"
+style="width:5.17529in;height:2.20119in" />
+
+    <img src="./media/image46.png"
+style="width:5.1437in;height:2.22879in" />
+
+    <img src="./media/image47.png"
+style="width:5.37027in;height:2.25199in" />
+
+1.  Tag all five documents with same process. Once you've tagged a
+    document, move to the next one using the navigation arrows at the
+    top right of the document preview.
+
+### Task 6: Model summary and train
 
 1.  Select the **Next** button at the bottom of the screen.
 
-    <img src="./media/image34.png"
-style="width:6.26806in;height:2.65486in" />
+    <img src="./media/image48.png"
+style="width:6.26806in;height:2.69028in" />
 
 2.  Review the **Model summary**. Under Information to extract you'll
     see that Customer ID and Due Date only appeared in five examples out
@@ -291,23 +365,23 @@ style="width:6.26806in;height:2.65486in" />
 
 3.  If everything looks acceptable, select **Train**.
 
-    <img src="./media/image35.png"
-style="width:6.26806in;height:2.63819in" />
+    <img src="./media/image49.png"
+style="width:6.26806in;height:2.56042in" />
 
-# Exercise 2: Use your model
+## Exercise 2: Use your model
 
-## Task 1: Quick test
+### Task 1: Quick test
 
 1.  After your model completes training, you can view important details
     about your newly trained model on a details page.
 
-    <img src="./media/image36.png" style="width:6.26806in;height:3.66944in"
-alt="Screenshot of your newly trained model details page." />
+    <img src="./media/image50.png"
+style="width:6.26806in;height:2.88819in" />
 
 2.  To see your model in action, select **Quick test**.
 
-    <img src="./media/image37.png"
-style="width:6.26806in;height:3.38472in" />
+    <img src="./media/image51.png"
+style="width:6.26806in;height:3.42222in" />
 
 3.  Drag and drop or upload an image from your device to test. From the
     previous sample data, use the files from the Test folders that we
@@ -319,18 +393,18 @@ style="width:6.26806in;height:3.38472in" />
     associated confidence scores for retrieving the individual fields
     compared to the trained model.
 
-    <img src="./media/image38.png"
+    <img src="./media/image52.png"
 style="width:6.26806in;height:3.75417in" />
 
-## Task 2: Publish your model
+### Task 2: Publish your model
 
 1.  Your model can't be used until you publish it. If you're satisfied
     with your model, select **Publish** to make it available for use.
 
-    <img src="./media/image39.png"
+    <img src="./media/image53.png"
 style="width:6.26806in;height:3.02431in" />
 
-## Task 3: Use your model in Power Automate
+### Task 3: Use your model in Power Automate
 
 Now that your model is published, you can use your Document processing
 model to process documents using Power Automate. A special AI Builder
@@ -339,18 +413,17 @@ and other sources, and output the processed data.
 
 1.  Select **Use model**.
 
-    <img src="./media/image40.png"
+    <img src="./media/image54.png"
 style="width:6.26806in;height:2.78819in" />
 
 2.  Select **Build intelligent automations** and select one of the
     triggers proposed. For this module, we use the **Microsoft 365
     Outlook work account**.
 
-    <img src="./media/image41.png"
-style="width:6.26806in;height:2.99335in" />
+    <img src="./media/image55.png"
+style="width:6.26806in;height:2.99861in" />
 
-    <img src="./media/image42.png"
-style="width:6.26806in;height:3.0375in" />
+    <img src="./media/image56.png" style="width:6.26806in;height:3in" />
 
 3.  Make sure that you're signed into the flow and then
     select **Continue** to confirm the creation of the flow.
@@ -359,23 +432,22 @@ style="width:6.26806in;height:3.0375in" />
 an attachment and the email subject is AI Builder. Let's see it in
 action!
 
-    <img src="./media/image43.png" style="width:6.26806in;height:3.67222in"
-alt="Screenshot of sample flow illustrating how to use your newly trained model." />
+    <img src="./media/image57.png" style="width:6.26806in;height:3.55in" />
 
 4.  Select **Save** on the top right to test the flow.
 
-    <img src="./media/image44.png"
+    <img src="./media/image58.png"
 style="width:6.26806in;height:2.44167in" />
 
 5.  Select **Test**.
 
-    <img src="./media/image45.png"
+    <img src="./media/image59.png"
 style="width:6.26806in;height:2.64931in" />
 
 6.  Select **Manually** and then select **Test**.
 
-    <img src="./media/image46.png"
-style="width:6.26806in;height:3.97431in" />
+    <img src="./media/image60.png"
+style="width:6.26806in;height:3.91667in" />
 
 7.  Now send yourself an email with the subject **AI Builder** and
     attach the document you used for quick test previously.
@@ -388,7 +460,7 @@ Congratulations! You built an intelligent automation flow. You can then
 customize the flow to your needs to perform any other action you might
 want.
 
-## Task 4: Use your model in Power Apps
+### Task 4: Use your model in Power Apps
 
 Now that your model is published, you can use your Document processing
 model in a canvas app. A special component is available for you to add
@@ -398,10 +470,19 @@ Document processing mode.
 1.  From the  <https://make.powerautomate.com/, select **AI Hub**, and
     select your model under Recently Created.
 
+    <img src="./media/image61.png"
+style="width:6.26806in;height:2.91806in" />
+
 2.  Select **Use model**.
+
+    <img src="./media/image62.png"
+style="width:6.26806in;height:2.94792in" />
 
 3.  Select **Build intelligent apps** to begin the canvas app creation
     experience.
+
+    <img src="./media/image63.png"
+style="width:6.26806in;height:2.93472in" />
 
 4.  Within your canvas app, a **Form processor component** is
     automatically added and linked to your published Document processing
@@ -413,8 +494,8 @@ component. Next, select the AI model property from the right-hand
 properties panel. A list of AI models appears to select. Only
 published models appear in the drop-down list.
 
-    <img src="./media/image52.png" style="width:6.26806in;height:3.37639in"
-alt="Screenshot of published models appearing in the drop-down list in Power Apps." />
+    <img src="./media/image64.png"
+style="width:6.26806in;height:3.42222in" />
 
 
 
@@ -427,16 +508,16 @@ alt="Screenshot of published models appearing in the drop-down list in Power App
     properties from the model as well. For this exercise, we choose
     Invoice Number. The result looks similar to this image.
 
-    <img src="./media/image53.png" style="width:6.26806in;height:0.22708in"
+    <img src="./media/image65.png" style="width:6.26806in;height:0.22708in"
 alt="Screenshot of a field name in the Fields property in Power Apps." />
 
-    >  ** Note:** Notice how 'Invoice Number' is in single quotes in the
+    > **Note:** Notice how 'Invoice Number' is in single quotes in the
 previous image. This is because when the Invoice Number column was
 created, the column name was created with a space in between the
 words. If your columns weren't created with spaces, you don't need the
 single quotes and your code may look like this image instead.
 
-    <img src="./media/image54.png" style="width:6.26806in;height:0.30903in"
+    <img src="./media/image66.png" style="width:6.26806in;height:0.30903in"
 alt="Screenshot of InvoiceNumber without spaces." />
 
 7.  Next, we add a gallery so we can see the data from the items of the
@@ -445,16 +526,27 @@ alt="Screenshot of InvoiceNumber without spaces." />
 8.  In the Items property of the gallery,
     write: FormProcessor1.Tables.Items
 
+    <img src="./media/image67.png"
+style="width:6.26806in;height:2.89514in" />
+
 9.  Select **Play** on the upper right of the Power Apps studio to
     preview the app.
 
 10. Select **Analyze** and then select the image that you used to quick
     test previously.
 
+    <img src="./media/image68.png"
+style="width:6.26806in;height:2.91806in" />
+
 11. A preview of your document shows the **Invoice Number** and the
     items from the invoice.
 
-**Conclusion:** By the end of this lab, participants will have
+    <img src="./media/image69.png"
+style="width:6.26806in;height:2.87778in" />
+
+### Conclusion:
+
+By the end of this lab, participants will have
 successfully built and trained a custom AI model capable of extracting
 specific data fields from documents. They will have tested the model
 with real-world data, integrated it into automated workflows within
