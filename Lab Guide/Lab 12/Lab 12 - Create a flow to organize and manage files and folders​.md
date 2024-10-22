@@ -11,7 +11,7 @@ dynamic date and time formats.
 
 **Estimated Time:** 20 mins
 
-# Task 1: Create folder and Desktop flow
+### Task 1: Create folder and Desktop flow
 
 1.  Create a folder on your desktop and rename as **Contoso_Files.**
 
@@ -121,7 +121,7 @@ style="width:6.26806in;height:5.51667in" />
     <img src="./media/image16.png"
 style="width:6.26806in;height:2.71597in" />
 
-# Task 2: Test the flow
+### Task 2: Test the flow
 
 1.  After the run flow has completed, you will have a new folder called
     Backup Files on your desktop. The folder will contain all contents
@@ -135,7 +135,9 @@ style="width:6.26806in;height:1.95278in" />
     <img src="./media/image18.png"
 style="width:6.26806in;height:1.09931in" />
 
-**Conclusion:** In this lab, participants successfully created a Power
+### Conclusion: 
+
+In this lab, participants successfully created a Power
 Automate Desktop flow to automate the organization and management of
 files and folders. By backing up files from a designated folder named
 Contoso_Files to a newly created backup folder, participants gained
