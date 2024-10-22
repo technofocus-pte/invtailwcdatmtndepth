@@ -8,7 +8,9 @@ automate inventory restocking workflows with Power Automate.
 
 **Estimated Time:** 40 min
 
-## Task 1: Verifying your Dataverse environment 
+## Exercise 1: Build Inventory Management App
+
+### Task 1: Verifying your Dataverse environment 
 
 1.  Open a browser and go to
     <https://admin.powerplatform.microsoft.com>. Sign in with your work
@@ -31,7 +33,7 @@ alt="A screenshot of a computer Description automatically generated" />
 name of the environment can be different for different users. Make
 sure to select your developer environment.
 
-## Task 2: Create inventory management app using Copilot.
+### Task 2: Create inventory management app using Copilot.
 
 1.  Open a browser and go to <https://apps.powerapps.comand sign in
     with Work, School or admin tenant account.
@@ -159,7 +161,7 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image23.png" style="width:6.5in;height:3.18194in"
 alt="A screenshot of a computer Description automatically generated" />
 
-## Task 3: Create candy quality Screen
+### Task 3: Create candy quality Screen
 
 1.  Click on **New Screen** and select **Blank** template.
 
@@ -217,7 +219,7 @@ style="width:6.49306in;height:4.95833in" />
     <img src="./media/image31.png" style="width:6.5in;height:5.90069in"
 alt="A screenshot of a computer Description automatically generated" />
 
-1.  Click on New Column and add a column with below details and then
+9.  Click on New Column and add a column with below details and then
     click on **Save**.
 
     - **Display Name:** Candy Quality
@@ -232,55 +234,56 @@ alt="A screenshot of a computer Description automatically generated" />
 
     > **Note:** You can add more columns as per your app requirements.
 
-1.  Edit the table name and update with **Candy Quality**check.
+10.  Edit the table name and update with **Candy Quality**check.
 
     <img src="./media/image33.png" style="width:6.5in;height:4.37986in"
 alt="A screenshot of a computer Description automatically generated" />
 
-1.  Click on **Save and exit -\Save and exit**.
+11.  Click on **Save and exit -\Save and exit**.
 
     <img src="./media/image34.png" style="width:6.5in;height:3.09583in" />
 
-2.  You will navigate back to the Power Apps app page. Select the newly
+12.  You will navigate back to the Power Apps app page. Select the newly
     added screen and click on Insert and select **Edit form** as shown
     in below image.
 
     <img src="./media/image35.png"
 style="width:6.49375in;height:4.95486in" />
 
-1.  Click the container and select the data source table as **Candy
+13.  Click the container and select the data source table as **Candy
     Qualities table**.
 
     <img src="./media/image36.png" style="width:6.5in;height:3.49375in" />
 
-2.  You should see the form like below image.
+14.  You should see the form like below image.
 
     <img src="./media/image37.png" style="width:6.5in;height:3.21736in"
 alt="A screenshot of a computer Description automatically generated" />
 
-1.  Adjust the table to the middle of the page. Click on **Insert-\>
+15.  Adjust the table to the middle of the page. Click on **Insert-\>
     Text label.**
 
     <img src="./media/image38.png"
 style="width:6.49375in;height:4.46181in" />
 
-1.  Adjust the text label and enter the text as: **Candy Quality check**
+16.  Adjust the text label and enter the text as: **Candy Quality check**
     and update the styles of text.
 
     <img src="./media/image39.png" style="width:6.5in;height:4.08958in"
 alt="A screenshot of a computer Description automatically generated" />
-1.  Select the **Form**. Click on **Insert** and select **Button**.
+
+17.  Select the **Form**. Click on **Insert** and select **Button**.
 
     <img src="./media/image40.png"
 style="width:6.49375in;height:4.44861in" />
 
-1.  Drag the submit button and place it in the middle of the container.
+18.  Drag the submit button and place it in the middle of the container.
     Select the button and change the **properties** text to **Submit**
     as shown in below image.
 
     <img src="./media/image41.png" style="width:6.5in;height:3.18611in" />
 
-2.  Select the **Submit** button and select **OnSelect** function and
+19.  Select the **Submit** button and select **OnSelect** function and
     enter below function.
 
     > **Note**: Form4 in the formula should be replaced with your form name
@@ -314,13 +317,9 @@ alt="A screenshot of a computer Description automatically generated" />
 
 24. Close the preview window.
 
-# Exercise 2: Create a Power Automate flow to restock the inventory.
+## Exercise 2: Create a Power Automate flow to restock the inventory.
 
-In this exercise, you will create and test an approval request to
-restock the inventory flow and integrate it with the Inventory
-management App.
-
-## Task 1: Create a Power platform flow to trigger restock email
+### Task 1: Create a Power platform flow to trigger restock email
 
 1.  Switch back to Power Automate tab and click on **My flows** -\>
     **New flow -\Automated cloud flow.**
@@ -344,65 +343,65 @@ style="width:6.49375in;height:4.16042in" />
     <img src="./media/image49.png"
 style="width:6.49167in;height:3.70833in" />
 
-1.  Add an action after an action **“when a row is added, modified or
+4.  Add an action after an action **“when a row is added, modified or
     deleted”.**
 
     <img src="./media/image50.png"
 style="width:6.08333in;height:4.32708in" />
 
-1.  Search for **Condition** and select **Control’s Condition** action.
+5.  Search for **Condition** and select **Control’s Condition** action.
 
     <img src="./media/image51.png" style="width:6.49375in;height:3.75in" />
 
-2.  Click on Chose value and select choose from previous step dynamic
+6.  Click on Chose value and select choose from previous step dynamic
     action.
 
     <img src="./media/image52.png"
 style="width:6.49375in;height:3.85903in" />
 
-1.  Search for **Quantity** column and select it.
+7.  Search for **Quantity** column and select it.
 
     <img src="./media/image53.png"
 style="width:6.49375in;height:3.85903in" />
 
-1.  Select a condition that **is less than** and click on Enter data
+8.  Select a condition that **is less than** and click on Enter data
     from previous action.
 
     <img src="./media/image54.png"
 style="width:6.49375in;height:3.80139in" />
 
-1.  Search for the **Reorder points** column and select it.
+9.  Search for the **Reorder points** column and select it.
 
     <img src="./media/image55.png"
 style="width:6.49375in;height:3.87153in" />
 
-1.  **Add an action** under **True** condition.
+10.  **Add an action** under **True** condition.
 
     <img src="./media/image56.png"
 style="width:6.44861in;height:4.80764in" />
 
-1.  Select **Approvals** action.
+11.  Select **Approvals** action.
 
     <img src="./media/image57.png"
 style="width:6.49375in;height:3.21806in" />
 
-1.  Select **Start and wait for an Approvals.**
+12.  Select **Start and wait for an Approvals.**
 
     <img src="./media/image58.png"
 style="width:6.49375in;height:3.58333in" />
 
-1.  Select Approval Type as: **Approve/Reject – First to Respond**.
+13.  Select Approval Type as: **Approve/Reject – First to Respond**.
     Enter Title as: **Approve to Restock –** and click on Dynamic button
     to select the data from previous step.
 
     <img src="./media/image59.png"
 style="width:6.49375in;height:4.14097in" />
 
-1.  Search for **Candy** **Name** and select it.
+14.  Search for **Candy** **Name** and select it.
 
     <img src="./media/image60.png" style="width:6.49167in;height:3.25in" />
 
-2.  Enter below details.
+15.  Enter below details.
 
     Assigned to: Your work email id.
 
@@ -485,7 +484,7 @@ style="width:6.49167in;height:4.24167in" />
     <img src="./media/image72.png"
 style="width:6.49375in;height:2.85903in" />
 
-## Task 2: Test the restock flow
+### Task 2: Test the restock flow
 
 1.  Switch back to **PowerApps** tab and click on **Candy** screen from
     left Tree view and select **play**.
@@ -541,7 +540,9 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image82.png" style="width:6.5in;height:3.07639in"
 alt="A screenshot of a computer Description automatically generated" />
 
-**Conclusion:** By the end of this lab, participants will be able to
+### Conclusion:
+
+By the end of this lab, participants will be able to
 verify their Dataverse environment, build an inventory management app
 utilizing Copilot, design a Candy Quality Check screen with custom
 fields, and implement Power Automate flows to trigger restock requests
