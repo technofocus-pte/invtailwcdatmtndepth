@@ -12,7 +12,7 @@ respond to user input.
 
 **Estimated** **Time:** 25 mins
 
-# Task 1: Sign In and Create Power Page Website
+### Task 1: Sign In and Create Power Page Website
 
 1.  Navigate to
     <https://www.microsoft.com/en-us/power-platform/products/power-pages>'
@@ -49,7 +49,7 @@ style="width:6.26806in;height:2.75833in" />
     <img src="./media/image7.png"
 style="width:6.26806in;height:2.64167in" />
 
-# Task 2: Create cloud flow
+### Task 2: Create cloud flow
 
 1.  Navigate to power pages Home page and click on the **Edit** button
     in the website.
@@ -187,7 +187,7 @@ style="width:6.26806in;height:2.2625in" />
 **Note:** This is the unique URL used to connect to the associated cloud
 flow. You'll use this URL later to call the current weather flow.
 
-# Task 3: Create a page to display MSN weather data
+### Task 3: Create a page to display MSN weather data
 
 1.  Select Pages workspace, Select **+ Page.**
 
@@ -529,7 +529,7 @@ style="width:6.26806in;height:2.81528in" />
     <img src="./media/image32.png"
 style="width:6.26806in;height:2.93125in" />
 
-# Task 4: Test the flow integration
+### Task 4: Test the flow integration
 
 To test the flow integration functionality:
 
