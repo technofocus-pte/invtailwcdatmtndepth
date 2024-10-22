@@ -198,7 +198,9 @@ alt="Screenshot of the refund with special voucher mean." />
 
     <img src="./media/image30.png" style="width:6.5in;height:0.62153in" />
 
-**Conclusion:** In this lab, participants created and analyzed an
+### Conclusion:
+
+In this lab, participants created and analyzed an
 accounts payable refund process using Power Automate Process Mining
 capabilities. By importing CSV data, they constructed a detailed process
 map and dashboard, allowing them to examine key performance indicators
