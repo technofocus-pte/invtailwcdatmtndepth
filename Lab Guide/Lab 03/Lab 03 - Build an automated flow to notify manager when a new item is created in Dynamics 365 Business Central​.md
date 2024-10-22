@@ -167,7 +167,7 @@ style="width:6.26806in;height:3.84375in" />
 
 1.  Click **Save** to finalize your flow.
 
-    <img src="./media/image19.png"
+    <img src="./media/image20.png"
 style="width:6.26806in;height:2.59792in" />
 
 **Conclusion:** By the end of this lab, participants will have
