@@ -8,7 +8,7 @@ including handling text manipulation and generating random text.
 
 **Estimated Time:** 20 mins
 
-# Task 1: Create a Power Automate Desktop Flow
+### Task 1: Create a Power Automate Desktop Flow
 
 1.  Login and open **Power Automate Desktop with office 365 tenant** and
     choose an environment (**Contoso**). From the top left corner select
@@ -128,7 +128,7 @@ style="width:6.26806in;height:4.00486in" />
     <img src="./media/image16.png"
 style="width:6.27018in;height:2.56337in" />
 
-# Task 2: Test the flow
+### Task 2: Test the flow
 
 1.  Click on the **Run** button for test the flow.
 
@@ -146,7 +146,9 @@ style="width:6.26042in;height:3.4375in" />
     <img src="./media/image19.png"
 style="width:5.41714in;height:2.01684in" />
 
-**Conclusion:** In this lab, participants successfully designed and
+### Conclusion:
+
+In this lab, participants successfully designed and
 tested a Power Automate Desktop flow that generates a username and
 random password based on user input. By utilizing text manipulation
 actions, such as splitting, changing case, and generating random text,
