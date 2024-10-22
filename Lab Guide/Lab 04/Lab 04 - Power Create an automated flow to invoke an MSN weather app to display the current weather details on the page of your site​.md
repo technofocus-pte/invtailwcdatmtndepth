@@ -1,4 +1,4 @@
-# Lab 04 - Power Create an automated flow to invoke an MSN weather app to display the current weather details on the page of your site​
+# Lab 4 - Power Create an automated flow to invoke an MSN weather app to display the current weather details on the page of your site​
 
 **Objective:** The objective of this lab is to guide participants
 through the process of integrating a Power Automate cloud flow with a
