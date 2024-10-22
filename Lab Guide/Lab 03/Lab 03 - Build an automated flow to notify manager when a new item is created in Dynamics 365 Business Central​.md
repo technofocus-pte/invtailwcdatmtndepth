@@ -12,6 +12,7 @@ processes and notifications.
 
 **Estimated Time:** 15 mins
 
+
 ### Task 1: Start Power Automate
 
 1.  Open +++**https://make.powerautomate.com/**+++ in your browser and click on
