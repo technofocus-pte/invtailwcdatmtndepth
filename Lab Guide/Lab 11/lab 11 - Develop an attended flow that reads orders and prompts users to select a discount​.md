@@ -140,16 +140,13 @@ style="width:6.26806in;height:3.41319in" />
 
 16. Add the **Display message** action under **If**, to provide the
     necessary information to the user, and prompt them to
-    choose **Yes** or **No**. Enter the following detail in the it:
+    choose **Yes** or **No**. Then click on the **Save** button. Enter the following detail in the it:
 
     - **Message Box title**: Add discount
-
     - **Message to display**: Product: %CurrentItem\[2\]%
     - **Units**: %CurrentItem\[3\]%
     - **Gross:** %TextAsNumber%
     - **Message box button**: Yes – No
-
-- Click on the **Save** button
 
     <img src="./media/image14.png"
 style="width:6.26806in;height:3.67083in" />
@@ -158,40 +155,33 @@ style="width:6.26806in;height:3.67083in" />
     which button was pressed in the previous step. Enter the following
     details in the respected fields:
 
-    - **First** **operand**: %ButtonPressed3%
+        - **First** **operand**: %ButtonPressed3%
+        - **Operator:** Equal to (=)
+        - **Second operand:** Yes
 
-    - **Operator:** Equal to (=)
-
-    - **Second operand:** Yes
-
-    <img src="./media/image15.png"
-style="width:6.26806in;height:3.43056in" />
+        <img src="./media/image15.png" style="width:6.26806in;height:3.43056in" />
 
 18.  Add the **Increase variable** action to increase
     the **Counter** variable by one.
 
-    <img src="./media/image16.png"
+        <img src="./media/image16.png"
 style="width:6.26806in;height:2.93819in" />
 
 19.  Add Write to excel worksheet action below the Increase Variable
     action and enter the following detail into it:
 
-    - **Excel instance:** %ExcelInstance%
+        - **Excel instance:** %ExcelInstance%
+        - **Value to writer**: %UserInput2%
+        - **Write mode:** On specific cell
+        - **Column:** 0
+        - **Row:** %Counter%
 
-    - **Value to writer**: %UserInput2%
-
-    - **Write mode:** On specific cell
-
-    - **Column:** 0
-
-    - **Row:** %Counter%
-
-    <img src="./media/image17.png"
+        <img src="./media/image17.png"
 style="width:6.26806in;height:3.44236in" />
 
 20.  From the top bar **Save** the flow for the test.
 
-    <img src="./media/image18.png"
+        <img src="./media/image18.png"
 style="width:6.26806in;height:3.35486in" />
 
 # Task 2: Test the Flow
