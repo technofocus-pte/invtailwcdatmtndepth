@@ -10,9 +10,9 @@ refund process.
 
 **Estimated Time:** 30 mins
 
-# Task 1: Create a process
+### Task 1: Create a process
 
-**Note:** If you encounter an error message while attempting to create
+> **Note:** If you encounter an error message while attempting to create
 and analyze a process, it may be due to a missing security role. To
 resolve this, please contact the administrator of your environment and
 request that they assign you the **Environment Maker** security role.
@@ -45,7 +45,7 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image5.png" style="width:6.5in;height:4.56042in"
 alt="A screenshot of a computer Description automatically generated" />
 
-## Task 2: Import data
+### Task 2: Import data
 
 1.  In the **Choose a data source** screen, select **Text/CSV**.
 
@@ -120,7 +120,7 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image18.png" style="width:6.5in;height:2.75701in"
 alt="A screenshot of a computer Description automatically generated" />
 
-# Task 3: Analyze a process
+### Task 3: Analyze a process
 
 Let’s take the analysis of our process beyond KPIs. We'll use the Power
 Automate Process Mining desktop app, where you can edit and analyze your
