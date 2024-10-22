@@ -1,0 +1,59 @@
+Contoso Electronics: Q3 2024 Sales Report
+Date: October 17, 2024
+Prepared by: Contoso Sales Team
+Report Type: Quarterly Sales Overview
+
+1. Executive Summary
+Contoso Electronics achieved a total revenue of $12.5 million in Q3 2024, a 10% increase compared to Q2. The main drivers of growth were the back-to-school promotions and the launch of the Surface Go 3 and Surface Studio 2 models. The expansion of the Contoso Protection Plan also contributed significantly to post-purchase customer retention.
+
+2. Product Performance Overview
+
+2.1. Surface Go 3 Sales
+Units Sold: 45,000
+Revenue Generated: $6.75 million
+Customer Segment: Primarily students and educators.
+Top Accessories Sold:
+Contoso Wireless Mouse: 12,500 units
+Surface Go 3 Protective Case: 9,500 units
+
+2.2. Surface Studio 2 Sales
+Units Sold: 8,500
+Revenue Generated: $5.25 million
+Customer Segment: Creative professionals, design firms, and freelancers.
+Top Accessories Sold:
+Surface Pen: 3,000 units
+Surface Dial: 1,200 units
+
+3. Promotional Campaigns Performance
+
+3.1. Back-to-School Campaign (August 2024)
+
+Total Revenue: $4 million
+Offerings: Discounts on Surface Go 3, free accessories for purchases over $500
+Conversion Rate: 15%
+Notable Insights: The majority of purchases were made by students through online platforms.
+
+3.2. Contoso Protection Plan
+
+Total Enrollments: 22,000
+Revenue Generated: $500,000
+Customer Retention Impact: 70% of customers who purchased the protection plan remained loyal for additional purchases.
+
+4. Regional Performance
+
+Region	Total Sales ($M)	Top Product	Growth Rate (%)
+North America	5.8	Surface Go 3	8
+Europe	4.2	Surface Studio 2	12
+Asia-Pacific	2.5	Surface Go 3	15
+
+5. Key Insights and Recommendations
+
+Customer Retention: Expanding the Contoso Protection Plan into more regions will help further improve customer retention.
+Product Launches: Future product launches should consider bundling accessories to drive up sales, as seen with the Surface Go 3.
+Market Expansion: Focus on expanding the sales channels in the Asia-Pacific region, which showed the highest growth rate in Q3.
+
+6. Next Steps
+
+Continue optimizing promotional campaigns for Q4 2024, focusing on holiday season offerings.
+Strengthen customer service and support for the Contoso Protection Plan to drive renewals.
+Collaborate with regional partners to enhance product distribution in high-growth regions.

@@ -1,0 +1,9 @@
+Emp_id,First Name,Last Name,Display Name,Job Title,Department,Work Email,Office Number,Mobile Phone,City,Manager,Have you been to orientation yet?,Orientation Location
+220,Aarif,Sherzai,Aarif Sherzai,Administrative,Administrative,AarifS@training.onmicrosoft.com,202010,,Redmond,Gebhard Stein,,
+212,Achim,Maier,Achim Maier,Manager,HR,AchimM@training.onmicrosoft.com,202011,,Redmond,Johanna Lorenz,,
+187,Adam,Wallen,Adam Wallen,Engineer,Engineering,AdamW@training.onmicrosoft.com,202012,,Redmond,Johanna Lorenz,,
+166,Ben,Walters,Ben Walters,VP Sales,Sales & Marketing,BenW@training.onmicrosoft.com,202013,,Iselin,Gebhard Stein,,
+155,Betsy,Drake,Betsy Drake,Salesperson,Sales & Marketing,BetsyD@training.onmicrosoft.com,202014,,Redmond,Johanna Lorenz,,
+120,Candy,Dominguez,Candy Dominguez,Engineer,Engineering,CandyD@training.onmicrosoft.com,202015,,Redmond,Gebhard Stein,,
+133,Christie,Cline,Christie Cline,Sr. VP Sales & Marketing,Sales & Marketing,ChristieC@training.onmicrosoft.com,202016,,San Diego,Johanna Lorenz,,
+145,Daisy,Sherman,Daisy Sherman,Salesperson,Sales & Marketing,DaisyS@training.onmicrosoft.com,202017,,Redmond,Gebhard Stein,,
