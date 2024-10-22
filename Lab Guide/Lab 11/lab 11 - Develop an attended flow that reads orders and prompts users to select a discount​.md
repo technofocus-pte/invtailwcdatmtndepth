@@ -11,7 +11,7 @@ applied discount.
 
 **Estimated Time:** 25 mins
 
-# Task 1: Create Power Automate desktop flow
+### Task 1: Create Power Automate desktop flow
 
 1.  To begin, **download**
     <https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/raw/master/power-automate-desktop/Orders.zip>
@@ -154,7 +154,7 @@ style="width:6.26806in;height:3.41319in" />
     <img src="./media/image14.png"
 style="width:6.26806in;height:3.67083in" />
 
-1.  Add a second **If** action under Display message action to check
+17.  Add a second **If** action under Display message action to check
     which button was pressed in the previous step. Enter the following
     details in the respected fields:
 
@@ -167,13 +167,13 @@ style="width:6.26806in;height:3.67083in" />
     <img src="./media/image15.png"
 style="width:6.26806in;height:3.43056in" />
 
-1.  Add the **Increase variable** action to increase
+18.  Add the **Increase variable** action to increase
     the **Counter** variable by one.
 
     <img src="./media/image16.png"
 style="width:6.26806in;height:2.93819in" />
 
-1.  Add Write to excel worksheet action below the Increase Variable
+19.  Add Write to excel worksheet action below the Increase Variable
     action and enter the following detail into it:
 
     - **Excel instance:** %ExcelInstance%
@@ -189,7 +189,7 @@ style="width:6.26806in;height:2.93819in" />
     <img src="./media/image17.png"
 style="width:6.26806in;height:3.44236in" />
 
-1.  From the top bar **Save** the flow for the test.
+20.  From the top bar **Save** the flow for the test.
 
     <img src="./media/image18.png"
 style="width:6.26806in;height:3.35486in" />
@@ -227,7 +227,9 @@ style="width:6.12553in;height:2.13352in" />
 
 6.  The loop is running **continuously** for all the products.
 
-**Conclusion:** In this lab, participants developed an attended Power
+### Conclusion: 
+
+In this lab, participants developed an attended Power
 Automate Desktop flow that reads order data from an Excel file, checks
 if the order amount exceeds a set threshold, and prompts the user to
 apply a discount. The flow efficiently automates the decision-making
