@@ -10,7 +10,7 @@ steps and using analytics to gain insights into the process efficiency.
 
 **Estimated Time:** 30 mins
 
-# Task 1: Get ready for task mining
+### Task 1: Get ready for task mining
 
 1.  **Sign in** to Power Automate using
     <https://make.powerautomate.com/> with your Office 365 tenant
@@ -20,7 +20,7 @@ steps and using analytics to gain insights into the process efficiency.
 
     <img src="./media/image1.png" style="width:6.5in;height:2.9375in" />
 
-# Task 2: Import a solution
+### Task 2: Import a solution
 
 1.  On the navigation pane to the left, select **Solutions** and then in
     the toolbar at the top, select **Import solution**.
@@ -46,7 +46,7 @@ alt="A screenshot of a software Description automatically generated" />
     <img src="./media/image6.png" style="width:6.5in;height:6.36806in"
 alt="A screenshot of a computer Description automatically generated" />
 
-# Task 3: View sample recordings
+### Task 3: View sample recordings
 
 1.  Once you've successfully imported the .zip file, on the navigation
     pane to the left, select **Process mining** and then select
@@ -67,24 +67,20 @@ alt="A screenshot of a computer Description automatically generated" />
 4.  To be sure you see the entire list of existing recordings,
     select **See all**.
 
-# Task 4: Explore the features
+### Task 4: Explore the features
 
 You'll see the following features:
 
 - **New recording**: Create a new recording.
-
-- **Analytics**: See the process map and insights.
-
+- **Analytics**: See the process map and insights
 - **Analyze**: Analyze a process.
-
 - **Create activity names**: Create activity names for your process.
-
 - **Delete process**: Delete your process.
 
     <img src="./media/image10.png"
 style="width:3.54412in;height:2.30368in" />
 
-# Task 5: Analyze a process
+### Task 5: Analyze a process
 
 When you analyze a process, the process mining capability analyzes
 existing recordings to identify any bottlenecks within the business
@@ -106,10 +102,10 @@ process, a status message displays under the **New recording** button.
 
     <img src="./media/image12.png" style="width:6.5in;height:4.22014in" />
 
-**Note:** This step may take a couple minutes to complete after the
+    > **Note:** This step may take a couple minutes to complete after the    
 analysis has been performed.
 
-# Task 6: Analytics page layout
+### Task 6: Analytics page layout
 
 This section explains what you can do on the **Analytics** screen.
 
@@ -143,26 +139,21 @@ alt="Screenshot of the Analytics screen." />
     process, and where to potentially use desktop flows, as there’s no
     existing connector.
 
-# Task 7: Business process step relationships
+### Task 7: Business process step relationships
 
 You see the various steps in the business process and their related
 durations. These steps include:
 
 - Download invoice attachment from email (48 seconds)
-
 - Open Excel invoice list (11.5 seconds)
-
 - Open invoice from OneDrive (21 seconds)
-
 - Enter invoice details (53.6 seconds)
-
 - Save and submit (9 seconds)
-
 - Notify team of submission (26.67 seconds)
 
     <img src="./media/image15.png" style="width:6.5in;height:3.04167in" />
 
-# Task 8: View analytics data
+### Task 8: View analytics data
 
 1.  Look at the top analytics data. The average process time is 1.47
     minutes out of five recordings.
@@ -190,16 +181,16 @@ style="width:4.58333in;height:2.55208in" />
 
     It might take a while to load the reports.
 
-- By providing information on the applications utilized in a business
-  process, their frequency of usage, and the amount of time spent on
-  each application, this report is crucial for gaining insights into the
-  process.
-
-- For example, the dashboard shows that a legacy invoicing app, Outlook,
-  and Excel have significant contributions to time spent and actions by
-  applications.
-
-- Take time to get familiar with the different reports.
+    - By providing information on the applications utilized in a business
+      process, their frequency of usage, and the amount of time spent on
+      each application, this report is crucial for gaining insights into the
+      process.
+    
+    - For example, the dashboard shows that a legacy invoicing app, Outlook,
+      and Excel have significant contributions to time spent and actions by
+      applications.
+    
+    - Take time to get familiar with the different reports.
 
     <img src="./media/image19.png"
 style="width:5.03869in;height:3.19871in" />
@@ -225,7 +216,9 @@ the **Download invoice attachment from email** activity.
     <img src="./media/image21.png"
 style="width:5.57622in;height:3.27424in" />
 
-**Conclusion:** In this lab, participants utilized Power Automate task
+### Conclusion:
+
+In this lab, participants utilized Power Automate task
 mining capabilities to analyze and optimize the order fulfillment
 process. By importing a pre-built solution with sample recordings, they
 explored key features of task mining, including process analysis,
