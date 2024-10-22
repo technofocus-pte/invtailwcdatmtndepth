@@ -42,7 +42,7 @@ style="width:6.26806in;height:3.85769in" />
     <img src="./media/image5.png"
 style="width:6.26806in;height:3.06181in" />
 
-### Task 3: Create the Trigger Based on Business Central Data
+### Task 2: Create the Trigger Based on Business Central Data
 
 1.  In the **Flow name** box, enter **Email notification for new
     furniture**.
@@ -70,7 +70,7 @@ style="width:6.26806in;height:3.94514in" />
     <img src="./media/image8.png"
 style="width:6.26806in;height:3.40278in" />
 
-### Task 4: Collect Data from Business Central
+### Task 3: Collect Data from Business Central
 
 1.  Click **+ button** add then select **Add an action**.
 
@@ -97,7 +97,7 @@ style="width:6.26806in;height:3.18889in" />
     <img src="./media/image11.png"
 style="width:6.26806in;height:3.79375in" />
 
-### Task 5: Make the Condition
+### Task 4: Make the Condition
 
 1.  Click on the **+ button** below Get record and select **Add an
     action**.
@@ -123,7 +123,7 @@ style="width:6.26806in;height:3.05764in" />
     <img src="./media/image14.png"
 style="width:6.26806in;height:2.16806in" />
 
-### Task 6: Create an Action Based on the Condition
+### Task 5: Create an Action Based on the Condition
 
 1.  In the **If yes** condition window, click **Add an action**.
 
@@ -163,7 +163,7 @@ style="width:6.26806in;height:4.04514in" />
     <img src="./media/image18.png"
 style="width:6.26806in;height:3.84375in" />
 
-### Task 7: Save the Flow
+### Task 6: Save the Flow
 
 1.  Click **Save** to finalize your flow.
 
