@@ -10,9 +10,9 @@ streamline communication workflows within the organization.
 
 **Estimated Time:** 15 mins
 
-# Exercise 1: Create a flow to route Helpdesk requests to different mailboxes based on language
+## Exercise 1: Create a flow to route Helpdesk requests to different mailboxes based on language
 
-1.  Sign in to  <https://make.powerautomate.com/using **office 365
+1.  Sign in to  <https://make.powerautomate.com/using> **office 365
     admin tenant account**.
 
 2.  Type **Summarize emails using GPT** in the search box at the top and
@@ -65,10 +65,12 @@ style="width:5.70833in;height:3.15625in" />
     > **Note:** Since we didn't change the prompt the save custom prompt
 button is greyed out in the image above.
 
-1.  **Save** the flow in the top right-hand corner. Now we can run the
+11.  **Save** the flow in the top right-hand corner. Now we can run the
     flow.
 
-2.  Send an email to the trigger's email address with the subject
+### Test the flow
+
+1.  Send an email to the trigger's email address with the subject
     Project Kick-off and the following in the body of the email:
 
         Dear Team,
@@ -89,18 +91,20 @@ button is greyed out in the image above.
 
         Contoso
 
-13. You'll receive a message in Teams with a summary of the email. In
+2. You'll receive a message in Teams with a summary of the email. In
     the bottom right-hand corner, you can find a link to go to your
     flow.
 
     <img src="./media/image7.svg"
 style="width:6.26806in;height:1.71458in" />
 
-14. This unit uses a GPT to summarize incoming emails. AI detection
+3. This unit uses a GPT to summarize incoming emails. AI detection
     information can be inaccurate. Always make sure to verify the
     information from the GPT.
 
-**Conclusion:** In this lab, participants successfully created a Power
+### Conclusion:
+
+In this lab, participants successfully created a Power
 Automate flow to streamline helpdesk requests by routing emails based on
 language detection and using GPT to summarize the content. By
 integrating automation into the email workflow, the lab demonstrated how
