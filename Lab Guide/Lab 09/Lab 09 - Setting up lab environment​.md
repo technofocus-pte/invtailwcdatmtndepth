@@ -8,7 +8,7 @@ logged in with their Office 365 credentials.
 
 **Estimated Time:** 15 mins
 
-# Task 1 - Sign into Power Automate Desktop application
+### Task 1 - Sign into Power Automate Desktop application
 
 1.  **Sign in** to <https://make.powerautomate.com/> with your Office
     365 tenant credentials.
@@ -58,7 +58,9 @@ alt="A screenshot of a computer Description automatically generated" />
 
 9.  You will be navigated to **Power Automate** for Desktop Home page.
 
-**Conclusion:** In this lab, participants successfully set up the Power
+### Conclusion:
+
+In this lab, participants successfully set up the Power
 Automate Desktop environment by installing the application, configuring
 browser extensions, and logging in with their Office 365 credentials. By
 completing the setup process, participants are now ready to use Power
