@@ -170,7 +170,9 @@ style="width:6.26806in;height:3.84375in" />
     <img src="./media/image20.png"
 style="width:6.26806in;height:2.59792in" />
 
-**Conclusion:** By the end of this lab, participants will have
+### Conclusion:
+
+By the end of this lab, participants will have
 successfully created an automated email notification flow in Power
 Automate for new items in Business Central. They will have gained
 practical experience in setting up triggers, actions, and conditions,
