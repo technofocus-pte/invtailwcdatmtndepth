@@ -542,7 +542,9 @@ To test the flow integration functionality:
     <img src="./media/image33.png"
  style="width:6.26806in;height:4.03264in" />
 
-**Conclusion**: In this lab, participants successfully integrated Power
+### Conclusion: 
+
+In this lab, participants successfully integrated Power
 Automate with a Power Pages site, enhancing their skills in website
 creation, cloud flow development, and web page customization. They
 learned to design a user-friendly interface that retrieves and displays
