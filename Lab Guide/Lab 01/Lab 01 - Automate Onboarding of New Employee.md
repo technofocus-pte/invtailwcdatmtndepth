@@ -1,4 +1,4 @@
-# Lab 1 - Automate employee onboarding of new employee
+# Lab 1 - Automate Onboarding of New Employee
 
 **Objective:** The primary objective of this lab is to guide
 participants in automating the employee onboarding process using
