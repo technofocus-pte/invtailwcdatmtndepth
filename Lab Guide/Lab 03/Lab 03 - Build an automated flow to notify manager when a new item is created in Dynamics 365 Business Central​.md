@@ -1,4 +1,4 @@
-# Lab 3 - Create a flow for sending emails when a new item is created in Power Automate
+# Lab 3 - Build an automated flow to notify manager when a new item is created in Dynamics 365 Business Central​
 
 **Objective:** In this lab, participants will learn how to create an
 automated flow in Power Automate that sends an email notification
