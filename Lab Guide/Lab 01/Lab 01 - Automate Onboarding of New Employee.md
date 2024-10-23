@@ -1,4 +1,4 @@
-# Lab 1 - Automate Employee Onboarding using Power Platform
+# Lab 1 - Automate Employee Onboarding of new employee
 
 **Objective:** The primary objective of this lab is to guide
 participants in automating the employee onboarding process using
