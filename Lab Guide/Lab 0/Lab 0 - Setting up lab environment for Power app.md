@@ -1,4 +1,4 @@
-# Lab 0: Setting up lab environment
+# Lab 0: Setting up lab environment for Power App
 
 **Estimated Duration:** 7 min
 
