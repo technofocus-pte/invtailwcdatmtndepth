@@ -1,4 +1,4 @@
-# Lab 12 - Create a flow to organize and manage files and folders​
+# Lab 12 - Create a Flow to Organize and Manage Files and Folders 
 
 **Objective:** The objective of this lab is to automate the process of
 backing up files from a designated folder on the desktop using **Power
