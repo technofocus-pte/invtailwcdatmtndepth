@@ -1,4 +1,4 @@
-# Lab 2 - Build an Inventory Management and Quality Control app
+# Lab 2 - Build an Inventory Management app
 
 **Objective:** The objective of this lab is to guide participants
 through the creation of a functional inventory management application
