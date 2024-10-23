@@ -1,4 +1,4 @@
-# Lab 8 - Process custom documents with AI builder
+# Lab 8 - Process Custom Documents with AI Builder
 
 **Objective:** The objective of this lab is to guide participants
 through creating their first AI model using AI Builder in Power
