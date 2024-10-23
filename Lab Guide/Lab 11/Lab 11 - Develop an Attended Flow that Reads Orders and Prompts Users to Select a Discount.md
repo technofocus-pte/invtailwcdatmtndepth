@@ -1,4 +1,4 @@
-# Lab 11 - Develop an attended flow that reads orders and prompts users to select a discount​
+# Lab 11 - Develop an Attended Flow that Reads Orders and Prompts Users to Select a Discount
 
 **Objective:** The objective of this lab is to develop an **attended
 Power Automate Desktop flow** that automates the process of reading
