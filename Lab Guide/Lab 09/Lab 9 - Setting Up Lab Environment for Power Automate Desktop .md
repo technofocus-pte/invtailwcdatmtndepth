@@ -1,4 +1,4 @@
-# **Lab 9 - Setting up lab environment for Power Automate Desktop**
+# Lab 9 - Setting Up Lab Environment for Power Automate Desktop 
 
 **Objective:** The objective of this lab is to guide participants
 through the process of setting up the Power Automate Desktop
