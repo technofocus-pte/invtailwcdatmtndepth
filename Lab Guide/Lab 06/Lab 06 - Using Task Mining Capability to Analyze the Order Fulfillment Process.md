@@ -1,4 +1,4 @@
-# **Lab 6 - Using task mining capability to analyze the order fulfillment process**
+# Lab 6 - Using Task Mining Capability to Analyze the Order Fulfillment Process
 
 
 **Objective:** The lab focuses on utilizing Power Automate task mining
