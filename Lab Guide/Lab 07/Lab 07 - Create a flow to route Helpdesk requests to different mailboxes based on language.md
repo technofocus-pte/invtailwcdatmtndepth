@@ -1,5 +1,4 @@
-# Lab 7 - Create a flow to route Helpdesk requests to different
-mailboxes based on language
+# Lab 7 - Create a flow to route Helpdesk requests to different mailboxes based on language
 
 **Objective:** The objective of this lab is to guide participants
 through the process of creating a Power Automate flow that routes
