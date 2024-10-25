@@ -15,7 +15,7 @@ respond to user input.
 ### Task 1: Sign In and Create Power Page Website
 
 1.  Navigate to
-    <https://www.microsoft.com/en-us/power-platform/products/power-pages>'
+    +++**https://www.microsoft.com/en-us/power-platform/products/power-pages**+++
     and at the top right corner click on the **Sign In.**
 
     <img src="./media/image1.png"
