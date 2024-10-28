@@ -30,12 +30,17 @@ style="width:6.26806in;height:2.74722in" />
     <img src="./media/image3.png"
 style="width:6.26806in;height:2.75625in" />
 
-4.  Then click on **Get started** to access Business Central.
+4. Select United states as country or region.
+
+<img src="./media/image4.1.png"
+style="width:6.26806in;height:2.64097in" />
+
+6.  Then click on **Get started** to access Business Central.
 
     <img src="./media/image4.png"
 style="width:6.26806in;height:2.64097in" />
 
-5.  Select the **Skip Survey** button to proceed.
+7.  Select the **Skip Survey** button to proceed.
 
     <img src="./media/image5.png"
 style="width:6.26806in;height:3.16667in" />
