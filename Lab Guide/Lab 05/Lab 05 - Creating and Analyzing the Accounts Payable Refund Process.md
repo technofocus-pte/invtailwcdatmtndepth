@@ -146,30 +146,49 @@ alt="A screenshot of a computer Description automatically generated" />
 
     <img src="./media/image21.png" style="width:6.5in;height:5.2625in" />
 
-4.  If asked **sign in** with the MOD Admin credentials.
+4. After Installing Processmining app, the app is automatically launch, if not please please launch app manually. After launching app, select **English** as language and click on **Next Step**.
 
-    <img src="./media/image22.png" style="width:4.12022in;height:3.625in"
-alt="A screen shot of a computer Description automatically generated with medium confidence" />
+    <img src="./media/image21a.png" style="width:6.5in;height:5.2625in" />
 
-    **Note:** If pop up appears saying ‘Stay signed in to all your apps’ then select **No, sign in to this app only**.
+5. Select all the **check boxes** as shown in image and click on the **Next**.
+
+    <img src="./media/image21b.png" style="width:6.5in;height:5.2625in" />
+
+6. Then click on **Apply and mine** button.
+
+    <img src="./media/image21c.png" style="width:6.5in;height:5.2625in" />
+
+7. Then select **Use** button, it will navigate to login window.
+
+   <img src="./media/image21d.png" style="width:6.5in;height:5.2625in" />
+
+8. Enter you admin tenant Id and click on the **Sign In** button.
+
+   <img src="./media/image21e.png" style="width:6.5in;height:5.2625in" />
+
+9. Then enter your admin tenant password and click on **Sign in**.
+
+   <img src="./media/image21f.png" style="width:6.5in;height:5.2625in" />
+
+10. If pop up appears saying ‘Stay signed in to all your apps’ then select **No, sign in to this app only**.
 
     <img src="./media/image22.1.png" style="width:6.5in;height:5.2625in" />
 
-6.  On the Power Automate Process Mining app toolbar, select the
+11. On the Power Automate Process Mining app toolbar, select the
     environment – **Dev** **One** from the top right.
 
     <img src="./media/image23.png" style="width:6.5in;height:2.98611in" />
 
-7.  Search for the process that you created with the process mining
+12. Search for the process that you created with the process mining
     capability in Power Automate (**Processmining**).
 
-8.  Select **Default** to display the default view. You’re ready to use
+13. Select **Default** to display the default view. You’re ready to use
     the advanced capabilities of the Process Mining desktop app.
 
     <img src="./media/image24.png" style="width:6.5in;height:2.07639in"
 alt="A screenshot of a computer Description automatically generated" />
 
-9.  On the **Customize** panel toolbar, select **Frequency** (the first
+14. On the **Customize** panel toolbar, select **Frequency** (the first
     icon), and then select **Case count** in the **Metric** dropdown
     menu.
 
@@ -179,7 +198,7 @@ alt="A screenshot of a computer Description automatically generated" />
     > The process map displays the number of cases of the process that
 include the activity specified at each node.
 
-10.  On the **Customize** panel, select the **Performance** (clock icon),
+15. On the **Customize** panel, select the **Performance** (clock icon),
     and then select **Mean duration** from the dropdown menu.
 
     <img src="./media/image26.png" style="width:6.5in;height:2.95139in"
@@ -188,10 +207,9 @@ alt="A screenshot of a computer Description automatically generated" />
     > Notice that the **Refund with special voucher** step has a long mean
 duration compared to other steps.
 
-    <img src="./media/image27.png" style="width:2.89624in;height:2.1253in"
-alt="A picture containing text, screenshot, circle, diagram Description automatically generated" />
+    <img src="./media/image27.png" style="width:2.89624in;height:2.1253in" alt="A picture containing text, screenshot, circle, diagram Description automatically generated" />
 
-11. On the **Customize** panel, select **Finance** (the piece of paper
+16. On the **Customize** panel, select **Finance** (the piece of paper
     icon), and then select **Mean** from the **Metric** dropdown menu.
 
     <img src="./media/image28.png" style="width:6.5in;height:2.98819in" />
@@ -203,7 +221,7 @@ other steps.
     <img src="./media/image29.png" style="width:3.52083in;height:1in"
 alt="Screenshot of the refund with special voucher mean." />
 
-12. Select **Save**.
+17. Select **Save**.
 
     <img src="./media/image30.png" style="width:6.5in;height:0.62153in" />
 
