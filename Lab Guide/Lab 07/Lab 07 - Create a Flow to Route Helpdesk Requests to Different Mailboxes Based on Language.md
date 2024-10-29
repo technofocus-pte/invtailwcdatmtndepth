@@ -54,20 +54,16 @@ style="width:6.26806in;height:3.73542in" />
 
     +++Once upon a time in the quaint town of Eldoria, nestled between rolling hills and dense forests, lived a young girl named Elara. Her days were spent exploring the         mystical woods that bordered the town, and whispers of ancient tales filled her imagination.+++
 
-    <img src="./media/image5.jpg"
+    <img src="./media/image5.png"
 style="width:5.70833in;height:3.15625in" />
 
 11. For this exercise, we'll leave everything as it was when we opened
     the Prompt Settings.
 
-
-    > **Note:** Since we didn't change the prompt the save custom prompt
-button is greyed out in the image above.
-
 12.  **Save** the flow in the top right-hand corner. Now we can run the
     flow.
 
-      <img src="./media/image11.1.jpg"
+      <img src="./media/image11.1.png"
 style="width:5.70833in;height:3.15625in" />
 
     **Note:** Ignore if you see the given warning: The 'Create text with GPT using a prompt' action doesn't have a content approval action after it.
@@ -103,7 +99,7 @@ style="width:5.70833in;height:3.15625in" />
     the bottom right-hand corner, you can find a link to go to your
     flow.
 
-    <img src="./media/image2.2.svg"
+    <img src="./media/image2.2.png"
 style="width:6.26806in;height:1.71458in" />
 
 4. This unit uses a GPT to summarize incoming emails. AI detection
