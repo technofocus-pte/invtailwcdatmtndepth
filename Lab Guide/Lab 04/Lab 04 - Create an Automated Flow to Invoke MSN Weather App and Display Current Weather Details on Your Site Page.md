@@ -14,36 +14,33 @@ respond to user input.
 
 ### Task 1: Sign In and Create Power Page Website
 
-1.  Navigate to
-    +++**https://www.microsoft.com/en-us/power-platform/products/power-pages**+++
-    and at the top right corner click on the **Sign In.**
+1.  Go to Power Pages using +++**https://make.powerpages.microsoft.com/**+++. 
+   
+2.  Ensure that, you are in Developer environment – **Dev One** and then click on **Get started**.
 
-    <img src="./media/image1.png"
-style="width:6.26806in;height:2.83889in" />
-
-2.  Sign in with **Microsoft 365 tenant credentials**.
-
-    <img src="./media/image2.png"
+    <img src="./media/image2.1.png"
 style="width:6.26806in;height:3.21736in" />
 
-    <img src="./media/image3.png"
-style="width:6.26806in;height:2.58819in" />
+3.  Select **Skip** on **Tell us about yourself** page.
 
-3.  Select the **environment Dev One** form the top bar.
+    <img src="./media/image3.1.png" style="width:6.26806in;height:1.9625in" />
 
-    <img src="./media/image4.png" style="width:6.26806in;height:1.9625in" />
+4.  On **Create a site** page, scroll down and select **Start with a template**.
 
-4.  Select **Start with a template** to create a website with template.
-
-    <img src="./media/image5.png"
+    <img src="./media/image4.1.png"
 style="width:6.26806in;height:2.67986in" />
 
-5.  Select **Choose a template** and create a website.
+5.  Click on **Starter layout 1**.
 
-    <img src="./media/image6.png"
+    <img src="./media/image5.1.png"
 style="width:6.26806in;height:2.75833in" />
 
-6.  Enter the site name as **contoso** in the respected field and click
+6.  On the **Stater layout 1** page, select **Choose this template**.
+   
+    <img src="./media/image6.png"
+style="width:6.26806in;height:2.75833in" />
+    
+8.  Enter the site name as **contoso** in the respected field and click
     on **Done** button to create the website.
 
     <img src="./media/image7.png"
