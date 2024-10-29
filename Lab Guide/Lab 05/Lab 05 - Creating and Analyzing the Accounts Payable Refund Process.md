@@ -17,9 +17,7 @@ and analyze a process, it may be due to a missing security role. To
 resolve this, please contact the administrator of your environment and
 request that they assign you the **Environment Maker** security role.
 
-1.  Sign in to <https://make.powerautomate.com/with> your Office 365
-    tenant credentials. Select **United States** as country/region and
-    then select **Get started**.
+1.  Go to +++**https://make.powerautomate.com/**+++. If asked, sign in with your Office 365 tenant credentials. Select **United States** as country/region and then select     **Get started**.
 
     <img src="./media/image1.png" style="width:4.70255in;height:2.8375in"
 alt="A screenshot of a computer Description automatically generated with medium confidence" />
@@ -39,7 +37,7 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image4.png" style="width:6.5in;height:2.84375in" />
 
 5.  In the **Create a new process** screen, enter a process name –
-    Processmining, and then select **Import data** and then select
+    +++**Processmining**+++, and then select **Import data**, select **Data flow** and then select
     **Continue**. (Optional) Enter a description for your process.
 
     <img src="./media/image5.png" style="width:6.5in;height:4.56042in"
@@ -97,22 +95,29 @@ alt="A screenshot of a computer Description automatically generated" />
 
 11. In this sample, the data attributes you’ll change
     are **InvoiceValue**, **Resource**, **StartTimestamp**, **EndTimestamp**, **CaseId**,
-    and **ActivityName**.
+    and **ActivityName** as follow.
+    **InvoiceValue** – Financial per case (first event)
+    **Resource** – Resourse
+    **StartTimestamp** – Event Start
+    **EndTimestamp** – Event End
+    **CaseId** – Case ID
+    **ActivityName** - Activity
+
 
     <img src="./media/image15.png" style="width:6.5in;height:4.63056in" />
 
-12. When you're **finished**, the attribute mapping should look like the
+13. When you're **finished**, the attribute mapping should look like the
     following screenshot.
 
     <img src="./media/image16.png" style="width:6.5in;height:4.8125in" />
 
-13. Select **Save and analyze**. The analysis might take a few minutes
+14. Select **Save and analyze**. The analysis might take a few minutes
     to run.
 
     <img src="./media/image17.png" style="width:6.5in;height:4.64444in"
 alt="A screenshot of a computer Description automatically generated" />
 
-14. When the **analysis process is complete**, you’ll see a process map
+15. When the **analysis process is complete**, you’ll see a process map
     and a dashboard with other insights about your process. On the
     dashboard, you can view many metrics that will help you **analyze
     your process.**
@@ -146,21 +151,25 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image22.png" style="width:4.12022in;height:3.625in"
 alt="A screen shot of a computer Description automatically generated with medium confidence" />
 
-5.  On the Power Automate Process Mining app toolbar, select the
+    **Note:** If pop up appears saying ‘Stay signed in to all your apps’ then select **No, sign in to this app only**.
+
+    <img src="./media/image22.1.png" style="width:6.5in;height:5.2625in" />
+
+6.  On the Power Automate Process Mining app toolbar, select the
     environment – **Dev** **One** from the top right.
 
     <img src="./media/image23.png" style="width:6.5in;height:2.98611in" />
 
-6.  Search for the process that you created with the process mining
+7.  Search for the process that you created with the process mining
     capability in Power Automate (**Processmining**).
 
-7.  Select **Default** to display the default view. You’re ready to use
+8.  Select **Default** to display the default view. You’re ready to use
     the advanced capabilities of the Process Mining desktop app.
 
     <img src="./media/image24.png" style="width:6.5in;height:2.07639in"
 alt="A screenshot of a computer Description automatically generated" />
 
-8.  On the **Customize** panel toolbar, select **Frequency** (the first
+9.  On the **Customize** panel toolbar, select **Frequency** (the first
     icon), and then select **Case count** in the **Metric** dropdown
     menu.
 
@@ -170,7 +179,7 @@ alt="A screenshot of a computer Description automatically generated" />
     > The process map displays the number of cases of the process that
 include the activity specified at each node.
 
-9.  On the **Customize** panel, select the **Performance** (clock icon),
+10.  On the **Customize** panel, select the **Performance** (clock icon),
     and then select **Mean duration** from the dropdown menu.
 
     <img src="./media/image26.png" style="width:6.5in;height:2.95139in"
@@ -182,7 +191,7 @@ duration compared to other steps.
     <img src="./media/image27.png" style="width:2.89624in;height:2.1253in"
 alt="A picture containing text, screenshot, circle, diagram Description automatically generated" />
 
-10. On the **Customize** panel, select **Finance** (the piece of paper
+11. On the **Customize** panel, select **Finance** (the piece of paper
     icon), and then select **Mean** from the **Metric** dropdown menu.
 
     <img src="./media/image28.png" style="width:6.5in;height:2.98819in" />
@@ -194,7 +203,7 @@ other steps.
     <img src="./media/image29.png" style="width:3.52083in;height:1in"
 alt="Screenshot of the refund with special voucher mean." />
 
-11. Select **Save**.
+12. Select **Save**.
 
     <img src="./media/image30.png" style="width:6.5in;height:0.62153in" />
 
