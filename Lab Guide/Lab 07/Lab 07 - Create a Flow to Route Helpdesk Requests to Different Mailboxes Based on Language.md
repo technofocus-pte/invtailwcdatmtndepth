@@ -9,9 +9,9 @@ streamline communication workflows within the organization.
 
 **Estimated Time:** 15 mins
 
-## Exercise 1: Create a flow to route Helpdesk requests to different mailboxes based on language
+### Task 1: Create a flow to route Helpdesk requests to different mailboxes based on language
 
-1.  Sign in to  <https://make.powerautomate.com/using> **office 365
+1.  Sign in to  +++**https://make.powerautomate.com/using**+++ **office 365
     admin tenant account**.
 
 2.  Type **Summarize emails using GPT** in the search box at the top and
@@ -22,7 +22,7 @@ style="width:6.26042in;height:2.80208in" />
 
 3.  Next, the template shows you which connections will be used in this
     flow. If they don't have a green check mark next to them, fix the
-    connection and then select **Continue**.
+    connection by selecting 'Sign in' next to the connection and then select **Continue**.
 
     <img src="./media/image2.png"
 style="width:6.26806in;height:2.85139in" />
@@ -47,31 +47,38 @@ style="width:6.26806in;height:3.16111in" />
 style="width:6.26806in;height:3.73542in" />
 
 8.  The template has a predefined prompt that the GPT will use, but you
-    can update and test a new prompt in this window.
+    can update and test a new prompt in this window. Follow the next step to update prompt.
 
-9.  To test a prompt, enter sample data in the **Input** section. Then
-    select **Test prompt** at the bottom of the Prompt response section.
-    If you wanted to save your custom prompt, you would select Save
-    custom prompt.
+9.  To test a prompt, enter given sample data in the **Input** section. Then
+    select **Test prompt** at the bottom of the Prompt section. You can see the response under Prompt response section.
+
+    +++Once upon a time in the quaint town of Eldoria, nestled between rolling hills and dense forests, lived a young girl named Elara. Her days were spent exploring the         mystical woods that bordered the town, and whispers of ancient tales filled her imagination.+++
 
     <img src="./media/image5.jpg"
 style="width:5.70833in;height:3.15625in" />
 
-10. For this exercise, we'll leave everything as it was when we opened
+11. For this exercise, we'll leave everything as it was when we opened
     the Prompt Settings.
 
 
     > **Note:** Since we didn't change the prompt the save custom prompt
 button is greyed out in the image above.
 
-11.  **Save** the flow in the top right-hand corner. Now we can run the
+12.  **Save** the flow in the top right-hand corner. Now we can run the
     flow.
 
-### Test the flow
+      <img src="./media/image11.1.jpg"
+style="width:5.70833in;height:3.15625in" />
 
-1.  Send an email to the trigger's email address with the subject
-    Project Kick-off and the following in the body of the email:
+    **Note:** Ignore if you see the given warning: The 'Create text with GPT using a prompt' action doesn't have a content approval action after it.
 
+### Task 2: Test the flow
+
+1.  Send an email from MOD Admin's tenant id or your email id to MOD Admin's tenant id with the subject
+    **Project Kick-off** and the following in the body of the email:
+
+    '''
+    
         Dear Team,
 
         I hope this email finds you well. We are excited to announce the
@@ -90,14 +97,16 @@ button is greyed out in the image above.
 
         Contoso
 
-2. You'll receive a message in Teams with a summary of the email. In
+    '''
+
+3. You'll receive a message in Teams with a summary of the email. In
     the bottom right-hand corner, you can find a link to go to your
     flow.
 
-    <img src="./media/image7.svg"
+    <img src="./media/image2.2.svg"
 style="width:6.26806in;height:1.71458in" />
 
-3. This unit uses a GPT to summarize incoming emails. AI detection
+4. This unit uses a GPT to summarize incoming emails. AI detection
     information can be inaccurate. Always make sure to verify the
     information from the GPT.
 
