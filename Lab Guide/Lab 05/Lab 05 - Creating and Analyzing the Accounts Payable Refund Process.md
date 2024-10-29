@@ -12,11 +12,6 @@ refund process.
 
 ### Task 1: Create a process
 
-> **Note:** If you encounter an error message while attempting to create
-and analyze a process, it may be due to a missing security role. To
-resolve this, please contact the administrator of your environment and
-request that they assign you the **Environment Maker** security role.
-
 1.  Go to +++**https://make.powerautomate.com/**+++. If asked, sign in with your Office 365 tenant credentials. Select **United States** as country/region and then select     **Get started**.
 
     <img src="./media/image1.png" style="width:4.70255in;height:2.8375in"
@@ -96,13 +91,18 @@ alt="A screenshot of a computer Description automatically generated" />
 11. In this sample, the data attributes you’ll change
     are **InvoiceValue**, **Resource**, **StartTimestamp**, **EndTimestamp**, **CaseId**,
     and **ActivityName** as follow.
+    
     **InvoiceValue** – Financial per case (first event)
+    
     **Resource** – Resourse
+    
     **StartTimestamp** – Event Start
+    
     **EndTimestamp** – Event End
+    
     **CaseId** – Case ID
+    
     **ActivityName** - Activity
-
 
     <img src="./media/image15.png" style="width:6.5in;height:4.63056in" />
 
