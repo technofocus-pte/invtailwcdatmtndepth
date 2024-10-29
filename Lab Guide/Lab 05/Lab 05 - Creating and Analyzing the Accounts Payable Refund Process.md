@@ -188,6 +188,11 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image24.png" style="width:6.5in;height:2.07639in"
 alt="A screenshot of a computer Description automatically generated" />
 
+    > Note: If It shows an message related to **Model size is too large for your PC configuration** and give Yes and No option for execution, select **Yes**.
+
+       <img src="./media/image21g.png" style="width:6.5in;height:5.2625in" />
+
+
 14. On the **Customize** panel toolbar, select **Frequency** (the first
     icon), and then select **Case count** in the **Metric** dropdown
     menu.
