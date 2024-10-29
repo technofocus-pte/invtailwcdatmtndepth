@@ -30,53 +30,62 @@ style="width:6.26806in;height:2.74722in" />
     <img src="./media/image3.png"
 style="width:6.26806in;height:2.75625in" />
 
-4. Select United states as country or region.
+4. Select **United states** as country or region, enter your **phone number** and then select **Get started**.
 
 <img src="./media/image4.1.png"
 style="width:6.26806in;height:2.64097in" />
 
-5.  Then click on **Get started** to access Business Central.
+5.  Select **Skip & go to Dynamics 365 Business Central**.
+
+    <img src="./media/image4.2.png"
+style="width:6.26806in;height:2.64097in" />
+   
+7.  Then click on **Get started** to access Business Central.
 
     <img src="./media/image4.png"
 style="width:6.26806in;height:2.64097in" />
 
-6.  Select the **Skip Survey** button to proceed.
+8.  Select the **Skip Survey** button to proceed.
 
-    <img src="./media/image5.png"
+      <img src="./media/image5.png"
 style="width:6.26806in;height:3.16667in" />
 
+10. You will be directed to the Dynamics 365 Business Central home page.
+
+    <img src="./media/image5.1.png"
+style="width:6.26806in;height:3.16667in" />
+  
 ### Task 2: Start Power Automate
 
 1.  Open a new tab next to Dynamic 365 business central and Navigate to
-    +++**https://make.powerautomate.com/**+++ in your browser and click on the
-    **Sign in** option.
-
+    +++**https://make.powerautomate.com/**+++ in your browser.
+    
     <img src="./media/image6.png"
 style="width:6.26806in;height:2.81667in" />
 
-2.  Enter the **Microsoft 365 tenant id** in the respected field and
-    click on the **Next** button.
+3.  If asked, enter the **Microsoft 365 tenant id** in the respected field and
+    click on the **Next** button.  
 
     <img src="./media/image7.png"
 style="width:6.26806in;height:3.66806in" />
 
-3.  Enter the **password** in the respected field and click on the
+4.  Enter the **password** in the respected field and click on the
     **Sign in.**
 
     <img src="./media/image8.png"
 style="width:6.26806in;height:3.75278in" />
 
-4.  From the top navigation bar select the environment **Dev One.**
+5.  From the top navigation bar select the environment **Dev One.**
 
     <img src="./media/image9.png"
 style="width:6.26806in;height:2.87569in" />
 
-5.  Click **+Create** in the left menu.
+6.  Click **+Create** in the left menu.
 
     <img src="./media/image10.png"
 style="width:6.26806in;height:3.85769in" />
 
-6.  Select the **Automated cloud flow** tile.
+7.  Select the **Automated cloud flow** tile.
 
     <img src="./media/image11.png"
 style="width:6.26806in;height:3.06181in" />
@@ -164,7 +173,7 @@ style="width:6.26806in;height:2.16806in" />
 
 ### Task 6: Create an Action Based on the Condition
 
-1.  In the **If yes** condition window, click **Add an action**.
+1.  In the **If yes or True** condition window, click **Add an action**.
 
     <img src="./media/image21.png"
 style="width:6.26806in;height:2.21597in" />
@@ -181,9 +190,9 @@ style="width:6.26806in;height:4.04514in" />
 
 3.  Fill in the email details:
 
-    1.  **To**: Enter your email address.
+    1.  **To**: Enter ‘Admin’ and select **Mod Admin** from the suggestion i.e. Office 365 tenant email Id which you are using in this lab. 
 
-    2.  **Subject**: Enter **New furniture released**.
+    2.  **Subject**: Enter +++**New furniture released**+++.
 
     3.  **Body**:
 
@@ -193,7 +202,7 @@ style="width:6.26806in;height:4.04514in" />
 
         3.  Add the token **displayName** from Dynamic content.
 
-        4.  Add the text **has just released.**
+        4.  Add the text +++**has just released.**+++
 
     <img src="./media/image24.png"
 style="width:6.26806in;height:4.46667in" />
