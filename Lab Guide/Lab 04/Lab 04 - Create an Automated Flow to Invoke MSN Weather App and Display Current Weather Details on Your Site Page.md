@@ -48,10 +48,14 @@ style="width:6.26806in;height:2.64167in" />
 
 ### Task 2: Create cloud flow
 
-1.  Navigate to power pages Home page and click on the **Edit** button
-    in the website.
+1.  You can see, you are navigated to your site. If you see pop up regarding **Introducing Copilot in Power Pages**, select **Next** till you come to last step and can        select **Done**. 
 
-    <img src="./media/image8.png"
+    <img src="./media/image8.1.png"
+style="width:6.26806in;height:2.91597in" />
+
+   **Note:** You can close the pop up of **Enable site copilot**.
+
+   <img src="./media/image8.2.png"
 style="width:6.26806in;height:2.91597in" />
 
 2.  Flow the left navigation bar select the Setup, and then select
@@ -159,12 +163,6 @@ style="width:6.26806in;height:2.82639in" />
     <img src="./media/image22.png"
 style="width:6.26806in;height:2.87361in" />
 
-17. Navigate to cloud flow and click on the Get Current weather, select
-    **Add to site.**
-
-    <img src="./media/image23.png"
-style="width:6.26806in;height:2.24792in" />
-
 18. Select **+ Add roles** under Roles, Select **Anonymous Users** role,
     Select **Add**.
 
@@ -203,325 +201,178 @@ style="width:6.26806in;height:2.62361in" />
     <img src="./media/image29.png"
 style="width:6.26806in;height:2.82639in" />
 
-4.  **Paste** this code:
+    **Note:** If pop up appears saying ‘The extension ‘Power Platform Tools’ wants to sign in using Microsoft’ then select **Allow**.
+
+    <img src="./media/image29.1.png"
+style="width:6.26806in;height:2.82639in" />
+
+5.  **Paste** this code:
 
     ```
-    \<style\>
-
-    div.weatherdetail {
-
-    border: 1px solid \#F3F2F1;
-
-    border-radius: 12px;
-
-    box-shadow: 0px 1.2px 3.6px rgba(0, 0, 0, 0.1), 0px 6.4px 14.4px rgba(0,
-    0, 0, 0.13);
-
-    padding: 24px;
-
-    }
-
-    .weather label {
-
-    font-family: 'Nunito';
-
-    font-style: normal;
-
-    font-weight: 600;
-
-    font-size: 18px;
-
-    color: \#323130;
-
-    }
-
-    .weather button {
-
-    font-family: 'Segoe UI';
-
-    padding: 8px 16px;
-
-    font-size: 16px;
-
-    background-color: \#6219D9;
-
-    color: white;
-
-    border: none;
-
-    border-radius: 4px;
-
-    cursor: pointer;
-
-    outline: none;
-
-    }
-
-    div.weather {
-
-    display: flex;
-
-    flex-direction: column;
-
-    align-items: flex-start;
-
-    padding: 100px;
-
-    gap: 36px;
-
-    width: 840px;
-
-    }
-
-    span.temperature {
-
-    font-family: Segoe UI;
-
-    font-size: 96px;
-
-    font-style: normal;
-
-    font-weight: 600;
-
-    color: \#6219d9;
-
-    }
-
-    span.weatherinfov1 {
-
-    font-family: Segoe UI;
-
-    font-size: 28px;
-
-    font-style: normal;
-
-    font-weight: 400;
-
-    color: \#201f1e;
-
-    }
-
-    span.weatherinfov2 {
-
-    font-family: Segoe UI;
-
-    font-size: 24px;
-
-    font-style: normal;
-
-    font-weight: 600;
-
-    color: \#a19f9d;
-
-    }
-
-    \</style\>
-
-    \<div class="row sectionBlockLayout text-left" style="display: flex;
-    flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;"\>
-
-    \<div class="container" style="display: flex; flex-wrap: wrap;"\>
-
-    \<div class="col-md-12 columnBlockLayout weather" style="flex-grow: 1;
-    display: flex; flex-direction: column; min-width: 310px; word-break:
-    break-word; padding: 0 180px; margin: 60px 0px;"\>
-
-    \<h1\>What's the weather?\</h1\>
-
-    \<form id="cityForm"\>
-
-    \<label for="locationInput"\>Enter a location to find out\</label\>
-
-    \<br\>
-
-    \<input type="text" style="width: 840px; border: 1px solid \#D2D0CE;"
-    id="locationInput" required /\>
-
-    \<p\>
-
-    \<p\>
-
-    \<button type="submit"\>Submit\</button\>
-
-    \</p\>
-
-    \</form\>
-
-    \<div id="weatherdetail" class="weatherdetail" style="display:
-    none;width: 840px"\>
-
-    \<div\>
-
-    \<div\>
-
-    \<span class="temperature" id="temperature"\ \</span\>
-
-    \<span class="weatherinfov1" id="temperature_units"\>\</span\>
-
-    \</div\>
-
-    \<div\>
-
-    \<span class="weatherinfov1" style="font-size: 36px;" id="location"\>
-    \</span\>
-
-    \<br\>
-
-    \<span class="weatherinfov1" style="font-size: 24px;"
-    id="cordinates"\>\</span\>
-
-    \<p\>
-
-    \</div\>
-
-    \</div\>
-
-    \<div style="display: flex;"\>
-
-    \<div style="flex: 1;"\>
-
-    \<span class="weatherinfov2"\>Wind: \</span\>
-
-    \<span class="weatherinfov1" id="windspeed"\>\</span\>
-
-    \<span class="weatherinfov1" id="speed_units"\ \</span\>
-
-    \</div\>
-
-    \<div style="flex: 1;"\>
-
-    \<span class="weatherinfov2"\>Visibility: \</span\>
-
-    \<span class="weatherinfov1" id="visibility"\>\</span\>
-
-    \<span class="weatherinfov1" id="distance_units"\>\</span\>
-
-    \</div\>
-
-    \</div\>
-
-    \<div style="display: flex;"\>
-
-    \<div style="flex: 1;"\>
-
-    \<span class="weatherinfov2"\>UV Index: \</span\>
-
-    \<span class="weatherinfov1" id="uv"\>\</span\>
-
-    \</div\>
-
-    \<div style="flex: 1;"\>
-
-    \<span class="weatherinfov2"\>Conditions: \</span\>
-
-    \<span class="weatherinfov1" id="condition"\>\</span\>
-
-    \</div\>
-
-    \</div\>
-
-    \</div\>
-
-    \</div\>
-
-    \</div\>
-
-    \</div\>
-
-    \<script\>
-
-    document.getElementById("cityForm").addEventListener("submit", function
-    (event) {
-
-    event.preventDefault(); // Prevent form submission
-
-    var weatherDiv = document.getElementById("weatherdetail");
-
-    weatherDiv.style.display = "none";
-
-    var location = document.getElementById("locationInput").value;
-
-    var \_url = "\<Cloud flow URL\>";
-
-    var data = {};
-
-    data\["Location"\] = location;
-
-    var payload = {};
-
-    payload.eventData = JSON.stringify(data);
-
-    shell
-
-    .ajaxSafePost({
-
-    type: "POST",
-
-    url: \_url,
-
-    data: payload
-
-    })
-
-    .done(function (response) {
-
-    const result = JSON.parse(response);
-
-    document.getElementById("temperature").innerHTML =
-    result\["temperature"\];
-
-    document.getElementById("windspeed").innerHTML = result\["wind_speed"\];
-
-    document.getElementById("visibility").innerHTML =
-    result\["visibility_distance"\];
-
-    document.getElementById("uv").innerHTML = result\["uv_index"\];
-
-    document.getElementById("location").innerHTML = result\["location"\];
-
-    document.getElementById("condition").innerHTML = result\["conditions"\];
-
-    document.getElementById("temperature_units").innerHTML =
-    result\["temperature_units"\];
-
-    document.getElementById("speed_units").innerHTML =
-    result\["speed_units"\];
-
-    document.getElementById("distance_units").innerHTML =
-    result\["distance_units"\];
-
-    document.getElementById("cordinates").innerHTML =
-    parseFloat(result\["latitude"\]).toFixed(2) + ', ' +
-    parseFloat(result\["longitude"\]).toFixed(2);
-
-    weatherDiv.style.display = "block";
-
-    })
-
-    .fail(function () {
-
-    alert("failed");
-
-    });
-
-    });
-
-    \</script\>
+      <style>
+        div.weatherdetail {
+            border: 1px solid #F3F2F1;
+            border-radius: 12px;
+            box-shadow: 0px 1.2px 3.6px rgba(0, 0, 0, 0.1), 0px 6.4px 14.4px rgba(0, 0, 0, 0.13);
+            padding: 24px;
+        }
+        .weather label {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            color: #323130;
+        }
+        .weather button {
+            font-family: 'Segoe UI';
+            padding: 8px 16px;
+            font-size: 16px;
+            background-color: #6219D9;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            outline: none;
+        } 
+        div.weather {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 100px;
+            gap: 36px;
+            width: 840px;
+        }
+        span.temperature {
+            font-family: Segoe UI;
+            font-size: 96px;
+            font-style: normal;
+            font-weight: 600;
+            color: #6219d9;
+        }
+        span.weatherinfov1 {
+            font-family: Segoe UI;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 400;
+            color: #201f1e;
+        }
+        span.weatherinfov2 {
+            font-family: Segoe UI;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            color: #a19f9d;
+        }
+    </style>
+
+    <div class="row sectionBlockLayout text-left" style="display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;">
+        <div class="container" style="display: flex; flex-wrap: wrap;">
+            <div class="col-md-12 columnBlockLayout weather" style="flex-grow: 1; display: flex; flex-direction: column; min-width: 310px; word-break: break-word; padding: 0 180px; margin: 60px 0px;">
+                <h1>What's the weather?</h1>
+                <form id="cityForm">
+                    <label for="locationInput">Enter a location to find out</label>
+                    <br>
+                    <input type="text" style="width: 840px; border: 1px solid #D2D0CE;" id="locationInput" required />
+                    <p>
+                    <p>
+                        <button type="submit">Submit</button>
+                    </p>
+                </form>
+                <div id="weatherdetail" class="weatherdetail" style="display: none;width: 840px">
+                    <div>
+                        <div>
+                            <span class="temperature" id="temperature"> </span>
+                            <span class="weatherinfov1" id="temperature_units"></span>
+                        </div>
+                        <div>
+                            <span class="weatherinfov1" style="font-size: 36px;" id="location"> </span>
+                            <br>
+                            <span class="weatherinfov1" style="font-size: 24px;" id="cordinates"></span>
+                            <p>
+                        </div>
+                    </div>
+                    <div style="display: flex;">
+                        <div style="flex: 1;">
+                            <span class="weatherinfov2">Wind: </span>
+                            <span class="weatherinfov1" id="windspeed"></span>
+                            <span class="weatherinfov1" id="speed_units"> </span>
+                        </div>
+                        <div style="flex: 1;">
+                            <span class="weatherinfov2">Visibility: </span>
+                            <span class="weatherinfov1" id="visibility"></span>
+                            <span class="weatherinfov1" id="distance_units"></span>
+                        </div>
+                    </div>
+                    <div style="display: flex;">
+                        <div style="flex: 1;">
+                            <span class="weatherinfov2">UV Index: </span>
+                            <span class="weatherinfov1" id="uv"></span>
+                        </div>
+                        <div style="flex: 1;">
+                            <span class="weatherinfov2">Conditions: </span>
+                            <span class="weatherinfov1" id="condition"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("cityForm").addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent form submission
+            var weatherDiv = document.getElementById("weatherdetail");
+            weatherDiv.style.display = "none";
+
+            var location = document.getElementById("locationInput").value;
+
+            var _url = "<Cloud flow URL>";
+
+          var data = {};
+          data["Location"] = location;
+
+            var payload = {};
+            payload.eventData = JSON.stringify(data);
+            shell
+                .ajaxSafePost({
+                    type: "POST",
+                    url: _url,
+                    data: payload
+                })
+                .done(function (response) {
+                    const result = JSON.parse(response);
+                    document.getElementById("temperature").innerHTML = result["temperature"];
+                    document.getElementById("windspeed").innerHTML = result["wind_speed"];
+                    document.getElementById("visibility").innerHTML = result["visibility_distance"];
+                    document.getElementById("uv").innerHTML = result["uv_index"];
+                    document.getElementById("location").innerHTML = result["location"];
+                    document.getElementById("condition").innerHTML = result["conditions"];
+                    document.getElementById("temperature_units").innerHTML = result["temperature_units"];
+                    document.getElementById("speed_units").innerHTML = result["speed_units"];
+                    document.getElementById("distance_units").innerHTML = result["distance_units"];
+                    document.getElementById("cordinates").innerHTML = parseFloat(result["latitude"]).toFixed(2) + ', ' + parseFloat(result["longitude"]).toFixed(2);
+                    weatherDiv.style.display = "block";
+                })
+                .fail(function () {
+                    alert("failed");
+                });
+        });
+    </script>
 
     ```
 
     <img src="./media/image30.png"
 style="width:6.26806in;height:2.83889in" />
 
-5.  **Replace** the **URL** with the one you copied in the previous
+6.  **Replace** the **URL** with the one you copied in the previous
     step.
 
     <img src="./media/image31.png"
 style="width:6.26806in;height:2.81528in" />
 
-6.  **Save** the code by selecting CTRL + S.
+7.  **Save** the code by selecting CTRL + S.
 
-7.  Select **Sync** in design studio.
+8.  Come back to Power Pages portal and select **Sync** in design studio.
 
     <img src="./media/image32.png"
 style="width:6.26806in;height:2.93125in" />
@@ -530,7 +381,10 @@ style="width:6.26806in;height:2.93125in" />
 
 To test the flow integration functionality:
 
-1.  Select **Preview** to open the site.
+1.  Select **Preview** > **Desktop** to open the site.
+
+   <img src="./media/image32.1.png"
+style="width:6.26806in;height:2.93125in" />
 
 2.  Enter a postal code or city in **Location** text box.
 
