@@ -76,7 +76,7 @@ effectively manage and automate HR processes within their organizations.
     ![](./media/image8.png)
 
 
-1.  Keep the default language and then click on **Create Site.**
+9.  Keep the default language and then click on **Create Site.**
 
     ![](./media/image9.png)
 
@@ -237,7 +237,7 @@ effectively manage and automate HR processes within their organizations.
     ![](./media/image30.png)
 
 
-1.  Click on **Title --> Column settings --> Rename** columnt to
+6.  Click on **Title --> Column settings --> Rename** columnt to
     +++**Emp_id**+++.
 
 
@@ -248,7 +248,7 @@ effectively manage and automate HR processes within their organizations.
     ![](./media/image32.png)
 
 
-2.  The HR table should like below image now.
+7.  The HR table should like below image now.
 
 
 
@@ -380,14 +380,14 @@ different. Make sure that the environment that you have selected is a
     ![](./media/image48.png)
 
 
-1.  Now set the **Required** value to true. You should see star next
+18.  Now set the **Required** value to true. You should see star next
     **Emp_id** field.
 
 
     ![](./media/image49.png)
 
 
-1.  Repeat above two steps for **First Name** and **Last_Name**
+19.  Repeat above two steps for **First Name** and **Last_Name**
 
     > Note: If you don’t see field then select the container -> properties ->
 Edit( fields) .add field and re-order.
