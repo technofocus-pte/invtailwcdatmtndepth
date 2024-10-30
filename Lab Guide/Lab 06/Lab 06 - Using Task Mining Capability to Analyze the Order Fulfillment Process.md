@@ -13,7 +13,7 @@ steps and using analytics to gain insights into the process efficiency.
 ### Task 1: Get ready for task mining
 
 1.  **Sign in** to Power Automate using
-    <https://make.powerautomate.com/> with your Office 365 tenant
+    +++**https://make.powerautomate.com/**+++ with your Office 365 tenant
     credentials.
 
 2.  Select your environment – **Dev One**.
