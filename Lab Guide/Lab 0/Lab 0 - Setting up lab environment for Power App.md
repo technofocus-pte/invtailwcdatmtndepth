@@ -28,13 +28,11 @@
 4.  Enter **password of your Office 365 tenant id** and then select
     **Sign in**.
 
-    <img srcutomatically generated" />
-
     ![](./media/image4.png)
 
 
 5.  Select **Yes** on **Stay signed in?** pop-up window.
- />
+
 
     ![](./media/image5.png)
 
