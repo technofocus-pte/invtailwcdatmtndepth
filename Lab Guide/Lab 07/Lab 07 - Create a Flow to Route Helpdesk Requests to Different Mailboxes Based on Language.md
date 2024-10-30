@@ -73,27 +73,25 @@ style="width:5.70833in;height:3.15625in" />
 1.  Send an email from MOD Admin's tenant id or your email id to MOD Admin's tenant id with the subject
     **Project Kick-off** and the following in the body of the email:
 
-    '''
+    ```
+    Dear Team,
     
-        Dear Team,
-
-        I hope this email finds you well. We are excited to announce the
-        kick-off of our new project, "Phoenix". The initial meeting is scheduled
-        for Monday, June 1st, at 10 AM via Zoom. Please come prepared with any
-        questions or suggestions. Your input is vital for the project's success.
-
-        Kindly confirm your attendance by the end of the day tomorrow. Looking
-        forward to a productive session and a successful project launch.
-
-        Best regards,
-
-        Miriam Graham
-
-        Project Manager
-
-        Contoso
-
-    '''
+    I hope this email finds you well. We are excited to announce the
+    kick-off of our new project, "Phoenix". The initial meeting is scheduled
+    for Monday, June 1st, at 10 AM via Zoom. Please come prepared with any
+    questions or suggestions. Your input is vital for the project's success.
+    
+    Kindly confirm your attendance by the end of the day tomorrow. Looking
+    forward to a productive session and a successful project launch.
+    
+    Best regards,
+    
+    Miriam Graham
+    
+    Project Manager
+    
+    Contoso
+    ```
 
 3. You'll receive a message in Teams with a summary of the email. In
     the bottom right-hand corner, you can find a link to go to your
