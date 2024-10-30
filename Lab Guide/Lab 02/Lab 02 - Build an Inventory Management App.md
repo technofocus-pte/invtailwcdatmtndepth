@@ -283,7 +283,7 @@ sure to select your developer environment.
 19.  Select the **Submit** button and select **OnSelect** function and
     enter below function.
 
-    > **Note**: Form4 in the formula should be replaced with your form name SubmitForm(*Form4*);NewForm(*Form4*)    
+    Note: Form4 in the formula should be replaced with your form name SubmitForm(Form4);NewForm(Form4)    
 
 ![](./media/image42.png)
 
@@ -397,21 +397,22 @@ sure to select your developer environment.
         ![](./media/image60.png)
 
 15.  Enter below details.
-
+    ```
     Assigned to: Your work email id.
-
+    
     Details:
-
+    
     Hi Sir,  
     
     is out of stock - for customers to place an order. Please approve to
     restock.  
     
     Thanks
+    ```
 
-    > Note: You can customize the details section as per your requirements.
+> Note: You can customize the details section as per your requirements.
 
-    ![](./media/image61.png)
+![](./media/image61.png)
 
 
 16. **Add an action** after **approval** action.
