@@ -66,7 +66,7 @@ streamline communication workflows within the organization.
  ![](./media/image11.1.png)
 
 
-    **Note:** Ignore if you see the given warning: The 'Create text with GPT using a prompt' action doesn't have a content approval action after it.
+> Note: Ignore if you see the given warning: The 'Create text with GPT using a prompt' action doesn't have a content approval action after it.
 
 ### Task 2: Test the flow
 
