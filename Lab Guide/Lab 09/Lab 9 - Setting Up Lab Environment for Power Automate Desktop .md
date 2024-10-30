@@ -16,30 +16,30 @@ logged in with their Office 365 credentials.
 2.  Click **My flows** from left pane. Click **Desktop flows** then
     click **Install \>Power Automate for Desktop.**
 
-    <img src="./media/image1.png" style="width:6.5in;height:2.82292in" />
+    ![](./media/image1.png)
 
 3.  Navigate to **File Explorer** and click **Downloads** from left pane
     then double click **Setup.Microsoft.PowerAutomate.exe**.
 
-    <img src="./media/image2.png" style="width:6.5in;height:1.72222in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image2.png)
+
 
 4.  Click **Next** on **Install Power Automate package** pane.
 
-    <img src="./media/image3.png" style="width:6.5in;height:4.84028in"
-alt="A screenshot of a computer program Description automatically generated" />
+    ![](./media/image3.png)
+
 
 5.  Click check box for **By selecting Install you agree to Microsoft’s
     terms of use**. Click **Install** on Installation details pane.
 
-    <img src="./media/image4.png" style="width:6.5in;height:4.89097in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image4.png)
+
 
 6.  Click **Yes** on Do you want to allow this app to make changes to
     your device? dialog.
 
-    <img src="./media/image5.png" style="width:6.5in;height:3.36528in"
-alt="Graphical user interface, application Description automatically generated" />
+    ![](./media/image5.png)
+
 
 7.  After the installation is finished, select the **hyperlinks** in
     step 1 within the **Installation successful** dialog to navigate to
@@ -48,13 +48,13 @@ alt="Graphical user interface, application Description automatically generated" 
     Automate for desktop in step 2 within the **Installation
     successful** dialog.
 
-    <img src="./media/image6.png" style="width:6.5in;height:5.18542in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image6.png)
+
 
 8.  **Sign in** with your Office 365 tenant credentials.
 
-    <img src="./media/image7.png" style="width:6.5in;height:7.93611in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image7.png)
+
 
 9.  You will be navigated to **Power Automate** for Desktop Home page.
 
