@@ -1,4 +1,4 @@
-# Lab 8 - Process Custom Documents with AI Builder
+# Lab 8 - Process custom documents with AI builder
 
 **Objective:** The objective of this lab is to guide participants
 through creating their first AI model using AI Builder in Power
@@ -39,12 +39,8 @@ style="width:6.26042in;height:2.85417in" />
     <img src="./media/image4.png"
 style="width:6.26042in;height:2.64583in" />
 
-5.  If you are using your own documents, ensure you have at least five
-    examples with the same layout. Alternatively, download the sample
-    data available in <https://go.microsoft.com/fwlink/?linkid=2128080>
-    or https://go.microsoft.com/fwlink/?linkid=2186887.
 
-6.  Scroll Down and click on **Create custom model** to proceed.
+5.  Scroll Down and click on **Create custom model** to proceed.
 
     <img src="./media/image5.png"
 style="width:6.26806in;height:3.18611in" />
@@ -76,18 +72,11 @@ style="width:6.26806in;height:2.64931in" />
 
 ### Task 3: Choose information to extract
 
-Define the fields and tables you want your model to extract. Donwload
-sample data provided includes invoices in both **English :**
-<https://go.microsoft.com/fwlink/?linkid=2128080and **Japanese :**
-<https://go.microsoft.com/fwlink/?linkid=2186887from two different
-providers. We'll extract the following fields:
+Define the fields and tables you want your model to extract. We'll extract the following fields:
 
 - Invoice number
-
 - Customer ID
-
 - Total amount
-
 - Due date
 
 1.  Click **+** **Add** and select Text field, then click **Next**.
@@ -175,8 +164,7 @@ different templates, we'll create two collections.
 style="width:6.26806in;height:2.65486in" />
 
 3.  Click on the Adatum and then click on the Add document. Then select
-    My device, For **Adatum**, upload the five documents which we
-    download in previous step from the **AI Builder Document Processing
+    My device, For **Adatum**, upload the five documents which is available in **C:\Lab Files\AI Builder Document Processing
     Sample Data\Invoices\Adatum\Train** folder.
 
     <img src="./media/image21.png"
@@ -194,7 +182,7 @@ style="width:6.26806in;height:3.69931in" />
 style="width:6.26806in;height:4.16111in" />
 
 5.  Click on the Contoso and then click on the Add document. Then select
-    My device, For **Contoso**, upload the five documents from the **AI
+    My device, For **Contoso**, upload the five documents from the **C:\Lab Files\AI
     Builder Document Processing Sample Data/Contoso /Train** folder.
 
     <img src="./media/image25.png"
