@@ -16,7 +16,7 @@ Power Automate and Power Apps.
 ### Task 1: Sign in to AI Builder
 
 1.  **Navigate** to power automate with the help of
-    <https://www.microsoft.com/en-us/power-platform/products/power-automate>
+    +++**https://www.microsoft.com/en-us/power-platform/products/power-automate**+++
     .Click on the **Sign in** button from the top right corner. Sign in
     to Power Automate using Microsoft 365 tenant credentials.
 
@@ -87,13 +87,13 @@ Define the fields and tables you want your model to extract. We'll extract the f
     ![](./media/image8.png)
 
 
-2.  Enter the text field name as **Invoice Number** and select **Done**.
+2.  Enter the text field name as +++**Invoice Number**+++ and select **Done**.
     Repeat this step for **Customer** **ID**.
 
     ![](./media/image9.png)
 
 
-3.  Click **+ Add** and select **Number field**, then click
+3.  Click **+ Add** and select +++**Number field**+++, then click
     Next.
 
     ![](./media/image10.png)
@@ -102,7 +102,7 @@ Define the fields and tables you want your model to extract. We'll extract the f
     ![](./media/image11.png)
 
 
-4.  Enter the number field name as **Total amount** and select **Done**.
+4.  Enter the number field name as +++**Total amount**+++ and select **Done**.
 
     ![](./media/image12.1.png)
 
@@ -266,19 +266,19 @@ red dot at the top corner will disappear.
     ![](./media/image37.png)
 
 
-1.  Tag all five documents with same process. Once you've tagged a
+5.  Tag all five documents with same process. Once you've tagged a
     document, move to the next one using the navigation arrows at the
     top right of the document preview.
 
     ![](./media/image38.png)
 
 
-1.  Now select the **Adatum** Collection.
+6.  Now select the **Adatum** Collection.
 
     ![](./media/image39.png)
 
 
-1.  **Tag Fields:**
+7.  **Tag Fields:**
 
     - Start by tagging fields like **Invoice Number, Customer ID and Total
       amount.**
@@ -298,13 +298,13 @@ red dot at the top corner will disappear.
     ![](./media/image42.png)
 
 
-1.  Go to **Due Date** option and select **Not available in
+8.  Go to **Due Date** option and select **Not available in
     collection.**
 
     ![](./media/image43.png)
 
 
-1.  Tag Tables:
+9.  Tag Tables:
 
     - Draw a rectangle around the table you want to tag and select the
       table name.
@@ -332,7 +332,7 @@ red dot at the top corner will disappear.
     ![](./media/image47.png)
 
 
-1.  Tag all five documents with same process. Once you've tagged a
+10.  Tag all five documents with same process. Once you've tagged a
     document, move to the next one using the navigation arrows at the
     top right of the document preview.
 
@@ -388,63 +388,9 @@ red dot at the top corner will disappear.
     ![](./media/image53.png)
 
 
-### Task 3: Use your model in Power Automate
-
-Now that your model is published, you can use your Document processing
-model to process documents using Power Automate. A special AI Builder
-action can be used to ingest documents from emails, document libraries,
-and other sources, and output the processed data.
-
-1.  Select **Use model**.
-
-    ![](./media/image54.png)
 
 
-2.  Select **Build intelligent automations** and select one of the
-    triggers proposed. For this module, we use the **Microsoft 365
-    Outlook work account**.
-
-    ![](./media/image55.png)
-
-
-    ![](./media/image56.png)
-
-3.  Make sure that you're signed into the flow and then
-    select **Continue** to confirm the creation of the flow.
-
-    The flow is already configured to run when you receive an email with
-an attachment and the email subject is AI Builder. Let's see it in
-action!
-
-    ![](./media/image57.png)
-
-4.  Select **Save** on the top right to test the flow.
-
-    ![](./media/image58.png)
-
-
-5.  Select **Test**.
-
-    ![](./media/image59.png)
-
-
-6.  Select **Manually** and then select **Test**.
-
-    ![](./media/image60.png)
-
-
-7.  Now send yourself an email with the subject **AI Builder** and
-    attach the document you used for quick test previously.
-
-8.  After a few seconds, you see the flow running. The flow extracts the
-    data from the attachment and sends you back an email with the
-    results.
-
-Congratulations! You built an intelligent automation flow. You can then
-customize the flow to your needs to perform any other action you might
-want.
-
-### Task 4: Use your model in Power Apps
+### Task 3: Use your model in Power Apps
 
 Now that your model is published, you can use your Document processing
 model in a canvas app. A special component is available for you to add
