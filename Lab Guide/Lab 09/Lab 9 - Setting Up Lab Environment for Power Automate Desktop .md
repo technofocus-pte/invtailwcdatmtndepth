@@ -53,17 +53,19 @@ logged in with their Office 365 credentials.
 
     ![](./media/image6.png)
 
-8. After installation of browser extension select **Launch app**.
+> Note: If the Lauch button is not available, select close and restart you VM.
+
+9. After installation of browser extension select **Launch app**.
 
     ![](./media/image6.1.png)
 
 
-9.  **Sign in** with your Office 365 tenant credentials.
+10.  **Sign in** with your Office 365 tenant credentials.
 
     ![](./media/image7.png)
 
 
-10.  You will be navigated to **Power Automate** for Desktop Home page.
+11.  You will be navigated to **Power Automate** for Desktop Home page.
 
 ### Conclusion:
 
