@@ -26,6 +26,8 @@ automate inventory restocking workflows with Power Automate.
     <img src="./media/image1.png" style="width:6.5in;height:1.75903in"
 alt="A screenshot of a computer Description automatically generated" />
 
+![](./media/image1.png)
+
 3.  Use the same developer environment to execute all the exercises of
     this lab.
 
