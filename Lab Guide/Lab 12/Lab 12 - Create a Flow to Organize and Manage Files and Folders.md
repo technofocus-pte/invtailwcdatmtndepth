@@ -61,7 +61,7 @@ dynamic date and time formats.
 
 
 9.  Add **Get files in folder** action to set the Folder field to
-    +++**C:\Users\trade\OneDrive\Desktop\Contoso_Files**+++ This setting will select the folder that you previously created on the desktop. Then
+    +++**C:\Users\Admin\Desktop\Contoso_Files**+++ This setting will select the folder that you previously created on the desktop. Then
     click on the **Save** button.
 
     ![](./media/image9.png)
@@ -75,7 +75,7 @@ dynamic date and time formats.
 
 
 11. In the **Create new folder into** field of Create folder action,
-    enter +++**C:\Users\trade\OneDrive\Desktop**+++ In the **New folder
+    enter +++**C:\Users\Admin\Desktop**+++ In the **New folder
     name** field, enter **Contoso_Backup**. After entering the
     information slick on the **Save** button.
 
@@ -91,7 +91,7 @@ dynamic date and time formats.
 
 13. Set the **File(s) to Copy** field to +++**=Files**+++, the **Destination
     Folder** field
-    to +++**C:\Users\trade\OneDrive\Desktop\Contoso_Backup**+++, and the +++**If
+    to +++**C:\Users\Admin\Desktop\Contoso_Backup**+++, and the +++**If
     File(s) Exists**+++ drop-down option to **Overwrite**. After setup
     click on the **Save** button.
 
@@ -105,7 +105,7 @@ dynamic date and time formats.
 
 
 15. Set the **File(s) to rename** field
-    to +++**C:\Users\trade\OneDrive\Desktop\Contoso_Backup\Reports.txt**+++.
+    to +++**C:\Users\Admin\Desktop\Contoso_Backup\Reports.txt**+++.
     In the **Rename scheme** drop-down menu, select the **Add
     datetime** option. Set the **Separator** drop-down option
     to **Nothing** and the **DateTime Format** option
@@ -114,7 +114,7 @@ dynamic date and time formats.
     ![](./media/image15.png)
 
 
-16. The **completed** flow should resemble the following screenshot.
+17. The **completed** flow should resemble the following screenshot.
 
     ![](./media/image16.png)
 
