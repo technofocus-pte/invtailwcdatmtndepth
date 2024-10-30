@@ -28,6 +28,8 @@ effectively manage and automate HR processes within their organizations.
     <img src="./media/image1.png" style="width:6.5in;height:1.75903in"
 alt="A screenshot of a computer Description automatically generated" />
 
+    ![](./media/image1.png)
+
 3.  Use the same developer environment to execute all the exercises of
     this lab.
 
@@ -41,29 +43,49 @@ alt="A screenshot of a computer Description automatically generated" />
 
     <img src="./media/image2.png" style="width:3.16374in;height:4.14816in"
 alt="Graphical user interface, application Description automatically generated" />
-    <img src="./media/image3.png" style="width:2.7686in;height:4.11968in"
+
+
+    ![](./media/image2.png)
+
+
+      <img src="./media/image3.png" style="width:2.7686in;height:4.11968in"
 alt="A screenshot of a computer Description automatically generated" />
 
-3.  Click on **+Create site** on top menu.
+    ![](./media/image3.png)
+
+
+4.  Click on **+Create site** on top menu.
 
     <img src="./media/image4.png"
 style="width:3.83333in;height:4.30833in" />
 
-4.  Select **Communication site** tile in **Create a site** window.
+    ![](./media/image4.png)
+
+
+5.  Select **Communication site** tile in **Create a site** window.
 
     <img src="./media/image5.png"
 style="width:6.49167in;height:3.91667in" />
 
-5.  Scroll down and select **Blank** template.
+    ![](./media/image5.png)
+
+
+6.  Scroll down and select **Blank** template.
 
     <img src="./media/image6.png"
 style="width:6.49167in;height:4.01667in" />
 
-6.  Click on **Use template**.
+    ![](./media/image6.png)
+
+
+7.  Click on **Use template**.
 
     <img src="./media/image7.png" style="width:6.5in;height:4.05in" />
 
-7.  Enter Site name and description then click on **Next** button.
+    ![](./media/image7.png)
+
+
+8.  Enter Site name and description then click on **Next** button.
 
     - Site Name: **Contoso Corp**
 
@@ -72,13 +94,22 @@ style="width:6.49167in;height:4.01667in" />
     <img src="./media/image8.png"
 style="width:4.16667in;height:2.53739in" />
 
+    ![](./media/image8.png)
+
+
 1.  Keep the default language and then click on **Create Site.**
 
     <img src="./media/image9.png"
 style="width:6.49167in;height:3.81667in" />
 
+    ![](./media/image9.png)
+
+
     <img src="./media/image10.png" style="width:6.5in;height:2.27778in"
 alt="A screenshot of a computer Description automatically generated" />
+
+    ![](./media/image10.png)
+
 
 ## Task 3: Create an Employees list in SharePoint site from CSV file
 
@@ -86,10 +117,16 @@ alt="A screenshot of a computer Description automatically generated" />
 
     <img src="./media/image11.png" style="width:6.5in;height:3.71667in" />
 
+    ![](./media/image11.png)
+
+
 2.  Select **From CSV** tile from **Create a list** window**.**
 
     <img src="./media/image12.png"
 style="width:6.49167in;height:4.84167in" />
+
+    ![](./media/image12.png)
+
 
 3.  Click on **Upload file** and browse to **C:\Labfiles** and select
     **Employee.csv** file.
@@ -97,10 +134,16 @@ style="width:6.49167in;height:4.84167in" />
     <img src="./media/image13.png"
 style="width:5.18333in;height:5.49167in" />
 
+    ![](./media/image13.png)
+
+
 4.  Change **Work Email** column type to **single line of text** and
     then click on **Next**.
 
     <img src="./media/image14.png" style="width:6.5in;height:3.575in" />
+
+    ![](./media/image14.png)
+
 
 5.  Enter then Name as: **Employee Onboarding** and Description: **New
     Contoso Corp employee** and then click on **Create**.
@@ -108,30 +151,51 @@ style="width:5.18333in;height:5.49167in" />
     <img src="./media/image15.png"
 style="width:6.49167in;height:4.06667in" />
 
+    ![](./media/image15.png)
+
+
     <img src="./media/image16.png" style="width:6.5in;height:2.99931in"
 alt="A screenshot of a computer Description automatically generated" />
+
+    ![](./media/image16.png)
+
 
 6.  The Employees list is created for you now. Rename the **Title**
     column to **Emp_id**.
 
     <img src="./media/image17.png" style="width:6.5in;height:5.13333in" />
 
+    ![](./media/image17.png)
+
+
     <img src="./media/image18.png" style="width:6.5in;height:3.375in" />
+
+    ![](./media/image18.png)
+
 
 7.  Now the employee table should like this
 
     <img src="./media/image19.png" style="width:6.5in;height:2.86458in"
 alt="A screenshot of a computer Description automatically generated" />
 
+    ![](./media/image19.png)
+
+
 8.  Click on **Settings -\>List settings.**
 
     <img src="./media/image20.png"
 style="width:6.49167in;height:3.59167in" />
 
+    ![](./media/image20.png)
+
+
 9.  Click on **Department** column link.
 
     <img src="./media/image21.png"
 style="width:6.49167in;height:5.38333in" />
+
+    ![](./media/image21.png)
+
 
 10. Change below values and then click on **Ok**.
 
@@ -141,6 +205,9 @@ style="width:6.49167in;height:5.38333in" />
 
     <img src="./media/image22.png"
 style="width:6.49167in;height:4.75833in" />
+
+    ![](./media/image22.png)
+
 
 11. Repeat the above step for **Job title** column also
 
@@ -156,6 +223,9 @@ style="width:6.49167in;height:4.75833in" />
     <img src="./media/image23.png" style="width:6.5in;height:5.22986in"
 alt="A screenshot of a computer Description automatically generated" />
 
+    ![](./media/image23.png)
+
+
 13. Repeat above step for **Orientation Location** with below properties
 
     - Type of Column : **Choice**
@@ -166,6 +236,9 @@ alt="A screenshot of a computer Description automatically generated" />
 
     <img src="./media/image24.png" style="width:6.5in;height:5.42153in" />
 
+    ![](./media/image24.png)
+
+
 14. Repeat above step for **Manager** column with below properties
 
     - Type of Column : **Choice**
@@ -174,15 +247,24 @@ alt="A screenshot of a computer Description automatically generated" />
 
     <img src="./media/image25.png" style="width:6.1672in;height:6.5589in" />
 
+    ![](./media/image25.png)
+
+
 ## Task 4: Create a HR list in SharePoint site from CSV file
 
 1.  Click on **Home- \>New -\List.**
 
     <img src="./media/image26.png" style="width:6.5in;height:4.19167in" />
 
+    ![](./media/image26.png)
+
+
 2.  Select **From CSV tile** from **Create a list window.**
 
     <img src="./media/image27.png" style="width:6.5in;height:4.09167in" />
+
+    ![](./media/image27.png)
+
 
 3.  Click on Upload **file** and browse **C:\Labfiles** and select
     **Import_HR_M365.CSV** and click **Open**.
@@ -190,10 +272,16 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image28.png"
 style="width:5.35833in;height:4.86667in" />
 
+    ![](./media/image28.png)
+
+
 4.  Change **Work Email** column type to **Single line of text** and
     then click on **Next**.
 
     <img src="./media/image29.png" style="width:6.49167in;height:3.475in" />
+
+    ![](./media/image29.png)
+
 
 5.  Enter below details
 
@@ -205,17 +293,29 @@ style="width:5.35833in;height:4.86667in" />
     <img src="./media/image30.png"
 style="width:6.45833in;height:3.75833in" />
 
+    ![](./media/image30.png)
+
+
 1.  Click on **Title -\Column settings -\Rename** columnt to
     **Emp_id**.
 
     <img src="./media/image31.png" style="width:6.5in;height:5.325in" />
 
+    ![](./media/image31.png)
+
+
     <img src="./media/image32.png" style="width:6.5in;height:3.29167in" />
+
+    ![](./media/image32.png)
+
 
 2.  The HR table should like below image now.
 
     <img src="./media/image33.png" style="width:6.5in;height:2.20278in"
 alt="A screenshot of a computer Description automatically generated" />
+
+    ![](./media/image33.png)
+
 
 # Exercise 2: Create Power Apps for SharePoint Lists
 
@@ -231,6 +331,9 @@ documents.
     <img src="./media/image34.png" style="width:6.5in;height:3.31667in"
 alt="A screenshot of a computer Description automatically generated" />
 
+    ![](./media/image34.png)
+
+
 2.  Open a new tab and go to **<https://make.powerapps.com/>.** Sign in
     with your office 365 admin tenant and select your **Dev One**
     (Developer) environment.
@@ -245,23 +348,37 @@ different. Make sure that the environment that you have selected is a
     <img src="./media/image35.png" style="width:6.5in;height:3.9in"
 alt="A screenshot of a computer Description automatically generated" />
 
+    ![](./media/image35.png)
+
 4.  Select **Blank Canvas** tile**.**
 
     <img src="./media/image36.png" style="width:6.5in;height:2.86667in"
 alt="A screenshot of a computer Description automatically generated" />
+
+    ![](./media/image36.png)
 
 5.  Right click on Screen1 and select **Rename.**
 
     <img src="./media/image37.png" style="width:6.49167in;height:4.90833in"
 alt="A screenshot of a computer Description automatically generated" />
 
+    ![](./media/image37.png)
+
+
 6.  Rename to **HrEmployeeform**
 
     <img src="./media/image38.png" style="width:6.25833in;height:4.925in" />
 
+    ![](./media/image38.png)
+
+
 7.  Select the form and click on **Insert-\Edit form.**
 
     <img src="./media/image39.png" style="width:6.49167in;height:3.25in" />
+
+    ![](./media/image39.png)
+
+
 
 8.  Search for **SharePoint** and select **SharePoint connector** from
     **Select a data source** dropdown**.**
@@ -269,9 +386,15 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image40.png" style="width:6.49167in;height:4.05833in"
 alt="A screenshot of a computer Description automatically generated" />
 
+    ![](./media/image40.png)
+
+
 9.  Select **SharePoint** under **Connect.**
 
     <img src="./media/image41.png" style="width:6.5in;height:4.00833in" />
+
+    ![](./media/image41.png)
+
 
 10. Enter the **SharePoint list URL** copied form step 1 into **Enter
     SharePoint URL** text field and then click on **Connect**.
@@ -279,15 +402,24 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image42.png" style="width:6.49167in;height:2.16667in"
 alt="A screenshot of a computer Description automatically generated" />
 
+    ![](./media/image42.png)
+
+
 11. Select **Employee Onboarding** list and then click on **Connect**.
 
     <img src="./media/image43.png" style="width:4.94167in;height:7.56667in"
 alt="A screenshot of a computer Description automatically generated" />
 
+    ![](./media/image43.png)
+
+
 12. Drag and fit the form into the container.
 
     <img src="./media/image44.png" style="width:6.5in;height:3.60764in"
 alt="A screenshot of a computer Description automatically generated" />
+
+    ![](./media/image44.png)
+
 
 13. Drag the Form1 container little down and click on **Insert- \>
     Rectangle** to insert header to the form.
@@ -295,10 +427,16 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image45.png"
 style="width:6.49167in;height:3.53333in" />
 
+    ![](./media/image45.png)
+
+
 14. Adjust the rectangle to the container width. Click on **Insert- \>
     Text label**.
 
     <img src="./media/image46.png" style="width:6.5in;height:4.43333in" />
+
+    ![](./media/image46.png)
+
 
 15. Change the width of the text field to the rectangle and update below
     properties.
@@ -315,6 +453,9 @@ style="width:6.49167in;height:3.53333in" />
 
     <img src="./media/image47.png" style="width:6.5in;height:3.275in" />
 
+    ![](./media/image47.png)
+
+
 16. Make **Emp_Id, First Name** and **Last_Name** as required fields.
 
 17. Select **Emp_Id** field and change value **required**. Click on
@@ -324,11 +465,17 @@ style="width:6.49167in;height:3.53333in" />
     <img src="./media/image48.png"
 style="width:6.49167in;height:2.11667in" />
 
+    ![](./media/image48.png)
+
+
 1.  Now set the **Required** value to true. You should see star next
     **Emp_id** field.
 
     <img src="./media/image49.png" style="width:6.5in;height:2.84792in"
 alt="A screenshot of a computer Description automatically generated" />
+
+    ![](./media/image49.png)
+
 
 1.  Repeat above two steps for **First Name** and **Last_Name**
 
@@ -338,10 +485,16 @@ Edit( fields) .add field and re-order.
     <img src="./media/image50.png" style="width:6.5in;height:1.78125in"
 alt="A screenshot of a computer Description automatically generated" />
 
+    ![](./media/image50.png)
+
+
 20. Select the Rectangular form/FormScreen1 and then click on **Insert
     -\Button**.
 
     <img src="./media/image51.png" style="width:6.5in;height:4.33333in" />
+
+
+    ![](./media/image51.png)
 
 21. Drag and place the button under **Department** filed in the form and
     update below properties.
@@ -351,9 +504,16 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image52.png"
 style="width:6.49167in;height:3.03333in" />
 
+    ![](./media/image52.png)
+
+
+
 22. Click on **New Screen** and select **Success** template**.**
 
     <img src="./media/image53.png" style="width:6.5in;height:6.125in" />
+
+    ![](./media/image53.png)
+
 
 23. Select the new screen and **rename** to **Success** as shown in
     below images.
@@ -361,14 +521,23 @@ style="width:6.49167in;height:3.03333in" />
     <img src="./media/image54.png"
 style="width:6.49167in;height:3.60833in" />
 
+    ![](./media/image54.png)
+
+
 24. Select **Lb1Successmsg1** and change the text to **New employee
     added**.
 
     <img src="./media/image55.png" style="width:6.49167in;height:3.725in" />
 
+    ![](./media/image55.png)
+
+
 25. Now, Click on **Insert -\Icons-\Back arrow.**
 
     <img src="./media/image56.png" style="width:6.5in;height:4.45in" />
+
+    ![](./media/image56.png)
+
 
 26. Select Back Arrow and set below properties.
 
@@ -379,6 +548,9 @@ style="width:6.49167in;height:3.60833in" />
     <img src="./media/image57.png"
 style="width:6.49167in;height:2.93333in" />
 
+    ![](./media/image57.png)
+
+
 27. Click on **HrEmployeeform.** Select **Button** and select
     **Onselect** and enter below formula.
 
@@ -388,6 +560,9 @@ style="width:6.49167in;height:2.93333in" />
 
     <img src="./media/image58.png" style="width:6.5in;height:3.75in" />
 
+    ![](./media/image58.png)
+
+
 28. Select **Form1,** select **OnSuccess** and replace the formula with
     below formula.
 
@@ -396,11 +571,17 @@ style="width:6.49167in;height:2.93333in" />
 
     <img src="./media/image59.png" style="width:6.5in;height:3.50833in" />
 
+    ![](./media/image59.png)
+
+
 29. Click on **Save \Save as** button and enter the name as
     **EmpformforHr** and then click on **Save**.
 
     <img src="./media/image60.png"
 style="width:6.49167in;height:3.74167in" />
+
+    ![](./media/image60.png)
+
 
 30. Select the form and change the **Default** mode to **New** and then
     click on the **Save -\>** **Preview** icon.
@@ -408,11 +589,17 @@ style="width:6.49167in;height:3.74167in" />
     <img src="./media/image61.png"
 style="width:6.49167in;height:3.36667in" />
 
+    ![](./media/image61.png)
+
+
 31. Enter random **Emp id, First Name** and **Last Name** and then click
     on **Submit** button**.**
 
     <img src="./media/image62.png" style="width:6.5in;height:3.56736in"
 alt="A screenshot of a computer Description automatically generated" />
+
+    ![](./media/image62.png)
+
 
 32. You should see **New employee added message.** Click on **Back**
     button**.**
@@ -420,11 +607,17 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image63.png" style="width:6.5in;height:3.3in"
 alt="A screenshot of a computer Description automatically generated" />
 
+    ![](./media/image63.png)
+
+
 33. Click on **Publish** button and then click on **Publish this
     version** button.
 
     <img src="./media/image64.png"
 style="width:6.49167in;height:3.93333in" />
+
+    ![](./media/image64.png)
+
 
 34. Go back to SharePoint tab in a browser. You should see the employee
     record of the new employee added by you in the list.
@@ -436,6 +629,9 @@ style="width:6.49167in;height:3.93333in" />
 
     <img src="./media/image34.png" style="width:6.5in;height:3.31667in" />
 
+    ![](./media/image1.png)
+
+
 2.  Open a new tab and go to <https://make.powerapps.com/>**.** Sign in
     with your office 365 admin tenant and select your **developer
     environment**.
@@ -445,23 +641,38 @@ style="width:6.49167in;height:3.93333in" />
 
     <img src="./media/image35.png" style="width:6.5in;height:3.9in" />
 
+    ![](./media/image1.png)
+
 4.  Select **Blank Canvas** tile**.**
 
     <img src="./media/image36.png" style="width:6.5in;height:2.86667in" />
+
+    ![](./media/image1.png)
+
 
 5.  Right click on Screen1 and select **Rename.**
 
     <img src="./media/image37.png"
 style="width:6.49167in;height:4.90833in" />
 
+    ![](./media/image1.png)
+
+
 6.  Rename to **Employeeform**
 
     <img src="./media/image65.png"
 style="width:5.81667in;height:4.98333in" />
 
+    ![](./media/image1.png)
+
+
+
 7.  Click on **Insert** and select **Edit** form**.**
 
     <img src="./media/image66.png" style="width:6.5in;height:3.375in" />
+
+    ![](./media/image1.png)
+
 
 8.  Search for **SharePoint** and select **SharePoint connector** from
     **Select a data source** dropdown**.**
@@ -469,9 +680,15 @@ style="width:5.81667in;height:4.98333in" />
     <img src="./media/image40.png"
 style="width:6.49167in;height:4.05833in" />
 
+    ![](./media/image1.png)
+
+
 9.  Select **SharePoint** under **Add Connection.**
 
     <img src="./media/image67.png" style="width:6.5in;height:3.4in" />
+
+    ![](./media/image1.png)
+
 
 10. Enter the **SharePoint list URL** copied form step 1 into Enter
     SharePoint URL text field and then click on **Connect**.
@@ -482,30 +699,48 @@ style="width:6.49167in;height:4.05833in" />
     <img src="./media/image42.png"
 style="width:6.49167in;height:2.16667in" />
 
+    ![](./media/image1.png)
+
+
 12. Select **Employee Onboarding** list and then click on **Connect**.
 
     <img src="./media/image43.png"
 style="width:4.94167in;height:7.56667in" />
+
+    ![](./media/image1.png)
+
 
 13. Drag and fit the form into the container.
 
     <img src="./media/image68.png" style="width:6.5in;height:2.90139in"
 alt="A screenshot of a computer Description automatically generated" />
 
+    ![](./media/image68.png)
+
+
 14. Select **Form 1** and **Display** mode to **New** under properties.
 
     <img src="./media/image69.png"
 style="width:6.49167in;height:2.41667in" />
+
+    ![](./media/image69.png)
+
 
 15. Drag the Form1 container little down and click on **Insert- \>
     Rectangle** to insert header to the form.
 
     <img src="./media/image70.png" style="width:6.5in;height:3.575in" />
 
+    ![](./media/image70.png)
+
+
 16. Change the width of the rectangle to the container and select
     **Insert -\Text label**.
 
     <img src="./media/image71.png" style="width:6.5in;height:3.23333in" />
+
+    ![](./media/image71.png)
+
 
 17. Select the Label and set below **properties.**
 
@@ -521,19 +756,31 @@ style="width:6.49167in;height:2.41667in" />
 
     <img src="./media/image72.png" style="width:6.5in;height:2.56667in" />
 
+    ![](./media/image72.png)
+
+
 18. Select the **Emp_Id** field name and change **Font size** to **16**
     and **Font weight** to **Bold** under Properties.
 
     <img src="./media/image73.png" style="width:6.5in;height:2.68333in" />
 
+    ![](./media/image73.png)
+
+
 19. Repeat above step for all fields.
 
     <img src="./media/image74.png" style="width:6.5in;height:3.48611in" />
+
+    ![](./media/image74.png)
+
 
 20. Select **Orientation location** item and set **Visible** property to
     **false.**
 
     <img src="./media/image75.png" style="width:6.5in;height:2.86667in" />
+
+    ![](./media/image75.png)
+
 
 21. Select **Have you been to orientation yet**? text field and click on
     **edit** label.
@@ -541,10 +788,16 @@ style="width:6.49167in;height:2.41667in" />
     <img src="./media/image76.png"
 style="width:6.49167in;height:2.39167in" />
 
+    ![](./media/image76.png)
+
+
 22. Change label value to **Orientationdropdown**
 
     <img src="./media/image77.png"
 style="width:6.48333in;height:2.54167in" />
+
+    ![](./media/image77.png)
+
 
 23. Select **Orientation Location data card** and select **Visible** and
     place below formula as shown in below image.
@@ -553,10 +806,16 @@ style="width:6.48333in;height:2.54167in" />
 
     <img src="./media/image78.png" style="width:6.49167in;height:3.775in" />
 
+    ![](./media/image78.png)
+
+
 24. Click on **Save** and enter app name as: **EmployeeOnboardingForm**
     and then click on **Save** button.
 
     <img src="./media/image79.png" style="width:6.49167in;height:3.25in" />
+
+    ![](./media/image79.png)
+
 
 25. **Emp_id**, **First Name**, **Last Name** and **Manager** will be
     filled by HR, so change the display mode to **View**.
@@ -567,16 +826,31 @@ style="width:6.48333in;height:2.54167in" />
 
     <img src="./media/image80.png" style="width:6.5in;height:2.11667in" />
 
+    ![](./media/image80.png)
+
+
     <img src="./media/image81.png" style="width:6.49167in;height:1.625in" />
+
+    ![](./media/image81.png)
+
 
     <img src="./media/image82.png" style="width:6.5in;height:2.02639in"
 alt="A screenshot of a computer Description automatically generated" />
 
+    ![](./media/image82.png)
+
+
     <img src="./media/image83.png" style="width:6.5in;height:1.82292in"
 alt="A screenshot of a computer Description automatically generated" />
 
+    ![](./media/image83.png)
+
+
     <img src="./media/image84.png" style="width:6.5in;height:2.34167in"
 alt="A screenshot of a computer Description automatically generated" />
+
+    ![](./media/image84.png)
+
 
 27. Select the **Work email** Field -\**Unlock property** and update
     **Required** property to **true.** Repeat for other fields if
@@ -584,11 +858,17 @@ alt="A screenshot of a computer Description automatically generated" />
 
     <img src="./media/image85.png" style="width:6.49167in;height:2.575in" />
 
+    ![](./media/image85.png)
+
+
 28. Select the **Form1** and update **OnFailed** field value to
 
     Notify("Required Fields can't be empty.",NotificationType.Error)
 
     <img src="./media/image86.png" style="width:6.5in;height:3.45833in" />
+
+    ![](./media/image86.png)
+
 
 29. Select **OnSuccess** and set the value to
 
@@ -597,10 +877,16 @@ alt="A screenshot of a computer Description automatically generated" />
     <img src="./media/image87.png"
 style="width:6.49167in;height:2.84167in" />
 
+    ![](./media/image87.png)
+
+
 30. Now, Let’s add button to submit at the end of the form. Click on
     **Inset- \Button.**
 
     <img src="./media/image88.png" style="width:6.5in;height:3.75in" />
+
+    ![](./media/image88.png)
+
 
 31. Change the Properties of the button and save the form.
 
@@ -610,17 +896,29 @@ style="width:6.49167in;height:2.84167in" />
 
     <img src="./media/image89.png" style="width:6.5in;height:2.53333in" />
 
+    ![](./media/image89.png)
+
+
 32. Click on **Save** and then click on **Preview** app buttons.
 
     <img src="./media/image90.png" style="width:6.5in;height:3.525in" />
+
+    ![](./media/image90.png)
+
 
 33. Enter details and then click on **Submit**.
 
     <img src="./media/image91.png" style="width:6.5in;height:3.59444in" />
 
+    ![](./media/image91.png)
+
+
 34. You should see success notification.
 
     <img src="./media/image92.png" style="width:6.5in;height:3.27361in" />
+
+    ![](./media/image92.png)
+
 
 35. Close the preview window.
 
@@ -646,15 +944,24 @@ style="width:6.49167in;height:2.84167in" />
     <img src="./media/image93.png"
 style="width:6.49167in;height:3.89167in" />
 
+    ![](./media/image93.png)
+
+
 37. Select the **Form1** from **Tree View**. Select item and enter the
     value as: **onboardinglistitem**
 
     <img src="./media/image94.png" style="width:6.5in;height:3.86667in" />
 
+    ![](./media/image94.png)
+
+
 38. Click on **Save** and **Publish -\Publish this version**.
 
     <img src="./media/image95.png"
 style="width:6.49167in;height:3.94167in" />
+
+    ![](./media/image95.png)
+
 
 39. Go back to the **Power Apps Home** page, Click on **Apps-\Your
     app-\Details**.
@@ -662,15 +969,24 @@ style="width:6.49167in;height:3.94167in" />
     <img src="./media/image96.png"
 style="width:6.49167in;height:3.60833in" />
 
+    ![](./media/image96.png)
+
+
 40. Copy the Weblink to use in next task.
 
     <img src="./media/image97.png"
 style="width:6.49167in;height:2.98333in" />
 
+    ![](./media/image97.png)
+
+
 41. Close the preview window and navigate to your SharePoint tab and
     check the above record in the list.
 
     <img src="./media/image98.png" style="width:6.5in;height:2.71319in" />
+
+    ![](./media/image98.png)
+
 
 ## Task 3: Create Power Automate flow to send a form to the new employee
 
@@ -678,6 +994,9 @@ style="width:6.49167in;height:2.98333in" />
 
     <img src="./media/image99.png"
 style="width:6.49167in;height:2.99167in" />
+
+    ![](./media/image99.png)
+
 
 2.  Open a new tab and go to https:\\flow.microsoft.com and sign in with
     your admin tenant account**.**
@@ -690,15 +1009,24 @@ style="width:6.49167in;height:2.99167in" />
     <img src="./media/image100.png"
 style="width:6.49167in;height:2.34167in" />
 
+    ![](./media/image100.png)
+
+
 5.  Enter the flow name as: **Onboarding new employee**. Search for
     **When an item is created** and select it from SharePoint and then
     click on **create**.
 
     <img src="./media/image101.png" style="width:6.5in;height:4.16667in" />
 
+    ![](./media/image101.png)
+
+
 6.  Select the action. Click on **Site Address -\Enter custom value.**
 
     <img src="./media/image102.png" style="width:6.5in;height:3.36667in" />
+
+    ![](./media/image102.png)
+
 
 7.  Enter the Address copied in Step 1 and then select the **Employee
     Onboarding** list as shown in below image.
@@ -706,62 +1034,100 @@ style="width:6.49167in;height:2.34167in" />
     <img src="./media/image103.png"
 style="width:6.49167in;height:3.90833in" />
 
+    ![](./media/image103.png)
+
+
 8.  Click on + to add new action.
 
     <img src="./media/image104.png"
 style="width:4.85833in;height:3.18333in" />
 
+    ![](./media/image104.png)
+
+
 9.  Seach for and select **Send an email (V2)**
 
     <img src="./media/image105.png" style="width:6.5in;height:4.39167in" />
+
+    ![](./media/image105.png)
+
 
 10. Click on to text field and select **Enter the data from previous
     step**.
 
     <img src="./media/image106.png" style="width:6.5in;height:2.31667in" />
 
+    ![](./media/image106.png)
+
+
 11. Select **Work email.**
 
     <img src="./media/image107.png"
 style="width:6.49167in;height:2.76667in" />
+
+    ![](./media/image107.png)
+
 
 12. Enter the Subject line as: **Welcome to Firm** select **First Name**
     from previous step.
 
     <img src="./media/image108.png" style="width:6.49167in;height:4.05in" />
 
+    ![](./media/image108.png)
+
+
 13. Enter below data in Body of the email. Insert dynamic values as
     shown in image.
 
 Hi first name Lastname,
->
+
 Please click on link below to complete your onboarding form.
 
     <img src="./media/image109.png" style="width:6.49167in;height:3.81667in"
 alt="A screenshot of a computer Description automatically generated" />
 
+    ![](./media/image109.png)
+
     <img src="./media/image110.png" style="width:6.43389in;height:3.867in"
 alt="A screenshot of a computer Description automatically generated" />
+
+    ![](./media/image110.png)
+
 
 14. Enter the Weblink copied in Task 2 – and add **&itemID=** at the end
     of the link and select Dynamic ID as shown in below image.
 
     <img src="./media/image111.png" style="width:6.5in;height:2.83333in" />
 
+    ![](./media/image111.png)
+
+
     <img src="./media/image112.png" style="width:6.5in;height:3.47361in"
 alt="A screenshot of a computer Description automatically generated" />
+
+    ![](./media/image112.png)
+
 
 15. Cut the link and then enter the text: **Onboarding Form** and select
     and click on link icon. paste the link copied from above step.
 
     <img src="./media/image113.png" style="width:6.5in;height:4.98333in" />
 
+    ![](./media/image113.png)
+
+
 16. Save the flow now.
 
     <img src="./media/image114.png" style="width:6.49167in;height:3.3in" />
 
+    ![](./media/image114.png)
+
+
     <img src="./media/image115.png" style="width:6.5in;height:2.22778in"
 alt="A screenshot of a computer Description automatically generated" />
+
+    ![](./media/image115.png)
+
 
 ## Task 4: Test the flow.
 
@@ -769,26 +1135,44 @@ alt="A screenshot of a computer Description automatically generated" />
 
     <img src="./media/image116.png" style="width:6.5in;height:3.76667in" />
 
+    ![](./media/image116.png)
+
+
 2.  IF asked then allow permissions.
 
     <img src="./media/image117.png" style="width:6.5in;height:3.42431in"
 alt="A screenshot of a computer Description automatically generated" />
+
+    ![](./media/image117.png)
+
 
 3.  Fill the form with your details. Enter work email as your admin
     tenant id and **submit** the form.
 
     <img src="./media/image118.png" style="width:6.5in;height:3.61667in" />
 
+    ![](./media/image118.png)
+
+
     <img src="./media/image119.png" style="width:6.5in;height:3.16667in"
 alt="A screenshot of a computer Description automatically generated" />
+
+    ![](./media/image119.png)
+
 
 4.  Go back to the Power Automate flow and check flow Status.
 
     <img src="./media/image120.png" style="width:6.5in;height:1.925in"
 alt="A screenshot of a computer Description automatically generated" />
 
+    ![](./media/image120.png)
+
+
     <img src="./media/image121.png" style="width:6.5in;height:4.15556in"
 alt="A screenshot of a computer Description automatically generated" />
+
+    ![](./media/image121.png)
+
 
 5.  Open a new tab and go to https:\\outlook.com and sign in with your
     Office 365 tenant account and check inbox. Click on the **Onboarding
@@ -796,6 +1180,9 @@ alt="A screenshot of a computer Description automatically generated" />
 
     <img src="./media/image122.png"
 style="width:6.49167in;height:3.10833in" />
+
+    ![](./media/image122.png)
+
 
 **Conclusion:** Upon completing this lab, participants will have
 developed a comprehensive understanding of how to create and manage
