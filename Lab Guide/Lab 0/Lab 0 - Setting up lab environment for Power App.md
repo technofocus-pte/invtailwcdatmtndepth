@@ -102,8 +102,7 @@
 
 6.  Enter the Team name : +++**Test Team**+++, on Name the first
     channel
-    as +++**TestChannel**+++ and
-    Click on **Private**.
+    as +++**TestChannel**+++ and click on **Private**.
 
 
     ![](./media/image14.png)
