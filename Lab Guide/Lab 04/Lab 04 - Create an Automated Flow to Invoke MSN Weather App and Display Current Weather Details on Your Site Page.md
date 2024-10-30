@@ -90,7 +90,7 @@ respond to user input.
     ![](./media/image14.png)
 
 
-8.  Search for **MSN Weather**.
+8.  Search for +++**MSN Weather**+++.
 
 9.  Select the **Get current weather** action.
 
@@ -110,7 +110,7 @@ respond to user input.
     ![](./media/image17.png)
 
 
-12. Select **+ Add** and output, **Select Text**, Enter **Pressure** as
+12. Select **+ Add** and output, **Select Text**, Enter +++**Pressure**+++ as
     the title.
 
     ![](./media/image18.png)
@@ -124,36 +124,36 @@ respond to user input.
 
 14. Repeat to create the following output steps using text type:
 
-    1.  Humidity
+    1.  +++Humidity+++
 
-    2.  Temperature
+    2.  +++Temperature+++
 
-    3.  UV index
+    3.  +++UV index+++
 
-    4.  Wind speed
+    4.  +++Wind speed+++
 
-    5.  Location
+    5.  +++Location+++
 
-    6.  Visibility Distance
+    6.  +++Visibility Distance+++
 
-    7.  Latitude
+    7.  +++Latitude+++
 
-    8.  Longitude
+    8.  +++Longitude+++
 
-    9.  Temperature Units
+    9.  +++Temperature Units+++
 
-    10. Pressure Units
+    10. +++Pressure Units+++
 
-    11. Speed Units
+    11. +++Speed Units+++
 
-    12. Distance Units
+    12. +++Distance Units+++
 
-    13. Conditions
+    13. +++Conditions+++
 
     ![](./media/image20.png)
 
 
-15. Name the flow **Get current weather.**
+15. Name the flow +++**Get current weather**+++.
 
     ![](./media/image21.png)
 
@@ -189,7 +189,7 @@ flow. You'll use this URL later to call the current weather flow.
     ![](./media/image27.png)
 
 
-2.  Name the Page **" Todays_weather_report"** and then click on the
+2.  Name the Page +++**Todays_weather_report**+++ and then click on the
     **Add** button.
 
     ![](./media/image28.png)
@@ -386,7 +386,7 @@ To test the flow integration functionality:
     ![](./media/image32.1.png)
 
 
-2.  Enter a postal code or city in **Location** text box.
+2.  Enter a postal code or city in **Location** text box for example **Seattle**.
 
 3.  Select the **Submit** button.
 
