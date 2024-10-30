@@ -13,39 +13,35 @@ applied discount.
 
 ### Task 1: Create Power Automate desktop flow
 
-1.  To begin, **download**
-    <https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/raw/master/power-automate-desktop/Orders.zip>
-    Select **Download** on the right and extract the Excel file to your
-    local computer.
 
-2.  Open **Power automate desktop** and login with **office 365 tenant
+1.  Open **Power automate desktop** and login with **office 365 tenant
     credential**.
 
-3.  Choose the environment **Contoso** and click on the **+ New flow**
+2.  Choose the environment **Contoso** and click on the **+ New flow**
     and start creating new flow.
 
     ![](./media/image1.png)
 
-4.  Enter **Message Box Communication** as flow name and check the box
+3.  Enter **Message Box Communication** as flow name and check the box
     of the Power Fx enable (Preview). Then click on the **Create**.
 
     ![](./media/image2.png)
 
 
-5.  Start by prompting the user to select an Excel file. Add the
+4.  Start by prompting the user to select an Excel file. Add the
     **Display select file dialog** action and configure the File filter
     field to allow only xlsx files.
 
     ![](./media/image3.png)
 
 
-6.  Enter **Dialog Title as Select Excel,** Enter the location of the
+5.  Enter **Dialog Title as Select Excel,** Enter the location of the
     folder in the **initial** **folder,** File Filter as **\*.xlsx** and
     then click on the save button.
 
     ![](./media/image4.png)
 
-7.  Before reading any data from the selected file, you have to launch
+6.  Before reading any data from the selected file, you have to launch
     it using the **Launch Excel** action. Add **Launch Excel** from the
     action. Then configure the following setting.
 
@@ -58,27 +54,27 @@ applied discount.
     ![](./media/image5.png)
 
 
-8.  To read the data from the Excel file, add the Read from Excel
+7.  To read the data from the Excel file, add the Read from Excel
     worksheet action Enter **%ExcelInstance%** in the excel instance and
     select All available values from worksheet in the Retrieve field.
 
     ![](./media/image6.png)
 
 
-9.  Add the **Get first free column/row from Excel worksheet** action to
+8.  Add the **Get first free column/row from Excel worksheet** action to
     retrieve the first free column and row in the Excel worksheet. Enter
     **%ExcelInstance%** in the Excel instance and then click on the save
     button.
 
     ![](./media/image7.png)
 
-10. Add a Set Variable from action named **Counter** and initialize it
+9. Add a Set Variable from action named **Counter** and initialize it
     to **1** and then click on the save.
 
     ![](./media/image8.png)
 
 
-11. Add Display input dialog from the action and configure the following
+10. Add Display input dialog from the action and configure the following
     fields.
 
     - **Input Dialog Title**: Header
@@ -92,7 +88,7 @@ applied discount.
     ![](./media/image9.png)
 
 
-12. Add Write to Excel worksheet from actions and configure it with
+11. Add Write to Excel worksheet from actions and configure it with
     following detail:
 
     - **Excel instance**: %ExcelInstance%
@@ -110,14 +106,14 @@ applied discount.
     ![](./media/image10.png)
 
 
-13. Add a **For each** loop for action to iterate through the retrieved
+12. Add a **For each** loop for action to iterate through the retrieved
     data and add the **%ExcelData%** into value to iterate section. Then
     click on save.
 
     ![](./media/image11.png)
 
 
-14. To check the value of the **Gross** column (column G or the sixth
+13. To check the value of the **Gross** column (column G or the sixth
     column in the worksheet), add convert text to number action.
     Configure text to convert as %CurrentItem\[6\]% and then click on
     the save button.
@@ -125,7 +121,7 @@ applied discount.
     ![](./media/image12.png)
 
 
-15. Add an **If** action to check whether it exceeds 100,000 and
+14. Add an **If** action to check whether it exceeds 100,000 and
     configure it as below details:
 
     - **First operand**: %TextAsNumber%
@@ -137,7 +133,7 @@ applied discount.
     ![](./media/image13.png)
 
 
-16. Add the **Display message** action under **If**, to provide the
+15. Add the **Display message** action under **If**, to provide the
     necessary information to the user, and prompt them to
     choose **Yes** or **No**. Then click on the **Save** button. Enter the following detail in the it:
 
@@ -150,7 +146,7 @@ applied discount.
     ![](./media/image14.png)
 
 
-17.  Add a second **If** action under Display message action to check
+16.  Add a second **If** action under Display message action to check
     which button was pressed in the previous step. Enter the following
     details in the respected fields:
 
@@ -160,13 +156,13 @@ applied discount.
 
         ![](./media/image15.png)
 
-18.  Add the **Increase variable** action to increase
+17.  Add the **Increase variable** action to increase
     the **Counter** variable by one.
 
         ![](./media/image16.png)
 
 
-19.  Add Write to excel worksheet action below the Increase Variable
+18.  Add Write to excel worksheet action below the Increase Variable
     action and enter the following detail into it:
 
         - **Excel instance:** %ExcelInstance%
@@ -178,7 +174,7 @@ applied discount.
        ![](./media/image17.png)
 
 
-20.  From the top bar **Save** the flow for the test.
+19.  From the top bar **Save** the flow for the test.
 
         ![](./media/image18.png)
 
