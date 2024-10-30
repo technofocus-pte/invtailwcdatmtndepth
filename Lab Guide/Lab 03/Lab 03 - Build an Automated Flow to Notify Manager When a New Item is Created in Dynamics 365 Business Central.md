@@ -15,7 +15,7 @@ processes and notifications.
 ### Task 1: Sign up in Microsoft Dynamic 365 Business Central
 
 1.  Navigate to
-    +++**https://www.microsoft.com/en-us/dynamics-365/products/business-central**++
+    +++**https://www.microsoft.com/en-us/dynamics-365/products/business-central**+++
     and click on the **Try for Free.**
 
     ![](./media/image1.png)
@@ -94,8 +94,8 @@ processes and notifications.
 
 ### Task 3: Create the Trigger Based on Business Central Data
 
-1.  In the **Flow name** box, enter **Email notification for new
-    furniture**.
+1.  In the **Flow name** box, enter +++**Email notification for new
+    furniture**+++.
 
     ![](./media/image12.png)
 
@@ -111,7 +111,7 @@ processes and notifications.
 
 4.  Fill in the trigger details:
 
-    1.  **Environment name**: Enter **PRODUCTION**.
+    1.  **Environment name**: Enter +++**PRODUCTION**+++.
 
     2.  **Company name**: Select **CRONUS USA, Inc.** from the list.
 
@@ -253,7 +253,7 @@ processes and notifications.
     ![](./media/image32.png)
 
 
-8.  The automated response is received on your provided **Email**.
+8.  On the Power Automate portal, click on **App launcher** located at the upper left corner. Select **Outlook** and then you can see the automated response is received on MOD Admin’s provided **Email**.
 
     ![](./media/image33.png)
 
