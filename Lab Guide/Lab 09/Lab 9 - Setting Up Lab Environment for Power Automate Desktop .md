@@ -10,7 +10,7 @@ logged in with their Office 365 credentials.
 
 ### Task 1 - Sign into Power Automate Desktop application
 
-1.  **Sign in** to <https://make.powerautomate.com/> with your Office
+1.  **Sign in** to +++https://make.powerautomate.com/+++ with your Office
     365 tenant credentials.
 
 2.  Click **My flows** from left pane. Click **Desktop flows** then
