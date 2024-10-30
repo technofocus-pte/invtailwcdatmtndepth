@@ -20,7 +20,7 @@ processes and notifications.
 
     ![](./media/image1.png)
 
-2.  Enter your Office 365 tenant ID and click Next.
+2.  Enter your Office 365 tenant ID and click **Next**.
 
     ![](./media/image2.png)
 
@@ -32,27 +32,21 @@ processes and notifications.
 
 4. Select **United states** as country or region, enter your **phone number** and then select **Get started**.
 
-
     ![](./media/image4.1.png)
 
 
-5.  Select **Skip & go to Dynamics 365 Business Central**.
-
-
-    ![](./media/image4.2.png)
-
-   
-7.  Then click on **Get started** to access Business Central.
+ 
+5.  Then click on **Get started** to access Business Central.
 
     ![](./media/image4.png)
 
 
-8.  Select the **Skip Survey** button to proceed.
+6.  Select the **Skip Survey** button to proceed.
 
     ![](./media/image5.png)
 
 
-10. You will be directed to the Dynamics 365 Business Central home page.
+7. You will be directed to the Dynamics 365 Business Central home page.
 
     ![](./media/image5.1.png)
 
@@ -127,8 +121,8 @@ processes and notifications.
     ![](./media/image15.png)
 
 
-2.  In the **Add an action** window, type **Dynamics 365 Business
-    Central** in the search box and choose the **Get record (V3)**
+2.  In the **Add an action** window, type +++**Dynamics 365 Business
+    Central**+++ in the search box and choose the **Get record (V3)**
     action.
 
     ![](./media/image16.png)
@@ -136,7 +130,7 @@ processes and notifications.
 
 3.  Enter the following information:
 
-    1.  **Environment**: **PRODUCTION**.
+    1.  **Environment**: +++**PRODUCTION**+++.
 
     2.  **Company name**: Select **CRONUS USA, Inc.**.
 
@@ -168,7 +162,7 @@ processes and notifications.
 
     2.  Keep the **is equal to** option.
 
-    3.  In the second **Choose a value** box, enter **FURNITURE**.
+    3.  In the second **Choose a value** box, enter +++**FURNITURE**+++.
 
     ![](./media/image20.png)
 
@@ -180,7 +174,7 @@ processes and notifications.
     ![](./media/image21.png)
 
 
-2.  Search for **office 365 outlook** in the Add an action window and
+2.  Search for +++**office 365 outlook**+++ in the Add an action window and
     click on see more. In the office 365 outlook trigger select **Send
     an Email (V2).**
 
