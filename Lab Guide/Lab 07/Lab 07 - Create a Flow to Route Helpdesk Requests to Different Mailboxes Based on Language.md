@@ -14,7 +14,7 @@ streamline communication workflows within the organization.
 1.  Sign in to  +++**https://make.powerautomate.com/using**+++ **office 365
     admin tenant account**.
 
-2.  Type **Summarize emails using GPT** in the search box at the top and
+2.  Type +++**Summarize emails using GPT**+++ in the search box at the top and
     select the flow when it appears.
 
     ![](./media/image1.png)
