@@ -18,109 +18,109 @@ respond to user input.
    
 2.  Ensure that, you are in Developer environment – **Dev One** and then click on **Get started**.
 
-    <img src="./media/image2.1.png"
-style="width:6.26806in;height:3.21736in" />
+    ![](./media/image2.1.png)
+
 
 3.  Select **Skip** on **Tell us about yourself** page.
 
-    <img src="./media/image3.1.png" style="width:6.26806in;height:1.9625in" />
+    ![](./media/image3.1.png)
 
 4.  On **Create a site** page, scroll down and select **Start with a template**.
 
-    <img src="./media/image4.1.png"
-style="width:6.26806in;height:2.67986in" />
+    ![](./media/image4.1.png)
+
 
 5.  Click on **Starter layout 1**.
 
-    <img src="./media/image5.1.png"
-style="width:6.26806in;height:2.75833in" />
+    ![](./media/image5.1.png)
+
 
 6.  On the **Stater layout 1** page, select **Choose this template**.
    
-    <img src="./media/image6.png"
-style="width:6.26806in;height:2.75833in" />
+    ![](./media/image6.1.png)
+
     
 8.  Enter the site name as **contoso** in the respected field and click
     on **Done** button to create the website.
 
-    <img src="./media/image7.png"
-style="width:6.26806in;height:2.64167in" />
+    ![](./media/image7.1.png)
+
 
 ### Task 2: Create cloud flow
 
 1.  You can see, you are navigated to your site. If you see pop up regarding **Introducing Copilot in Power Pages**, select **Next** till you come to last step and can        select **Done**. 
 
-    <img src="./media/image8.1.png"
-style="width:6.26806in;height:2.91597in" />
+    ![](./media/image8.1.png)
+
 
    **Note:** You can close the pop up of **Enable site copilot**.
 
-   <img src="./media/image8.2.png"
-style="width:6.26806in;height:2.91597in" />
+    ![](./media/image8.2.png)
+
 
 2.  Flow the left navigation bar select the Setup, and then select
     **Cloud flow.**
 
-    <img src="./media/image9.png"
-style="width:6.26806in;height:2.89931in" />
+    ![](./media/image9.png)
+
 
 3.  Select **+ Create** new flow from the top bar.
 
-    <img src="./media/image10.png"
-style="width:6.26806in;height:2.5625in" />
+    ![](./media/image10.png)
+
 
 4.  Seach power pages in the search bar, then scroll down and select
     **When Power Pages call a flow trigger.**
 
-    <img src="./media/image11.png"
- style="width:6.26806in;height:2.95278in" />
+    ![](./media/image11.png)
+
 
 5.  Select **+ Add an input**.
 
-    <img src="./media/image12.png"
- style="width:6.26806in;height:3.12153in" />
+    ![](./media/image12.png)
+
 
 6.  Choose **Text**.
 
-    <img src="./media/image13.png"
- style="width:6.26806in;height:2.42778in" />
+    ![](./media/image13.png)
+
 
 7.  Add a name as **Location** and click on + New step.
 
-    <img src="./media/image14.png"
- style="width:6.26806in;height:2.86042in" />
+    ![](./media/image14.png)
+
 
 8.  Search for **MSN Weather**.
 
 9.  Select the **Get current weather** action.
 
-    <img src="./media/image15.png"
- style="width:6.26806in;height:3.82431in" />
+    ![](./media/image15.png)
+
 
 10. Focus cursor on **Location** input text
     Select **Location** parameter under **When Power Pages calls a
     flow** from dynamic content.
 
-    <img src="./media/image16.png"
-style="width:6.26806in;height:3.22917in" />
+    ![](./media/image16.png)
+
 
 11. Select **+ New step**, Search for Power Pages, Select **Return
     value(s) to Power Pages** action.
 
-    <img src="./media/image17.png"
-style="width:6.26806in;height:2.79097in" />
+    ![](./media/image17.png)
+
 
 12. Select **+ Add** and output, **Select Text**, Enter **Pressure** as
     the title.
 
-    <img src="./media/image18.png"
-style="width:6.26806in;height:3.08056in" />
+    ![](./media/image18.png)
+
 
 13. In Pressure value to respond section, choose dynamic
     content **Pressure**.
 
-    <img src="./media/image19.png"
-style="width:6.26806in;height:3.50694in" />
+    ![](./media/image19.png)
+
 
 14. Repeat to create the following output steps using text type:
 
@@ -150,34 +150,34 @@ style="width:6.26806in;height:3.50694in" />
 
     13. Conditions
 
-    <img src="./media/image20.png"
- style="width:5.94218in;height:5.76717in" />
+    ![](./media/image20.png)
+
 
 15. Name the flow **Get current weather.**
 
-    <img src="./media/image21.png"
-style="width:6.26806in;height:2.82639in" />
+    ![](./media/image21.png)
+
 
 16. Select **Save**, and close the flow section
 
-    <img src="./media/image22.png"
-style="width:6.26806in;height:2.87361in" />
+    ![](./media/image22.png)
+
 
 18. Select **+ Add roles** under Roles, Select **Anonymous Users** role,
     Select **Add**.
 
-    <img src="./media/image24.png"
- style="width:6.26806in;height:3.76875in" />
+    ![](./media/image24.png)
+
 
 19. Click on the **Save** button.
 
-    <img src="./media/image25.png"
-style="width:6.25888in;height:2.89192in" />
+    ![](./media/image25.png)
+
 
 20. **Copy** the **URL**.
 
-    <img src="./media/image26.png"
-style="width:6.26806in;height:2.2625in" />
+    ![](./media/image26.png)
+
 
 **Note:** This is the unique URL used to connect to the associated cloud
 flow. You'll use this URL later to call the current weather flow.
@@ -186,25 +186,25 @@ flow. You'll use this URL later to call the current weather flow.
 
 1.  Select Pages workspace, Select **+ Page.**
 
-    <img src="./media/image27.png"
-style="width:6.26806in;height:2.62361in" />
+    ![](./media/image27.png)
+
 
 2.  Name the Page **" Todays_weather_report"** and then click on the
     **Add** button.
 
-    <img src="./media/image28.png"
- style="width:6.26806in;height:3.3875in" />
+    ![](./media/image28.png)
+
 
 3.  Select **Edit code** to open Visual Studio Code and then click on
     **open visual studio code.**
 
-    <img src="./media/image29.png"
-style="width:6.26806in;height:2.82639in" />
+    ![](./media/image29.png)
+
 
     **Note:** If pop up appears saying ‘The extension ‘Power Platform Tools’ wants to sign in using Microsoft’ then select **Allow**.
 
-    <img src="./media/image29.1.png"
-style="width:6.26806in;height:2.82639in" />
+    ![](./media/image29.1.png)
+
 
 5.  **Paste** this code:
 
@@ -361,21 +361,21 @@ style="width:6.26806in;height:2.82639in" />
 
     ```
 
-    <img src="./media/image30.png"
-style="width:6.26806in;height:2.83889in" />
+    ![](./media/image30.png)
+
 
 6.  **Replace** the **URL** with the one you copied in the previous
     step.
 
-    <img src="./media/image31.png"
-style="width:6.26806in;height:2.81528in" />
+    ![](./media/image31.png)
+
 
 7.  **Save** the code by selecting CTRL + S.
 
 8.  Come back to Power Pages portal and select **Sync** in design studio.
 
-    <img src="./media/image32.png"
-style="width:6.26806in;height:2.93125in" />
+    ![](./media/image32.png)
+
 
 ### Task 4: Test the flow integration
 
@@ -383,15 +383,15 @@ To test the flow integration functionality:
 
 1.  Select **Preview** > **Desktop** to open the site.
 
-   <img src="./media/image32.1.png"
-style="width:6.26806in;height:2.93125in" />
+    ![](./media/image32.1.png)
+
 
 2.  Enter a postal code or city in **Location** text box.
 
 3.  Select the **Submit** button.
 
-    <img src="./media/image33.png"
- style="width:6.26806in;height:4.03264in" />
+    ![](./media/image33.png)
+
 
 ### Conclusion: 
 
