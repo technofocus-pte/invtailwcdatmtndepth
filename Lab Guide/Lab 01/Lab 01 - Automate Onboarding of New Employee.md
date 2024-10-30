@@ -18,7 +18,7 @@ effectively manage and automate HR processes within their organizations.
 ## Task 1: Verifying your Dataverse environment 
 
 1.  Open a browser and go to
-    <https://admin.powerplatform.microsoft.com>. Sign in with your
+    +++**https://admin.powerplatform.microsoft.com**+++. Sign in with your
     office 365 tenant credential.
 
 2.  Select **Environments** on the left navigation. The **Developer
@@ -33,7 +33,7 @@ effectively manage and automate HR processes within their organizations.
 
 ## Task 2: Create a site in SharePoint 
 
-1.  Navigate to <https://make.powerapps.com/or https:\\office.com and
+1.  Navigate to +++**https:\\office.com**+++ and
     sign in with your office 365 tenant.
 
 2.  Click on matrix in the upper-left corner and select **SharePoint**
@@ -68,9 +68,9 @@ effectively manage and automate HR processes within their organizations.
 
 8.  Enter Site name and description then click on **Next** button.
 
-    - Site Name: **Contoso Corp**
+    - Site Name: +++**Contoso Corp**+++
 
-    - Site Description: **Onboarding new employee.**
+    - Site Description: +++**Onboarding new employee.**+++
 
 
     ![](./media/image8.png)
@@ -86,13 +86,13 @@ effectively manage and automate HR processes within their organizations.
 
 ## Task 3: Create an Employees list in SharePoint site from CSV file
 
-1.  Click on **Home- \>New -\List.**
+1.  Click on **Home --> New --> List.**
 
 
     ![](./media/image11.png)
 
 
-2.  Select **From CSV** tile from **Create a list** window**.**
+2.  Select **From CSV** tile from **Create a list** window.
 
   
 
@@ -112,8 +112,8 @@ effectively manage and automate HR processes within their organizations.
     ![](./media/image14.png)
 
 
-5.  Enter then Name as: **Employee Onboarding** and Description: **New
-    Contoso Corp employee** and then click on **Create**.
+5.  Enter then Name as: +++**Employee Onboarding**+++ and Description: +++**New
+    Contoso Corp employee**+++ and then click on **Create**.
 
   
 
@@ -126,7 +126,7 @@ effectively manage and automate HR processes within their organizations.
 
 
 6.  The Employees list is created for you now. Rename the **Title**
-    column to **Emp_id**.
+    column to +++**Emp_id**+++.
 
 
     ![](./media/image17.png)
@@ -200,7 +200,7 @@ effectively manage and automate HR processes within their organizations.
 
 ## Task 4: Create a HR list in SharePoint site from CSV file
 
-1.  Click on **Home- \>New -\List.**
+1.  Click on **Home --> New --> List.**
 
 
     ![](./media/image26.png)
@@ -228,17 +228,17 @@ effectively manage and automate HR processes within their organizations.
 
 5.  Enter below details
 
-    - Name : **Contoso HR**
+    - Name : +++**Contoso HR**+++
 
-    - Description : **Contoso Human Resource**, then click on **Create**
+    - Description : +++**Contoso Human Resource**+++, then click on **Create**
       button.
 
 
     ![](./media/image30.png)
 
 
-1.  Click on **Title -\Column settings -\Rename** columnt to
-    **Emp_id**.
+1.  Click on **Title --> Column settings --> Rename** columnt to
+    +++**Emp_id**+++.
 
 
     ![](./media/image31.png)
@@ -263,33 +263,33 @@ documents.
 
 ## Task 1: Customize Employee form with PowerApps for HRs to fill.
 
-1.  From your **SharePoint-\Employee onboarding**, copy URL and save
+1.  From your **SharePoint --> Employee onboarding**, copy URL and save
     it in Notepad.
 
 
     ![](./media/image34.png)
 
 
-2.  Open a new tab and go to **<https://make.powerapps.com/>.** Sign in
+2.  Open a new tab and go to +++**https://make.powerapps.com/**+++ Sign in
     with your office 365 admin tenant and select your **Dev One**
     (Developer) environment.
 
     > **Note**: For your tenant, the name of the environment can be
 different. Make sure that the environment that you have selected is a
-**developer** environment)
+**developer** environment.
 
-3.  Click on **Apps** from left navigation menu. Select **New App- \>
+3.  Click on **Apps** from left navigation menu. Select **New App -->
     Start with a page design.**
 
 
 
     ![](./media/image35.png)
 
-4.  Select **Blank Canvas** tile**.**
+4.  Select **Blank Canvas** tile.
 
     ![](./media/image36.png)
 
-5.  Right click on Screen1 and select **Rename.**
+5.  Right click on **Screen1** and select **Rename.**
 
     ![](./media/image37.png)
 
@@ -300,7 +300,7 @@ different. Make sure that the environment that you have selected is a
     ![](./media/image38.png)
 
 
-7.  Select the form and click on **Insert-\Edit form.**
+7.  Select the form and click on **Insert --> Edit form.**
 
 
     ![](./media/image39.png)
@@ -308,7 +308,7 @@ different. Make sure that the environment that you have selected is a
 
 
 8.  Search for **SharePoint** and select **SharePoint connector** from
-    **Select a data source** dropdown**.**
+    **Select a data source** dropdown.
 
 
     ![](./media/image40.png)
@@ -339,14 +339,14 @@ different. Make sure that the environment that you have selected is a
     ![](./media/image44.png)
 
 
-13. Drag the Form1 container little down and click on **Insert- \>
+13. Drag the Form1 container little down and click on **Insert -->
     Rectangle** to insert header to the form.
 
    
     ![](./media/image45.png)
 
 
-14. Adjust the rectangle to the container width. Click on **Insert- \>
+14. Adjust the rectangle to the container width. Click on **Insert -->
     Text label**.
 
 
@@ -389,7 +389,7 @@ different. Make sure that the environment that you have selected is a
 
 1.  Repeat above two steps for **First Name** and **Last_Name**
 
-    > Note: If you don’t see field then select the container- \properties-\>
+    > Note: If you don’t see field then select the container -> properties ->
 Edit( fields) .add field and re-order.
 
 
@@ -397,7 +397,7 @@ Edit( fields) .add field and re-order.
 
 
 20. Select the Rectangular form/FormScreen1 and then click on **Insert
-    -\Button**.
+    --> Button**.
 
 
 
@@ -413,7 +413,7 @@ Edit( fields) .add field and re-order.
 
 
 
-22. Click on **New Screen** and select **Success** template**.**
+22. Click on **New Screen** and select **Success** template.
 
 
     ![](./media/image53.png)
@@ -433,7 +433,7 @@ Edit( fields) .add field and re-order.
     ![](./media/image55.png)
 
 
-25. Now, Click on **Insert -\Icons-\Back arrow.**
+25. Now, Click on **Insert --> Icons --> Back arrow.**
 
 
     ![](./media/image56.png)
@@ -441,9 +441,9 @@ Edit( fields) .add field and re-order.
 
 26. Select Back Arrow and set below properties.
 
-- Tool Tip**: Go Back**
+- Tool Tip: **Go Back**
 
-- OnSelect**: Back(ScreenTransition.CoverRight)**
+- OnSelect: +++**Back(ScreenTransition.CoverRight)**+++
 
 
     ![](./media/image57.png)
@@ -454,7 +454,7 @@ Edit( fields) .add field and re-order.
 
     > **Note:** Update the formula with your SharePoint Form.
 
-    SubmitForm(*Form1*);ResetForm(*Form1*);Navigate(*Success*)
+    +++**SubmitForm(*Form1*);ResetForm(*Form1*);Navigate(*Success*)**+++
 
 
     ![](./media/image58.png)
@@ -463,14 +463,14 @@ Edit( fields) .add field and re-order.
 28. Select **Form1,** select **OnSuccess** and replace the formula with
     below formula.
 
-    ResetForm(Self); RequestHide();Notify("New Employee
-    added",NotificationType.Success)
+    +++**ResetForm(Self); RequestHide();Notify("New Employee
+    added",NotificationType.Success)**+++
 
 
     ![](./media/image59.png)
 
 
-29. Click on **Save \Save as** button and enter the name as
+29. Click on **Save --> Save as** button and enter the name as
     **EmpformforHr** and then click on **Save**.
 
 
@@ -485,7 +485,7 @@ Edit( fields) .add field and re-order.
 
 
 31. Enter random **Emp id, First Name** and **Last Name** and then click
-    on **Submit** button**.**
+    on **Submit** button.
 
 
     ![](./media/image62.png)
@@ -517,23 +517,23 @@ Edit( fields) .add field and re-order.
     ![](./media/image34.png)
 
 
-2.  Open a new tab and go to <https://make.powerapps.com/>**.** Sign in
+2.  Open a new tab and go to +++**https://make.powerapps.com/**+++. Sign in
     with your office 365 admin tenant and select your **developer
     environment**.
 
-3.  Click on **Apps** from left navigation menu. Select **New App- \>
+3.  Click on **Apps** from left navigation menu. Select **New App ->
     Start with a page design.**
 
 
     ![](./media/image35.png)
 
-4.  Select **Blank Canvas** tile**.**
+4.  Select **Blank Canvas** tile.
 
 
     ![](./media/image36.png)
 
 
-5.  Right click on Screen1 and select **Rename.**
+5.  Right click on **Screen1** and select **Rename.**
 
 
     ![](./media/image37.png)
@@ -547,14 +547,14 @@ Edit( fields) .add field and re-order.
 
 
 
-7.  Click on **Insert** and select **Edit** form**.**
+7.  Click on **Insert** and select **Edit** form.
 
 
     ![](./media/image66.png)
 
 
 8.  Search for **SharePoint** and select **SharePoint connector** from
-    **Select a data source** dropdown**.**
+    **Select a data source** dropdown.
 
 
     ![](./media/image40.png)
@@ -569,7 +569,7 @@ Edit( fields) .add field and re-order.
 10. Enter the **SharePoint list URL** copied form step 1 into Enter
     SharePoint URL text field and then click on **Connect**.
 
-11. Under **Choose a list**- \select **Employee Onboarding** list and
+11. Under **Choose a list** --> select **Employee Onboarding** list and
     then click on **Next.**
 
 
@@ -594,7 +594,7 @@ Edit( fields) .add field and re-order.
     ![](./media/image69.png)
 
 
-15. Drag the Form1 container little down and click on **Insert- \>
+15. Drag the Form1 container little down and click on **Insert ->
     Rectangle** to insert header to the form.
 
 
@@ -602,7 +602,7 @@ Edit( fields) .add field and re-order.
 
 
 16. Change the width of the rectangle to the container and select
-    **Insert -\Text label**.
+    **Insert --> Text label**.
 
 
     ![](./media/image71.png)
@@ -660,7 +660,7 @@ Edit( fields) .add field and re-order.
 23. Select **Orientation Location data card** and select **Visible** and
     place below formula as shown in below image.
 
-    If(*Orientationdropdown*.Selected.Value="No",true,false)
+    +++**If(*Orientationdropdown*.Selected.Value="No",true,false)**+++
 
 
     ![](./media/image78.png)
@@ -676,7 +676,7 @@ Edit( fields) .add field and re-order.
 25. **Emp_id**, **First Name**, **Last Name** and **Manager** will be
     filled by HR, so change the display mode to **View**.
 
-26. Select the field and click **on Advanced-\Unlock to change
+26. Select the field and click **on Advanced --> Unlock to change
     properties** and update **Display mode** to
     **Parent.DisplayMode.View**
 
@@ -699,7 +699,7 @@ Edit( fields) .add field and re-order.
     ![](./media/image84.png)
 
 
-27. Select the **Work email** Field -\**Unlock property** and update
+27. Select the **Work email** Field **Unlock property** and update
     **Required** property to **true.** Repeat for other fields if
     required.
 
@@ -709,7 +709,7 @@ Edit( fields) .add field and re-order.
 
 28. Select the **Form1** and update **OnFailed** field value to
 
-    Notify("Required Fields can't be empty.",NotificationType.Error)
+    +++**Notify("Required Fields can't be empty.",NotificationType.Error)**+++
 
 
     ![](./media/image86.png)
@@ -717,14 +717,14 @@ Edit( fields) .add field and re-order.
 
 29. Select **OnSuccess** and set the value to
 
-    Notify("Thank you for filling out the form",NotificationType.Success)
+    +++**Notify("Thank you for filling out the form",NotificationType.Success)**+++
 
 
     ![](./media/image87.png)
 
 
 30. Now, Let’s add button to submit at the end of the form. Click on
-    **Inset- \Button.**
+    **Inset --> Button.**
 
 
     ![](./media/image88.png)
@@ -732,9 +732,9 @@ Edit( fields) .add field and re-order.
 
 31. Change the Properties of the button and save the form.
 
-    - Text -\**Submit.**
+    - Text: **Submit.**
 
-    - Onselect: **SubmitForm(*Form1*);NewForm(*Form1*)**
+    - Onselect: +++**SubmitForm(*Form1*);NewForm(*Form1*)**+++
 
 
     ![](./media/image89.png)
@@ -765,17 +765,17 @@ Edit( fields) .add field and re-order.
 
     ```
     Set(
-    >
+    
         onboardinglistitem,
-    >
+    
         LookUp(
-    >
+    
             'Employee Onboarding',
-    >
+    
             ID = Value(Param("ItemID"))
-    >
+    
         )
-    >
+    
     )
     ```
 
@@ -790,14 +790,14 @@ Edit( fields) .add field and re-order.
     ![](./media/image94.png)
 
 
-38. Click on **Save** and **Publish -\Publish this version**.
+38. Click on **Save** and **Publish --> Publish this version**.
 
 
     ![](./media/image95.png)
 
 
-39. Go back to the **Power Apps Home** page, Click on **Apps-\Your
-    app-\Details**.
+39. Go back to the **Power Apps Home** page, Click on **Apps --> Your
+    app --> Details**.
 
 
     ![](./media/image96.png)
@@ -825,12 +825,12 @@ Edit( fields) .add field and re-order.
 
 
 2.  Open a new tab and go to https:\\flow.microsoft.com and sign in with
-    your admin tenant account**.**
+    your admin tenant account.
 
 3.  Select your **developer environment**.
 
-4.  Click on **Flows** from left navigation menu**.** Click on **New
-    Flow-\Automated Cloud flow.**
+4.  Click on **Flows** from left navigation menu Click on **New
+    Flow --> Automated Cloud flow.**
 
 
     ![](./media/image100.png)
@@ -844,7 +844,7 @@ Edit( fields) .add field and re-order.
     ![](./media/image101.png)
 
 
-6.  Select the action. Click on **Site Address -\Enter custom value.**
+6.  Select the action. Click on **Site Address --> Enter custom value.**
 
 
     ![](./media/image102.png)
@@ -857,7 +857,7 @@ Edit( fields) .add field and re-order.
     ![](./media/image103.png)
 
 
-8.  Click on + to add new action.
+8.  Click on **+** to add new action.
 
 
     ![](./media/image104.png)
@@ -892,17 +892,12 @@ Edit( fields) .add field and re-order.
 13. Enter below data in Body of the email. Insert dynamic values as
     shown in image.
 
-Hi first name Lastname,
+    Hi first name Lastname,
 
-Please click on link below to complete your onboarding form.
-
-    <img src="./media/image109.png" style="width:6.49167in;height:3.81667in"
-alt="A screenshot of a computer Description automatically generated" />
+    Please click on link below to complete your onboarding form.
 
     ![](./media/image109.png)
 
-    <img src="./media/image110.png" style="width:6.43389in;height:3.867in"
-alt="A screenshot of a computer Description automatically generated" />
 
     ![](./media/image110.png)
 
@@ -972,7 +967,7 @@ alt="A screenshot of a computer Description automatically generated" />
     ![](./media/image121.png)
 
 
-5.  Open a new tab and go to https:\\outlook.com and sign in with your
+5.  Open a new tab and go to +++**https:\\outlook.com**+++ and sign in with your
     Office 365 tenant account and check inbox. Click on the **Onboarding
     Form** link in the email generated from HR.
 
