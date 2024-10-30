@@ -238,56 +238,54 @@ sure to select your developer environment.
 
 11.  Click on **Save and exit -\Save and exit**.
 
-    ![](./media/image34.png)
+        ![](./media/image34.png)
 
 12.  You will navigate back to the Power Apps app page. Select the newly
     added screen and click on Insert and select **Edit form** as shown
     in below image.
 
-    ![](./media/image35.png)
+        ![](./media/image35.png)
 
 
 13.  Click the container and select the data source table as **Candy
     Qualities table**.
 
-    ![](./media/image36.png)
+        ![](./media/image36.png)
 
 14.  You should see the form like below image.
 
-    ![](./media/image37.png)
+        ![](./media/image37.png)
 
 
 15.  Adjust the table to the middle of the page. Click on **Insert-\>
     Text label.**
 
-    ![](./media/image38.png)
+        ![](./media/image38.png)
 
 
 16.  Adjust the text label and enter the text as: **Candy Quality check**
     and update the styles of text.
 
-    ![](./media/image39.png)
+        ![](./media/image39.png)
 
 
 17.  Select the **Form**. Click on **Insert** and select **Button**.
 
-    ![](./media/image40.png)
+        ![](./media/image40.png)
 
 
 18.  Drag the submit button and place it in the middle of the container.
     Select the button and change the **properties** text to **Submit**
     as shown in below image.
 
-    ![](./media/image41.png)
+        ![](./media/image41.png)
 
 19.  Select the **Submit** button and select **OnSelect** function and
     enter below function.
 
-    > **Note**: Form4 in the formula should be replaced with your form name
+    > **Note**: Form4 in the formula should be replaced with your form name SubmitForm(*Form4*);NewForm(*Form4*)    
 
-    SubmitForm(*Form4*);NewForm(*Form4*)    
-
-    ![](./media/image42.png)
+![](./media/image42.png)
 
 
 20. Select the container, under properties, select **Default** mode to
