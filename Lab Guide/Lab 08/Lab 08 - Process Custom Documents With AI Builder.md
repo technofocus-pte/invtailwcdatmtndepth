@@ -20,30 +20,30 @@ Power Automate and Power Apps.
     .Click on the **Sign in** button from the top right corner. Sign in
     to Power Automate using Microsoft 365 tenant credentials.
 
-    <img src="./media/image1.png"
-style="width:6.26806in;height:2.82778in" />
+    ![](./media/image1.png)
+
 
 2.  Select the environment **Dev one** from the top bar.
 
-    <img src="./media/image2.png"
-style="width:6.26806in;height:2.87569in" />
+    ![](./media/image2.png)
+
 
 3.  Navigate to the left pane and select **AI Hub**, then click on **AI
     Models.** If you don't see AI Hub, click on **More** to locate it.
 
-    <img src="./media/image3.png"
-style="width:6.26042in;height:2.85417in" />
+    ![](./media/image3.png)
+
 
 4.  Choose **Extract custom information from documents** option.
 
-    <img src="./media/image4.png"
-style="width:6.26042in;height:2.64583in" />
+    ![](./media/image4.png)
+
 
 
 5.  Scroll Down and click on **Create custom model** to proceed.
 
-    <img src="./media/image5.png"
-style="width:6.26806in;height:3.18611in" />
+    ![](./media/image5.png)
+
 
 ### Task 2: Choose document type
 
@@ -67,8 +67,8 @@ style="width:6.26806in;height:3.18611in" />
 
 2.  Select Fixed template documents and click **Next**.
 
-    <img src="./media/image6.png"
-style="width:6.26806in;height:2.64931in" />
+    ![](./media/image6.png)
+
 
 ### Task 3: Choose information to extract
 
@@ -81,56 +81,55 @@ Define the fields and tables you want your model to extract. We'll extract the f
 
 1.  Click **+** **Add** and select Text field, then click **Next**.
 
-    <img src="./media/image7.png"
-style="width:6.26806in;height:2.85556in" />
+    ![](./media/image7.png)
 
-    <img src="./media/image8.png"
-style="width:6.26806in;height:3.40556in" />
+
+    ![](./media/image8.png)
+
 
 2.  Enter the text field name as **Invoice Number** and select **Done**.
     Repeat this step for **Customer** **ID**.
 
-    <img src="./media/image9.png"
-style="width:4.14167in;height:2.52778in" />
+    ![](./media/image9.png)
+
 
 3.  Click **+ Add** and select **Number field** (preview), then click
     Next.
 
-    <img src="./media/image10.png"
-style="width:6.26806in;height:2.26111in" />
+    ![](./media/image10.png)
 
-    <img src="./media/image11.png"
-style="width:6.26806in;height:2.47014in" />
+
+    ![](./media/image11.png)
+
 
 4.  Enter the number field name as **Total amount** and select **Done**.
 
-    <img src="./media/image12.png"
-style="width:6.26042in;height:2.5625in" />
+    ![](./media/image12.png)
 
 5.  Click **+ Add** and select Date field (preview).
 
-    <img src="./media/image13.png"
-style="width:6.26806in;height:2.41875in" />
+    ![](./media/image13.png)
 
-    <img src="./media/image14.png"
-style="width:6.26806in;height:2.48611in" />
+
+    ![](./media/image14.png)
+
 
 6.  Enter the date field name as **Due Date** and select **Done**.
 
-    <img src="./media/image15.png"
-style="width:4.06702in;height:4.21703in" />
+    ![](./media/image15.png)
+
 
 7.  To extract line-item details from the invoice, create a table named
     Items with columns Description and Item total Click **+ Add** and
     select Date field (preview).
 
-    <img src="./media/image16.png"
-style="width:6.26806in;height:2.48889in" />
+    ![](./media/image16.png)
+
 
 8.  Select Add and then **Table**, and click **Next**.
 
-    <img src="./media/image17.png"
-style="width:6.26806in;height:2.96181in" />
+    ![](./media/image17.png)
+
 
 9.  Define the table name as **Items**. **Next, add two columns:
     Description and Item total**.
@@ -140,13 +139,13 @@ style="width:6.26806in;height:2.96181in" />
 11. Click **+ New column**, enter the column name as Item total, then
     select Add. Finally, click **Done**.
 
-    <img src="./media/image18.png"
-style="width:6.26806in;height:2.95208in" />
+    ![](./media/image18.png)
+
 
 12. Click **Next** to proceed to the next step in your model.
 
-    <img src="./media/image19.png"
-style="width:6.26806in;height:2.63056in" />
+    ![](./media/image19.png)
+
 
 ### Task 4: Define collections and upload documents
 
@@ -160,50 +159,50 @@ different templates, we'll create two collections.
 
 2.  Add another **New collection** and name it **Contoso**.
 
-    <img src="./media/image20.png"
-style="width:6.26806in;height:2.65486in" />
+    ![](./media/image20.png)
+
 
 3.  Click on the Adatum and then click on the Add document. Then select
     My device, For **Adatum**, upload the five documents which is available in **C:\Lab Files\AI Builder Document Processing
     Sample Data\Invoices\Adatum\Train** folder.
 
-    <img src="./media/image21.png"
-style="width:6.26806in;height:2.66944in" />
+    ![](./media/image21.png)
 
-    <img src="./media/image22.png"
-style="width:6.26806in;height:2.71528in" />
+
+    ![](./media/image22.png)
+
 
 4.  Click on the **Upload 5 document** and then click on **Done**.
 
-    <img src="./media/image23.png"
-style="width:6.26806in;height:3.69931in" />
+    ![](./media/image23.png)
 
-    <img src="./media/image24.png"
-style="width:6.26806in;height:4.16111in" />
+
+    ![](./media/image24.png)
+
 
 5.  Click on the Contoso and then click on the Add document. Then select
     My device, For **Contoso**, upload the five documents from the **C:\Lab Files\AI
     Builder Document Processing Sample Data/Contoso /Train** folder.
 
-    <img src="./media/image25.png"
-style="width:6.26806in;height:2.64236in" />
+    ![](./media/image25.png)
 
-    <img src="./media/image26.png"
-style="width:6.26806in;height:2.62917in" />
+
+    ![](./media/image26.png)
+
 
 6.  Click on the **Upload 5 document** and then click on **Done**.
 
-    <img src="./media/image27.png"
-style="width:6.26806in;height:3.69861in" />
+    ![](./media/image27.png)
 
-    <img src="./media/image28.png"
-style="width:6.26806in;height:4.13958in" />
+
+    ![](./media/image28.png)
+
 
 7.  After uploading the sample documents to each collection, select
     **Next** to continue.
 
-    <img src="./media/image29.png"
-style="width:6.26806in;height:2.64861in" />
+    ![](./media/image29.png)
+
 
 ### Task 5: Tag documents
 
@@ -215,8 +214,8 @@ red dot at the top corner will disappear.
 1.  Select the **Contoso** collection from the right panel to begin
     tagging.
 
-    <img src="./media/image30.png"
-style="width:6.26806in;height:2.64028in" />
+    ![](./media/image30.png)
+
 
 2.  **Tag Fields:**
 
@@ -229,14 +228,14 @@ style="width:6.26806in;height:2.64028in" />
 - Resize your selection if needed. Hovering over words will show light
   blue boxes, indicating where you can draw rectangles.
 
-    <img src="./media/image31.png"
-style="width:6.26806in;height:2.66111in" />
+    ![](./media/image31.png)
 
-    <img src="./media/image32.png"
-style="width:6.26806in;height:2.61181in" />
 
-    <img src="./media/image33.png"
-style="width:6.26806in;height:2.65069in" />
+    ![](./media/image32.png)
+
+
+    ![](./media/image33.png)
+
 
 3.  Field or Table Not in Document:
 
@@ -244,8 +243,8 @@ style="width:6.26806in;height:2.65069in" />
   collection, select the ellipsis **(…)** next to the field on the right
   panel and choose **Not available in the document**.
 
-    <img src="./media/image34.png"
-style="width:6.26806in;height:2.64583in" />
+    ![](./media/image34.png)
+
 
 4.  Tag Tables:
 
@@ -262,25 +261,25 @@ style="width:6.26806in;height:2.64583in" />
     - If you've tagged the table's header, select Ignore first row to
       prevent it from being extracted as content.
 
-    <img src="./media/image35.png"
-style="width:6.26806in;height:2.62778in" />
+    ![](./media/image35.png)
 
-    <img src="./media/image36.png" style="width:6.26806in;height:2.65in" />
 
-    <img src="./media/image37.png"
-style="width:6.26806in;height:2.66528in" />
+    ![](./media/image36.png)
+
+    ![](./media/image37.png)
+
 
 1.  Tag all five documents with same process. Once you've tagged a
     document, move to the next one using the navigation arrows at the
     top right of the document preview.
 
-    <img src="./media/image38.png"
-style="width:6.26806in;height:2.63611in" />
+    ![](./media/image38.png)
+
 
 1.  Now select the **Adatum** Collection.
 
-    <img src="./media/image39.png"
-style="width:6.26806in;height:2.63542in" />
+    ![](./media/image39.png)
+
 
 1.  **Tag Fields:**
 
@@ -293,20 +292,20 @@ style="width:6.26806in;height:2.63542in" />
     - Resize your selection if needed. Hovering over words will show light
       blue boxes, indicating where you can draw rectangles.
 
-    <img src="./media/image40.png"
-style="width:6.26806in;height:2.65208in" />
+    ![](./media/image40.png)
 
-    <img src="./media/image41.png"
-style="width:6.26806in;height:2.64097in" />
 
-    <img src="./media/image42.png"
-style="width:6.26806in;height:2.61597in" />
+    ![](./media/image41.png)
+
+
+    ![](./media/image42.png)
+
 
 1.  Go to **Due Date** option and select **Not available in
     collection.**
 
-    <img src="./media/image43.png"
-style="width:6.26806in;height:2.38125in" />
+    ![](./media/image43.png)
+
 
 1.  Tag Tables:
 
@@ -324,17 +323,17 @@ style="width:6.26806in;height:2.38125in" />
     - If you've tagged the table's header, select Ignore first row to
       prevent it from being extracted as content.
 
-    <img src="./media/image44.png"
-style="width:5.35081in;height:2.23672in" />
+    ![](./media/image44.png)
 
-    <img src="./media/image45.png"
-style="width:5.17529in;height:2.20119in" />
 
-    <img src="./media/image46.png"
-style="width:5.1437in;height:2.22879in" />
+    ![](./media/image45.png)
 
-    <img src="./media/image47.png"
-style="width:5.37027in;height:2.25199in" />
+
+    ![](./media/image46.png)
+
+
+    ![](./media/image47.png)
+
 
 1.  Tag all five documents with same process. Once you've tagged a
     document, move to the next one using the navigation arrows at the
@@ -344,8 +343,8 @@ style="width:5.37027in;height:2.25199in" />
 
 1.  Select the **Next** button at the bottom of the screen.
 
-    <img src="./media/image48.png"
-style="width:6.26806in;height:2.69028in" />
+    ![](./media/image48.png)
+
 
 2.  Review the **Model summary**. Under Information to extract you'll
     see that Customer ID and Due Date only appeared in five examples out
@@ -353,8 +352,8 @@ style="width:6.26806in;height:2.69028in" />
 
 3.  If everything looks acceptable, select **Train**.
 
-    <img src="./media/image49.png"
-style="width:6.26806in;height:2.56042in" />
+    ![](./media/image49.png)
+
 
 ## Exercise 2: Use your model
 
@@ -363,13 +362,13 @@ style="width:6.26806in;height:2.56042in" />
 1.  After your model completes training, you can view important details
     about your newly trained model on a details page.
 
-    <img src="./media/image50.png"
-style="width:6.26806in;height:2.88819in" />
+    ![](./media/image50.png)
+
 
 2.  To see your model in action, select **Quick test**.
 
-    <img src="./media/image51.png"
-style="width:6.26806in;height:3.42222in" />
+    ![](./media/image51.png)
+
 
 3.  Drag and drop or upload an image from your device to test. From the
     previous sample data, use the files from the Test folders that we
@@ -381,16 +380,16 @@ style="width:6.26806in;height:3.42222in" />
     associated confidence scores for retrieving the individual fields
     compared to the trained model.
 
-    <img src="./media/image52.png"
-style="width:6.26806in;height:3.75417in" />
+    ![](./media/image52.png)
+
 
 ### Task 2: Publish your model
 
 1.  Your model can't be used until you publish it. If you're satisfied
     with your model, select **Publish** to make it available for use.
 
-    <img src="./media/image53.png"
-style="width:6.26806in;height:3.02431in" />
+    ![](./media/image53.png)
+
 
 ### Task 3: Use your model in Power Automate
 
@@ -401,17 +400,17 @@ and other sources, and output the processed data.
 
 1.  Select **Use model**.
 
-    <img src="./media/image54.png"
-style="width:6.26806in;height:2.78819in" />
+    ![](./media/image54.png)
+
 
 2.  Select **Build intelligent automations** and select one of the
     triggers proposed. For this module, we use the **Microsoft 365
     Outlook work account**.
 
-    <img src="./media/image55.png"
-style="width:6.26806in;height:2.99861in" />
+    ![](./media/image55.png)
 
-    <img src="./media/image56.png" style="width:6.26806in;height:3in" />
+
+    ![](./media/image56.png)
 
 3.  Make sure that you're signed into the flow and then
     select **Continue** to confirm the creation of the flow.
@@ -420,22 +419,22 @@ style="width:6.26806in;height:2.99861in" />
 an attachment and the email subject is AI Builder. Let's see it in
 action!
 
-    <img src="./media/image57.png" style="width:6.26806in;height:3.55in" />
+    ![](./media/image57.png)
 
 4.  Select **Save** on the top right to test the flow.
 
-    <img src="./media/image58.png"
-style="width:6.26806in;height:2.44167in" />
+    ![](./media/image58.png)
+
 
 5.  Select **Test**.
 
-    <img src="./media/image59.png"
-style="width:6.26806in;height:2.64931in" />
+    ![](./media/image59.png)
+
 
 6.  Select **Manually** and then select **Test**.
 
-    <img src="./media/image60.png"
-style="width:6.26806in;height:3.91667in" />
+    ![](./media/image60.png)
+
 
 7.  Now send yourself an email with the subject **AI Builder** and
     attach the document you used for quick test previously.
@@ -458,19 +457,19 @@ Document processing mode.
 1.  From the  <https://make.powerautomate.com/, select **AI Hub**, and
     select your model under Recently Created.
 
-    <img src="./media/image61.png"
-style="width:6.26806in;height:2.91806in" />
+    ![](./media/image61.png)
+
 
 2.  Select **Use model**.
 
-    <img src="./media/image62.png"
-style="width:6.26806in;height:2.94792in" />
+    ![](./media/image62.png)
+
 
 3.  Select **Build intelligent apps** to begin the canvas app creation
     experience.
 
-    <img src="./media/image63.png"
-style="width:6.26806in;height:2.93472in" />
+    ![](./media/image63.png)
+
 
 4.  Within your canvas app, a **Form processor component** is
     automatically added and linked to your published Document processing
@@ -482,9 +481,7 @@ component. Next, select the AI model property from the right-hand
 properties panel. A list of AI models appears to select. Only
 published models appear in the drop-down list.
 
-    <img src="./media/image64.png"
-style="width:6.26806in;height:3.42222in" />
-
+    ![](./media/image64.png)
 
 
 5.  Next, we select which field from the invoice to display.
@@ -496,8 +493,8 @@ style="width:6.26806in;height:3.42222in" />
     properties from the model as well. For this exercise, we choose
     Invoice Number. The result looks similar to this image.
 
-    <img src="./media/image65.png" style="width:6.26806in;height:0.22708in"
-alt="Screenshot of a field name in the Fields property in Power Apps." />
+    ![](./media/image65.png)
+
 
     > **Note:** Notice how 'Invoice Number' is in single quotes in the
 previous image. This is because when the Invoice Number column was
@@ -505,8 +502,8 @@ created, the column name was created with a space in between the
 words. If your columns weren't created with spaces, you don't need the
 single quotes and your code may look like this image instead.
 
-    <img src="./media/image66.png" style="width:6.26806in;height:0.30903in"
-alt="Screenshot of InvoiceNumber without spaces." />
+    ![](./media/image66.png)
+
 
 7.  Next, we add a gallery so we can see the data from the items of the
     invoice. Select **Insert** and then **Vertical Gallery**.
@@ -514,8 +511,8 @@ alt="Screenshot of InvoiceNumber without spaces." />
 8.  In the Items property of the gallery,
     write: FormProcessor1.Tables.Items
 
-    <img src="./media/image67.png"
-style="width:6.26806in;height:2.89514in" />
+    ![](./media/image67.png)
+
 
 9.  Select **Play** on the upper right of the Power Apps studio to
     preview the app.
@@ -523,14 +520,14 @@ style="width:6.26806in;height:2.89514in" />
 10. Select **Analyze** and then select the image that you used to quick
     test previously.
 
-    <img src="./media/image68.png"
-style="width:6.26806in;height:2.91806in" />
+    ![](./media/image68.png)
+
 
 11. A preview of your document shows the **Invoice Number** and the
     items from the invoice.
 
-    <img src="./media/image69.png"
-style="width:6.26806in;height:2.87778in" />
+    ![](./media/image69.png)
+
 
 ### Conclusion:
 
