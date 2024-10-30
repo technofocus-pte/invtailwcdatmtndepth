@@ -119,7 +119,7 @@ Define the fields and tables you want your model to extract. We'll extract the f
     ![](./media/image15.png)
 
 
-7.  To extract line-item details from the invoice, we will create a table named Items with columns Description and Item total. To do so, click **+ Add** and select **Date field**. 
+7.  To extract table details from the invoice, we will create a table named Items with columns Description and Item total. To do so, click **+ Add** and select **Table**. 
 
     ![](./media/image16.png)
 
