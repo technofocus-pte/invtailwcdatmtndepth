@@ -99,8 +99,8 @@ sure to select your developer environment.
 
     Add reorder point column to Candy table
 
-    <img src="./media/image12.png"
-style="width:6.49306in;height:2.82639in" />
+    ![](./media/image12.png)
+
 
 13. Add candyInStock column with type as Number. If Quantity is less
     than reorder points, then Quantity column will automate add with
