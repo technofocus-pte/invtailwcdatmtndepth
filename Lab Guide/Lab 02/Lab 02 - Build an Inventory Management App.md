@@ -13,14 +13,12 @@ automate inventory restocking workflows with Power Automate.
 ### Task 1: Verifying your Dataverse environment 
 
 1.  Open a browser and go to
-    <https://admin.powerplatform.microsoft.com>. Sign in with your work
-    /school/admin account.
+    +++**https://admin.powerplatform.microsoft.com**+++. Sign in with your office 365 admin account.
 
 2.  Select **Environments** on the left navigation. The **Developer
     environment** should have been created for you as shown in the image
     below. (This environment is created automatically as soon as you
-    provide Microsoft Power App for Developer license using your
-    work/school accounts. The name of the environment will be different
+    provide Microsoft Power App for Developer license using your admin accounts. The name of the environment will be different
     for every admin account.)
 
     ![](./media/image1.png)
@@ -34,8 +32,8 @@ sure to select your developer environment.
 
 ### Task 2: Create inventory management app using Copilot.
 
-1.  Open a browser and go to <https://apps.powerapps.comand sign in
-    with Work, School or admin tenant account.
+1.  Open a browser and go to +++**https://apps.powerapps.comand**+++ sign in
+    with office 365 admin tenant account.
 
 2.  Click on the environment on right top corner and select **your
     developer** environment (Dev one is a developer environment used in
@@ -45,7 +43,7 @@ sure to select your developer environment.
 
 3.  Enter the below prompt and click on **the Enter** button.
 
-    build a candy inventory management app
+    +++**build a candy inventory management app**+++
 
     ![](./media/image3.png)
 
@@ -57,7 +55,7 @@ sure to select your developer environment.
 5.  Enter below prompt and click on **Generate** to create table with
     the help of Copilot
 
-    **Candy Inventory management**
+    +++**Candy Inventory management**+++
 
     ![](./media/image5.png)
 
@@ -77,7 +75,7 @@ sure to select your developer environment.
     ![](./media/image8.png)
 
 
-9.  Click on **Supplier -\View data** and explore the data and then
+9.  Click on **Supplier --> View data** and explore the data and then
     close the view window.
 
     ![](./media/image9.png)
@@ -89,7 +87,7 @@ sure to select your developer environment.
     ![](./media/image10.png)
 
 
-11. Click on **Order -\View data**
+11. Click on **Order --> View data**
 
     ![](./media/image11.png)
 
@@ -97,7 +95,7 @@ sure to select your developer environment.
 12. Ener below prompt in the text box and click on Enter. This column is
     required to notify when the quantity went below the reorder point.
 
-    Add reorder point column to Candy table
+    +++**Add reorder point column to Candy table**+++
 
     ![](./media/image12.png)
 
@@ -106,7 +104,7 @@ sure to select your developer environment.
     than reorder points, then Quantity column will automate add with
     candyInStock.
 
-    Add **candyInStock** column to Candy table with sample stock count
+    +++**Add **candyInStock** column to Candy table with sample stock count**+++
 
     ![](./media/image13.png)
 
@@ -164,12 +162,12 @@ sure to select your developer environment.
 
     ![](./media/image24.png)
 
-2.  Select the new screen and right click -\**rename**
+2.  Select the new screen and right click **Rename**
 
     ![](./media/image25.png)
 
 
-3.  Name the screen as **Candy quality screen**
+3.  Name the screen as +++**Candy quality screen**+++
 
     ![](./media/image26.png)
 
@@ -179,12 +177,12 @@ sure to select your developer environment.
      ![](./media/image27.png)
 
 
-5.  Click on **New table -\Add columns and data.**
+5.  Click on **New table --> Add columns and data.**
 
     ![](./media/image28.png)
 
 
-6.  Click on **New column-\Edit column.**
+6.  Click on **New column -> Edit column.**
 
     ![](./media/image29.png)
 
@@ -201,7 +199,7 @@ sure to select your developer environment.
     - **Display Name:** Candy Name
     - **Data Type:** Choice
     - **Required:** Yes.
-    - **Choices:**add below choices
+    - **Choices:** add below choices
 
         - Chocolate Bar
 
@@ -222,7 +220,7 @@ sure to select your developer environment.
     - **Display Name:** Candy Quality
     - **Data type:** Choice
     - **Required:** Yes
-    - **Choice –** labels
+    - **Choice:** labels
       - Defective
       - Nondefective
 
@@ -231,12 +229,12 @@ sure to select your developer environment.
 
     > **Note:** You can add more columns as per your app requirements.
 
-10.  Edit the table name and update with **Candy Quality**check. 
+10.  Edit the table name and update with +++**Candy Quality check**+++. 
 
         ![](./media/image33.png)
 
 
-11.  Click on **Save and exit -\Save and exit**.
+11.  Click on **Save and exit -> Save and exit**.
 
         ![](./media/image34.png)
 
@@ -247,8 +245,8 @@ sure to select your developer environment.
         ![](./media/image35.png)
 
 
-13.  Click the container and select the data source table as **Candy
-    Qualities table**.
+13.  Click the container and select the data source table as +++**Candy
+    Qualities table**+++.
 
         ![](./media/image36.png)
 
@@ -263,7 +261,7 @@ sure to select your developer environment.
         ![](./media/image38.png)
 
 
-16.  Adjust the text label and enter the text as: **Candy Quality check**
+16.  Adjust the text label and enter the text as: +++**Candy Quality check**+++
     and update the styles of text.
 
         ![](./media/image39.png)
@@ -283,9 +281,9 @@ sure to select your developer environment.
 19.  Select the **Submit** button and select **OnSelect** function and
     enter below function.
 
-    Note: Form4 in the formula should be replaced with your form name SubmitForm(Form4);NewForm(Form4)    
+        > Note: Form4 in the formula should be replaced with your form name SubmitForm(Form4);NewForm(Form4)    
 
-![](./media/image42.png)
+        ![](./media/image42.png)
 
 
 20. Select the container, under properties, select **Default** mode to
@@ -322,8 +320,8 @@ sure to select your developer environment.
     ![](./media/image47.png)
 
 
-2.  Enter the flow name as: **Candy Restock Flow**. Search for **When a
-    row** is and select Dataverse’s **When a row is added or modified**
+2.  Enter the flow name as: +++**Candy Restock Flow**+++. Search for +++**When a
+    row**+++ is and select Dataverse’s **When a row is added or modified**
     action and then click on **Create**.
 
     ![](./media/image48.png)
@@ -354,7 +352,7 @@ sure to select your developer environment.
      ![](./media/image52.png)
 
 
-7.  Search for **Quantity** column and select it.
+7.  Search for +++**Quantity**+++ column and select it.
 
     ![](./media/image53.png)
 
@@ -397,22 +395,23 @@ sure to select your developer environment.
         ![](./media/image60.png)
 
 15.  Enter below details.
-    ```
-    Assigned to: Your work email id.
-    
-    Details:
-    
-    Hi Sir,  
-    
-    is out of stock - for customers to place an order. Please approve to
-    restock.  
-    
-    Thanks
-    ```
+   
+        ```
+        Assigned to: Your work email id.
+        
+        Details:
+        
+        Hi Sir,  
+        
+        is out of stock - for customers to place an order. Please approve to
+        restock.  
+        
+        Thanks
+        ```
 
-> Note: You can customize the details section as per your requirements.
+        > Note: You can customize the details section as per your requirements.
 
-![](./media/image61.png)
+        ![](./media/image61.png)
 
 
 16. **Add an action** after **approval** action.
@@ -511,8 +510,7 @@ name
     ![](./media/image77.png)
 
 
-6.  Open a new tab and go to https://outlook.com and sign in with your
-    work/admin account. You should have got an email to restock.
+6.  Open a new tab and go to +++**https://outlook.com**+++ and sign in with your office 365 admin account. You should have got an email to restock.
     **Approve** and **submit**.
 
     ![](./media/image78.png)
