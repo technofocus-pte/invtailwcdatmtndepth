@@ -19,7 +19,7 @@
 
 
 3.  Enter your **Office 365 admin credential**, check the checkbox to
-    **accept the agreement** and click on **Start your free trial**.
+    **accept the agreement** and click on **Start Free**.
 
 
     ![](./media/image3.png)
