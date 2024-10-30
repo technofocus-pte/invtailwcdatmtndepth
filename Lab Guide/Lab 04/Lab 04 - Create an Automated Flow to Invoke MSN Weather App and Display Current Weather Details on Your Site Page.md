@@ -40,7 +40,7 @@ respond to user input.
     ![](./media/image6.png)
 
     
-8.  Enter the site name as **contoso** in the respected field and click
+7.  Enter the site name as **contoso** in the respected field and click
     on **Done** button to create the website.
 
     ![](./media/image7.png)
