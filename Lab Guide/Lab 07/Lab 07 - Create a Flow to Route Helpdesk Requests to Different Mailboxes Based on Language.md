@@ -17,15 +17,15 @@ streamline communication workflows within the organization.
 2.  Type **Summarize emails using GPT** in the search box at the top and
     select the flow when it appears.
 
-    <img src="./media/image1.png"
-style="width:6.26042in;height:2.80208in" />
+    ![](./media/image1.png)
+
 
 3.  Next, the template shows you which connections will be used in this
     flow. If they don't have a green check mark next to them, fix the
     connection by selecting 'Sign in' next to the connection and then select **Continue**.
 
-    <img src="./media/image2.png"
-style="width:6.26806in;height:2.85139in" />
+    ![](./media/image2.png)
+
 
 4.  Select the trigger, **when a new email arrives (V3).** The
     properties panel will open from the left with a note to update the
@@ -34,8 +34,8 @@ style="width:6.26806in;height:2.85139in" />
 
 5.  Update the subject filter to **Project Kick-off**.
 
-    <img src="./media/image3.png"
-style="width:6.26806in;height:3.16111in" />
+    ![](./media/image3.png)
+
 
 6.  Select the **Create text with a GPT using a prompt** action for the
     properties panel to open on the left. In the properties panel, the
@@ -43,8 +43,8 @@ style="width:6.26806in;height:3.16111in" />
 
 7.  Select **Test prompt** to open the Prompt settings.
 
-    <img src="./media/image4.png"
-style="width:6.26806in;height:3.73542in" />
+    ![](./media/image4.png)
+
 
 8.  The template has a predefined prompt that the GPT will use, but you
     can update and test a new prompt in this window. Follow the next step to update prompt.
@@ -52,10 +52,10 @@ style="width:6.26806in;height:3.73542in" />
 9.  To test a prompt, enter given sample data in the **Input** section. Then
     select **Test prompt** at the bottom of the Prompt section. You can see the response under Prompt response section.
 
-    +++Once upon a time in the quaint town of Eldoria, nestled between rolling hills and dense forests, lived a young girl named Elara. Her days were spent exploring the         mystical woods that bordered the town, and whispers of ancient tales filled her imagination.+++
+    +++Once upon a time in the quaint town of Eldoria, nestled between rolling hills and dense forests, lived a young girl named Elara. Her days were spent exploring the mystical woods that bordered the town, and whispers of ancient tales filled her imagination.+++
 
-    <img src="./media/image5.png"
-style="width:5.70833in;height:3.15625in" />
+    ![](./media/image5.png)
+
 
 11. For this exercise, we'll leave everything as it was when we opened
     the Prompt Settings.
@@ -63,8 +63,8 @@ style="width:5.70833in;height:3.15625in" />
 12.  **Save** the flow in the top right-hand corner. Now we can run the
     flow.
 
-      <img src="./media/image11.1.png"
-style="width:5.70833in;height:3.15625in" />
+    ![](./media/image11.1.png)
+
 
     **Note:** Ignore if you see the given warning: The 'Create text with GPT using a prompt' action doesn't have a content approval action after it.
 
@@ -97,8 +97,8 @@ style="width:5.70833in;height:3.15625in" />
     the bottom right-hand corner, you can find a link to go to your
     flow.
 
-    <img src="./media/image2.2.png"
-style="width:6.26806in;height:1.71458in" />
+    ![](./media/image2.2.png)
+
 
 4. This unit uses a GPT to summarize incoming emails. AI detection
     information can be inaccurate. Always make sure to verify the
