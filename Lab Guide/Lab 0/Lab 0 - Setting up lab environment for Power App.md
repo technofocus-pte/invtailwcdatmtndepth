@@ -75,22 +75,22 @@ alt="A screenshot of a computer Description automatically generated" />
 
 2.  On Welcome to Teams window, select \*\***Get Started\*\***.
 
-    <img src="./media/image1.png" style="width:4.3026in;height:5.41834in" />
+    <img src="./media/image10.png" style="width:4.3026in;height:5.41834in" />
 
 3.  Close the window which is asking for scanning QR code.
 
-    <img src="./media/image2.png" style="width:5.55001in;height:4.24315in"
+    <img src="./media/image10.png" style="width:5.55001in;height:4.24315in"
 alt="A qr code on a white background Description automatically generated" />
 
 4.  On the left side of Teams, click \*\***Teams\*\***, click \*\*+
     sign\*\* to  **Join or create a team**.
 
-    <img src="./media/image3.png" style="width:6.5in;height:3.65712in"
+    <img src="./media/image11.png" style="width:6.5in;height:3.65712in"
 alt="A screenshot of a computer Description automatically generated" />
 
 5.  Click on \*\*Create team\*\*.
 
-    <img src="./media/image4.png" style="width:4.8861in;height:4.64648in"
+    <img src="./media/image12.png" style="width:4.8861in;height:4.64648in"
 alt="A screenshot of a team Description automatically generated" />
 
 6.  Enter the Team name – +++\*\*Test Team\*\*+++, on Name the first
@@ -98,17 +98,17 @@ alt="A screenshot of a team Description automatically generated" />
     as +++\*\*[**TestChannel**](urn:gd:lg:a:send-vm-keys)\*\*+++ and
     Click on \*\*Private\*\*.
 
-    <img src="./media/image5.png" style="width:6.5in;height:4.29444in"
+    <img src="./media/image13.png" style="width:6.5in;height:4.29444in"
 alt="A screenshot of a computer Description automatically generated" />
 
 7.  Select \*\***Org-wide\*\***.
 
-    <img src="./media/image6.png" style="width:6.5in;height:3.61458in"
+    <img src="./media/image14.png" style="width:6.5in;height:3.61458in"
 alt="A screenshot of a computer Description automatically generated" />
 
 8.  Select \*\***Create\*\***.
 
-    <img src="./media/image7.png" style="width:6.5in;height:4.31667in"
+    <img src="./media/image15.png" style="width:6.5in;height:4.31667in"
 alt="A screenshot of a computer Description automatically generated" />
 
 **Summary:** In this lab, you acquired Power Apps trial license and configure Microsoft Teams.
