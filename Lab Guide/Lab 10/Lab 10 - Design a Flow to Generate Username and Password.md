@@ -16,46 +16,46 @@ including handling text manipulation and generating random text.
 
     ![](./media/image1.png)
 
-2.  Enter the Flow name “**Generate Username and Password**”, turn on
+2.  Enter the Flow name +++**Generate Username and Password**+++, turn on
     the **Power Fx** and click on the **Create**.
 
     ![](./media/image2.png)
 
 
-3.  From left Actions bar search **Display input dialog** action and
+3.  From left Actions bar search +++**Display input dialog**+++ action and
     double click on the action to select.
 
     ![](./media/image3.png)
 
 
-4.  Set the **Input dialog title** property to **Name Input** and
-    the **Input dialog message** property to **Please enter your first
-    and last name (for example, Adele Vance)**. This action displays a
+4.  Set the **Input dialog title** property to +++**Name Input**+++ and
+    the **Input dialog message** property to +++**Please enter your first
+    and last name (for example, Adele Vance)**+++. This action displays a
     message that prompts the user for input. Click on the **Save**
     button.
 
     ![](./media/image4.png)
 
 
-5.  From left Actions bar search **Split text** action and double click
+5.  From left Actions bar search +++**Split text**+++ action and double click
     on the action to select.
 
      ![](./media/image5.png)
 
 
 6.  In the **Text to split** field of Split text action,
-    enter **=UserInput** and then click on **Save**.
+    enter +++**=UserInput**+++ and then click on **Save**.
 
     ![](./media/image6.png)
 
 
-7.  From left Actions bar search **Change text case** action and double
+7.  From left Actions bar search +++**Change text case**+++ action and double
     click on the action to select.
 
     ![](./media/image7.png)
 
 
-8.  In the Text to convert field, enter **%TextList\[0\]%.**
+8.  In the Text to convert field, enter +++**%TextList\[0\]%**+++. 
 
 9.  With the index of a list type variable, provide the first item of
     the list, which is the first name. Set the Convert to as **Lower
@@ -64,13 +64,13 @@ including handling text manipulation and generating random text.
     ![](./media/image8.png)
 
 
-10. From left Actions bar search **Change text case** action and double
+10. From left Actions bar search +++**Change text case**+++ action and double
     click on the action to select.
 
     ![](./media/image9.png)
 
 11. In the **Text to convert** field of action, enter
-    **%TextList\[1\]%.**
+    +++**%TextList[1]%**+++.
 
 12. With the index of a list type variable, provide the first item of
     the list, which is the first name. Set the Convert to property to
@@ -79,16 +79,16 @@ including handling text manipulation and generating random text.
     ![](./media/image10.png)
 
 
-13. From left Actions bar search **Get subtext** action and double click
+13. From left Actions bar search +++**Get subtext**+++ action and double click
     on the action to select.
 
     ![](./media/image11.png)
 
 
-14. In the Original text field, enter **%TextWithNewCase%**, In the
-    Start index section, set Character position to **0.**
+14. In the Original text field, enter +++**%TextWithNewCase%**+++, In the
+    Start index section, set Character position to +++**0**+++
 
-15. In the Length section, set Number of chars to **1**. This setting
+15. In the Length section, set Number of chars to +++**1**+++. This setting
     gets the first character of the text string.
 
 16. Click on the **Save**.
@@ -103,18 +103,17 @@ including handling text manipulation and generating random text.
     ![](./media/image13.png)
 
 
-18. From left Actions bar search **Display message** action and double
+18. From left Actions bar search +++**Display message**+++ action and double
     click on the action to select.
 
     ![](./media/image14.png)
 
 
-19. In the **Message box title** field, enter **Username & Password**,
+19. In the **Message box title** field, enter +++**Username & Password**+++,
     and in the **Message to display** field, enter the following
     content:
 
-    > Hello, %UserInput%, your username is: %SubText%%TextWithNewCase2% Your
-temporary password is: %RandomText%
+        +++Hello, %UserInput%, your username is: %SubText%%TextWithNewCase2% Your temporary password is: %RandomText%+++
 
 20. The username (first letter of first name, combined with family name)
     is displayed and the result of the **Generate random text** action
