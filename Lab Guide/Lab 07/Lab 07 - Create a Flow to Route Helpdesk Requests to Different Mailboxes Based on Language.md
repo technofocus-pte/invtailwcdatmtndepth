@@ -63,7 +63,7 @@ streamline communication workflows within the organization.
 12.  **Save** the flow in the top right-hand corner. Now we can run the
     flow.
 
-    ![](./media/image11.1.png)
+ ![](./media/image11.1.png)
 
 
     **Note:** Ignore if you see the given warning: The 'Create text with GPT using a prompt' action doesn't have a content approval action after it.
