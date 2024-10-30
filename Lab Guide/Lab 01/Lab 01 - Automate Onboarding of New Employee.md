@@ -99,7 +99,7 @@ effectively manage and automate HR processes within their organizations.
     ![](./media/image12.png)
 
 
-3.  Click on **Upload file** and browse to **C:\Labfiles** and select
+3.  Click on **Upload file** and browse to **C:\Lab Files** and select
     **Employee.csv** file.
 
     ![](./media/image13.png)
@@ -212,7 +212,7 @@ effectively manage and automate HR processes within their organizations.
     ![](./media/image27.png)
 
 
-3.  Click on Upload **file** and browse **C:\Labfiles** and select
+3.  Click on Upload **file** and browse **C:\Lab Files** and select
     **Import_HR_M365.CSV** and click **Open**.
 
 
