@@ -53,9 +53,9 @@ respond to user input.
     ![](./media/image8.1.png)
 
 
-   **Note:** You can close the pop up of **Enable site copilot**.
+> **Note:** You can close the pop up of **Enable site copilot**.
 
-    ![](./media/image8.2.png)
+   ![](./media/image8.2.png)
 
 
 2.  Flow the left navigation bar select the Setup, and then select
