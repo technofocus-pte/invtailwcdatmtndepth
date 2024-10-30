@@ -104,7 +104,7 @@ Define the fields and tables you want your model to extract. We'll extract the f
 
 4.  Enter the number field name as **Total amount** and select **Done**.
 
-    ![](./media/image12.png)
+    ![](./media/image12.1.png)
 
 5.  Click **+ Add** and select Date field (preview).
 
