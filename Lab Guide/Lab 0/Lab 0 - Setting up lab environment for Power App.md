@@ -102,7 +102,7 @@
 
 6.  Enter the Team name : +++**Test Team**+++, on Name the first
     channel
-    as +++**[**TestChannel**](urn:gd:lg:a:send-vm-keys)**+++ and
+    as +++**TestChannel**+++ and
     Click on **Private**.
 
 
