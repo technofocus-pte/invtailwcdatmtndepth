@@ -18,33 +18,33 @@ steps and using analytics to gain insights into the process efficiency.
 
 2.  Select your environment – **Dev One**.
 
-    <img src="./media/image1.png" style="width:6.5in;height:2.9375in" />
+    ![](./media/image1.png)
 
 ### Task 2: Import a solution
 
 1.  On the navigation pane to the left, select **Solutions** and then in
     the toolbar at the top, select **Import solution**.
 
-    <img src="./media/image2.png" style="width:6.5in;height:8.32361in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image2.png)
+
 
 2.  Select **Browse**.
 
-    <img src="./media/image3.png" style="width:6.5in;height:4.32986in" />
+    ![](./media/image3.png)
 
 3.  Select the **Processmining.zip** file from C:\Labfiles and open it.
 
-    <img src="./media/image4.png" style="width:6.5in;height:4.45833in" />
+    ![](./media/image4.png)
 
 4.  Select **Next**.
 
-    <img src="./media/image5.png" style="width:6.5in;height:6.49167in"
-alt="A screenshot of a software Description automatically generated" />
+    ![](./media/image5.png)
+
 
 5.  Select **Import** and wait for the solution to import.
 
-    <img src="./media/image6.png" style="width:6.5in;height:6.36806in"
-alt="A screenshot of a computer Description automatically generated" />
+    ![](./media/image6.png)
+
 
 ### Task 3: View sample recordings
 
@@ -52,17 +52,17 @@ alt="A screenshot of a computer Description automatically generated" />
     pane to the left, select **Process mining** and then select
     the **Invoice submission process**.
 
-    <img src="./media/image7.png" style="width:6.5in;height:3.42431in" />
+    ![](./media/image7.png)
 
 2.  If you navigate to Analytics tab, then go one step back. Go back to
     the **Invoice submission process** by selecting it from the
     breadcrumbs at the top of the page.
 
-    <img src="./media/image8.png" style="width:6.5in;height:3.57639in" />
+    ![](./media/image8.png)
 
 3.  You can see some of the existing recordings under **Recordings**.
 
-    <img src="./media/image9.png" style="width:6.5in;height:3.75069in" />
+    ![](./media/image9.png)
 
 4.  To be sure you see the entire list of existing recordings,
     select **See all**.
@@ -77,8 +77,8 @@ You'll see the following features:
 - **Create activity names**: Create activity names for your process.
 - **Delete process**: Delete your process.
 
-    <img src="./media/image10.png"
-style="width:3.54412in;height:2.30368in" />
+    ![](./media/image10.png)
+
 
 ### Task 5: Analyze a process
 
@@ -91,7 +91,7 @@ process.
     > **Note:** The analysis will take a few minutes to complete. During this
 process, a status message displays under the **New recording** button.
 
-    <img src="./media/image11.png" style="width:6.5in;height:4.22708in" />
+    ![](./media/image11.png)
 
 2.  If you run into an error during the analysis stage,
     select **Analyze** to trigger this action again.
@@ -100,7 +100,7 @@ process, a status message displays under the **New recording** button.
     to **Analyzed**. Select **Analytics** to see the process map and
     insights.
 
-    <img src="./media/image12.png" style="width:6.5in;height:4.22014in" />
+    ![](./media/image12.png)
 
     > **Note:** This step may take a couple minutes to complete after the    
 analysis has been performed.
@@ -109,10 +109,10 @@ analysis has been performed.
 
 This section explains what you can do on the **Analytics** screen.
 
-<img src="./media/image13.png" style="width:6.5in;height:2.94722in" />
+    ![](./media/image13.png)
 
-<img src="./media/image14.png" style="width:6.5in;height:5.08681in"
-alt="Screenshot of the Analytics screen." />
+    ![](./media/image14.png)
+
 
 **Legend:**
 
@@ -151,30 +151,30 @@ durations. These steps include:
 - Save and submit (9 seconds)
 - Notify team of submission (26.67 seconds)
 
-    <img src="./media/image15.png" style="width:6.5in;height:3.04167in" />
+    ![](./media/image15.png)
 
 ### Task 8: View analytics data
 
 1.  Look at the top analytics data. The average process time is 1.47
     minutes out of five recordings.
 
-    <img src="./media/image16.png"
-style="width:4.10417in;height:1.76042in" />
+    ![](./media/image16.png)
+
 
 2.  Analyze other time-based metrics dashboards.
 
     > **Activity by average time in sec**: Notice that **Enter invoice
 details** and **Download invoice** are taking the most time.
 
-    <img src="./media/image17.png"
-style="width:5.44789in;height:3.34821in" />
+    ![](./media/image17.png)
+
 
     > **Recording by average time in min**: Notice that some people
 (**Preston Morales** and **Shakti Menon**) are taking more time than
 others.
 
-    <img src="./media/image18.png"
-style="width:4.58333in;height:2.55208in" />
+    ![](./media/image18.png)
+
 
 3.  Select the **Application** tab to see details on which applications
     were used.
@@ -192,8 +192,8 @@ style="width:4.58333in;height:2.55208in" />
     
     - Take time to get familiar with the different reports.
 
-    <img src="./media/image19.png"
-style="width:5.03869in;height:3.19871in" />
+    ![](./media/image19.png)
+
 
 4.  Go back to the process map by selecting **Process**.
 
@@ -205,7 +205,7 @@ style="width:5.03869in;height:3.19871in" />
 6.  Start to create a flow for automation by selecting **Automate
     activities** at the top.
 
-    <img src="./media/image20.png" style="width:6.5in;height:4.16528in" />
+    ![](./media/image20.png)
 
     A tab opens in the browser and shows the flow designer. The
 recommended actions that match the activities from the process map
@@ -213,8 +213,8 @@ automatically appear on the right panel. For example, several email
 connectors are suggested for you to use in order to automate
 the **Download invoice attachment from email** activity.
 
-    <img src="./media/image21.png"
-style="width:5.57622in;height:3.27424in" />
+    ![](./media/image21.png)
+
 
 ### Conclusion:
 
