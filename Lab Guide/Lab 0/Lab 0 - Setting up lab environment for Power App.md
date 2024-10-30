@@ -57,13 +57,14 @@
 
 
 8.  Open the new tab and go to Power Platform admin center by navigating
-    to <https://admin.powerplatform.microsoft.comand if required, sign
+    to +++**https://admin.powerplatform.microsoft.com**+++
+    and if required, sign
     in using your given Office 365 tenant admin credentials. **Close**
-    the **Pop-up window** saying, ‘Welcome 
+    the **Pop-up window** saying, ‘Welcome to the Power Platform admin center'.
     ![](./media/image8.png)
 
 
-9.  From the left navigation pane, select **Environments** and then you
+10.  From the left navigation pane, select **Environments** and then you
     can see, **Dev One** is your Dataverse environment.
 
 
