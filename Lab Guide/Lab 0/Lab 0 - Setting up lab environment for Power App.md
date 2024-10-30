@@ -1,4 +1,4 @@
-# Lab 0 - Setting up lab environment for Power App
+# **Lab 0 - Setting up lab environment for Power App**
 
 **Objective:** In this lab, you will acquire Power Apps trial license and configure the Micorsoft Teams apps.
 
