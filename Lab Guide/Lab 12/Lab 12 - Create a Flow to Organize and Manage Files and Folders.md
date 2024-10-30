@@ -34,14 +34,14 @@ dynamic date and time formats.
     ![](./media/image4.png)
 
 
-5.  Enter **Backup File Flow** as flow name and select check box of the
+5.  Enter +++**Backup File Flow**+++ as flow name and select check box of the
     **Power Fx enable (Preview).** Then click on the **Create**.
 
     ![](./media/image5.png)
 
 
-6.  From the left-hand **Actions** navigation bar, Search for **Get
-    special folder** action to the workspace. Select the action by
+6.  From the left-hand **Actions** navigation bar, Search for +++**Get
+    special folder**+++ action to the workspace. Select the action by
     double clicking on it to add into the flow.
 
     ![](./media/image6.png)
@@ -53,64 +53,63 @@ dynamic date and time formats.
     ![](./media/image7.png)
 
 
-8.  From the left-hand **Actions** navigation bar, Search for **Get
-    files in folder** action to the workspace. Select the action by
+8.  From the left-hand **Actions** navigation bar, Search for +++**Get
+    files in folder**+++ action to the workspace. Select the action by
     double clicking on it to add into the flow.
 
     ![](./media/image8.png)
 
 
 9.  Add **Get files in folder** action to set the Folder field to
-    **C:\Users\trade\OneDrive\Desktop\Contoso_Files** This setting will
-    select the folder that you previously created on the desktop. Then
+    +++**C:\Users\trade\OneDrive\Desktop\Contoso_Files**+++ This setting will select the folder that you previously created on the desktop. Then
     click on the **Save** button.
 
     ![](./media/image9.png)
 
 
-10. From the left-hand **Actions** navigation bar, Search for **Create
-    Folder** action to the workspace. Select the action by double
+10. From the left-hand **Actions** navigation bar, Search for +++**Create
+    Folder**+++ action to the workspace. Select the action by double
     clicking on it to add into the flow.
 
     ![](./media/image10.png)
 
 
 11. In the **Create new folder into** field of Create folder action,
-    enter **C:\Users\trade\OneDrive\Desktop\\** In the **New folder
+    enter +++**C:\Users\trade\OneDrive\Desktop**+++ In the **New folder
     name** field, enter **Contoso_Backup**. After entering the
     information slick on the **Save** button.
 
     ![](./media/image11.png)
 
 
-12. From the left-hand **Actions** navigation bar, Search for **Copy
-    file(s)** action to the workspace. Select the action by double
+12. From the left-hand **Actions** navigation bar, Search for +++**Copy
+    file(s)**+++ action to the workspace. Select the action by double
     clicking on it to add into the flow.
 
     ![](./media/image12.png)
 
 
-13. Set the **File(s) to Copy** field to **=Files**, the **Destination
+13. Set the **File(s) to Copy** field to +++**=Files**+++, the **Destination
     Folder** field
-    to **C:\Users\trade\OneDrive\Desktop\Contoso_Backup**, and the **If
-    File(s) Exists** drop-down option to **Overwrite**. After setup
+    to +++**C:\Users\trade\OneDrive\Desktop\Contoso_Backup**+++, and the +++**If
+    File(s) Exists**+++ drop-down option to **Overwrite**. After setup
     click on the **Save** button.
 
     ![](./media/image13.png)
 
-14. From the left-hand **Actions** navigation bar, Search for **Rename
-    file(s)** action to the workspace. Select the action by double
+14. From the left-hand **Actions** navigation bar, Search for +++**Rename
+    file(s)**+++ action to the workspace. Select the action by double
     clicking on it to add into the flow.
 
     ![](./media/image14.png)
 
 
 15. Set the **File(s) to rename** field
-    to **C:\Users\trade\OneDrive\Desktop\Contoso_Backup\Reports.txt**.
+    to +++**C:\Users\trade\OneDrive\Desktop\Contoso_Backup\Reports.txt**+++.
     In the **Rename scheme** drop-down menu, select the **Add
     datetime** option. Set the **Separator** drop-down option
     to **Nothing** and the **DateTime Format** option
-    to **dd.MM.yy_HH.mm**. After Setup Click on the Save button.
+    to +++**dd.MM.yy_HH.mm**+++. After Setup Click on the Save button.
 
     ![](./media/image15.png)
 
