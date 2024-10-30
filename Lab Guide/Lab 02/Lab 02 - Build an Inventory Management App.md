@@ -233,7 +233,7 @@ sure to select your developer environment.
 
 10.  Edit the table name and update with **Candy Quality**check. 
 
-    ![](./media/image33.png)
+        ![](./media/image33.png)
 
 
 11.  Click on **Save and exit -\Save and exit**.
