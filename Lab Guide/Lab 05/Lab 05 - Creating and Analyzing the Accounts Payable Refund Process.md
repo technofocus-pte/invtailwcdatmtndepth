@@ -55,7 +55,7 @@ refund process.
 
 
 4.  Find and select **SampleData_AP_Refunds_Financial_EventLog.csv**.
-    Location: **C:\Labfiles**
+    Location: **C:\Lab Files**
 
 5.  Select **Open**.
 
