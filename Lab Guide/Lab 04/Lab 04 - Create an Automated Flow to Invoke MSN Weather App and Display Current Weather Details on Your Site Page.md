@@ -40,7 +40,7 @@ respond to user input.
     ![](./media/image6.png)
 
     
-7.  Enter the site name as **contoso** in the respected field and click
+7.  Enter the site name as +++**contoso**+++ in the respected field and click
     on **Done** button to create the website.
 
     ![](./media/image7.png)
@@ -53,7 +53,7 @@ respond to user input.
     ![](./media/image8.1.png)
 
 
-> **Note:** You can close the pop up of **Enable site copilot**.
+    > **Note:** You can close the pop up of **Enable site copilot**.
 
    ![](./media/image8.2.png)
 
@@ -179,7 +179,7 @@ respond to user input.
     ![](./media/image26.png)
 
 
-**Note:** This is the unique URL used to connect to the associated cloud
+    > **Note:** This is the unique URL used to connect to the associated cloud
 flow. You'll use this URL later to call the current weather flow.
 
 ### Task 3: Create a page to display MSN weather data
