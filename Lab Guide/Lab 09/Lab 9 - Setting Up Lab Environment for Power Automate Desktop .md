@@ -10,11 +10,14 @@ logged in with their Office 365 credentials.
 
 ### Task 1 - Sign into Power Automate Desktop application
 
-1.  **Sign in** to +++https://make.powerautomate.com/+++ with your Office
+1.  **Sign in** to +++**https://www.microsoft.com/en-us/power-platform/products/power-automate**+++ with your Office
     365 tenant credentials.
 
+    ![](./media/image0.png)
+    
+
 2.  Click **My flows** from left pane. Click **Desktop flows** then
-    click **Install \>Power Automate for Desktop.**
+    click **Install -> Power Automate for Desktop.**
 
     ![](./media/image1.png)
 
@@ -50,13 +53,17 @@ logged in with their Office 365 credentials.
 
     ![](./media/image6.png)
 
+8. After installation of browser extension select **Launch app**.
 
-8.  **Sign in** with your Office 365 tenant credentials.
+    ![](./media/image6.1.png)
+
+
+9.  **Sign in** with your Office 365 tenant credentials.
 
     ![](./media/image7.png)
 
 
-9.  You will be navigated to **Power Automate** for Desktop Home page.
+10.  You will be navigated to **Power Automate** for Desktop Home page.
 
 ### Conclusion:
 
