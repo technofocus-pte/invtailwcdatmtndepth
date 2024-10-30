@@ -22,20 +22,20 @@ applied discount.
 
     ![](./media/image1.png)
 
-3.  Enter **Message Box Communication** as flow name and check the box
+3.  Enter +++**Message Box Communication**+++ as flow name and check the box
     of the Power Fx enable (Preview). Then click on the **Create**.
 
     ![](./media/image2.png)
 
 
 4.  Start by prompting the user to select an Excel file. Add the
-    **Display select file dialog** action and configure the File filter
+    +++**Display select file dialog**+++ action and configure the File filter
     field to allow only xlsx files.
 
     ![](./media/image3.png)
 
 
-5.  Enter **Dialog Title as Select Excel,** Enter the location of the
+5.  Enter **Dialog Title** as +++**Select Excel**+++, Enter the location of the
     folder in the **initial** **folder** as C:\Lab Files\Orders File Filter as **\*.xlsx** and
     then click on the save button.
 
@@ -47,7 +47,7 @@ applied discount.
 
     - Launch Excel: **add open the following document**
 
-    - Document path: **%SelectedFile%**
+    - Document path: +++**%SelectedFile%**+++
 
     - Click on the save button
 
@@ -77,11 +77,11 @@ applied discount.
 10. Add Display input dialog from the action and configure the following
     fields.
 
-    - **Input Dialog Title**: Header
+    - **Input Dialog Title**: +++**Header**+++
 
-    - **Input Dialog Message**: Enter the Header
+    - **Input Dialog Message**: +++**Enter the Header**+++
 
-    - **Default Value**: Discount
+    - **Default Value**: +++**Discount**+++
 
     - Click on the **save** button.
 
@@ -93,13 +93,13 @@ applied discount.
 
     - **Excel instance**: %ExcelInstance%
 
-    - **Value to write**: %UserInput%
+    - **Value to write**: +++**%UserInput%**+++
 
     - **Write role**: On specific cell
 
-    - **Column**: 9
+    - **Column**: +++**9**+++
 
-    - **Row**: %Counter%
+    - **Row**: +++**%Counter%**+++
 
     - Click on the **save** button.
 
@@ -107,7 +107,7 @@ applied discount.
 
 
 12. Add a **For each** loop for action to iterate through the retrieved
-    data and add the **%ExcelData%** into value to iterate section. Then
+    data and add the +++**%ExcelData%**+++ into value to iterate section. Then
     click on save.
 
     ![](./media/image11.png)
@@ -115,7 +115,7 @@ applied discount.
 
 13. To check the value of the **Gross** column (column G or the sixth
     column in the worksheet), add convert text to number action.
-    Configure text to convert as %CurrentItem\[6\]% and then click on
+    Configure text to convert as +++**%CurrentItem[6]%**+++ and then click on
     the save button.
 
     ![](./media/image12.png)
@@ -124,11 +124,11 @@ applied discount.
 14. Add an **If** action to check whether it exceeds 100,000 and
     configure it as below details:
 
-    - **First operand**: %TextAsNumber%
+    - **First operand**: +++**%TextAsNumber%**+++
 
     - **Operator**: Greater than or equal to (\>=)
 
-    - **Second Operand**: 100000
+    - **Second Operand**: +++**100000**+++
 
     ![](./media/image13.png)
 
@@ -137,10 +137,11 @@ applied discount.
     necessary information to the user, and prompt them to
     choose **Yes** or **No**. Then click on the **Save** button. Enter the following detail in the it:
 
-    - **Message Box title**: Add discount
-    - **Message to display**: Product: %CurrentItem\[2\]%
-    - **Units**: %CurrentItem\[3\]%
-    - **Gross:** %TextAsNumber%
+    - **Message Box title**: +++**Add discount**+++
+    - **Message to display**: 
+        - +++**Product:** %CurrentItem[2]%+++
+        - +++**Units**: %CurrentItem[3]%+++
+        - +++**Gross:** %TextAsNumber%+++
     - **Message box button**: Yes – No
 
     ![](./media/image14.png)
@@ -150,14 +151,14 @@ applied discount.
     which button was pressed in the previous step. Enter the following
     details in the respected fields:
 
-        - **First** **operand**: %ButtonPressed3%
+        - **First** **operand**: +++%ButtonPressed3%+++
         - **Operator:** Equal to (=)
-        - **Second operand:** Yes
+        - **Second operand:** +++Yes+++
 
         ![](./media/image15.png)
 
 17.  Add the **Increase variable** action to increase
-    the **Counter** variable by one.
+    the +++**Counter**+++ variable by one.
 
         ![](./media/image16.png)
 
@@ -165,11 +166,11 @@ applied discount.
 18.  Add Write to excel worksheet action below the Increase Variable
     action and enter the following detail into it:
 
-        - **Excel instance:** %ExcelInstance%
-        - **Value to writer**: %UserInput2%
+        - **Excel instance:** +++%ExcelInstance%+++
+        - **Value to writer**: +++%UserInput2%+++
         - **Write mode:** On specific cell
-        - **Column:** 0
-        - **Row:** %Counter%
+        - **Column:** +++0+++
+        - **Row:** +++%Counter%+++
 
        ![](./media/image17.png)
 
@@ -183,7 +184,7 @@ applied discount.
 
 1.  Click on the **Run** button to execute the test.
 
-        ![](./media/image19.png)
+    ![](./media/image19.png)
 
 
 2.  First sheet folder will open select the **excel** **file** from it.
