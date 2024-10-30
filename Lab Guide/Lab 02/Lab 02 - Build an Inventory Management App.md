@@ -231,7 +231,7 @@ sure to select your developer environment.
 
     > **Note:** You can add more columns as per your app requirements.
 
-10.  Edit the table name and update with **Candy Quality**check.
+10.  Edit the table name and update with **Candy Quality**check. 
 
     ![](./media/image33.png)
 
