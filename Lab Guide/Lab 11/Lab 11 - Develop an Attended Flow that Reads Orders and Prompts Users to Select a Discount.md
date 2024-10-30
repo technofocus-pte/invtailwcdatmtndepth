@@ -36,7 +36,7 @@ applied discount.
 
 
 5.  Enter **Dialog Title as Select Excel,** Enter the location of the
-    folder in the **initial** **folder,** File Filter as **\*.xlsx** and
+    folder in the **initial** **folder** as C:\Lab Files\Orders File Filter as **\*.xlsx** and
     then click on the save button.
 
     ![](./media/image4.png)
