@@ -32,7 +32,7 @@ steps and using analytics to gain insights into the process efficiency.
 
     ![](./media/image3.png)
 
-3.  Select the **Processmining.zip** file from C:\Labfiles and open it.
+3.  Select the **Processmining.zip** file from C:\Lab Files and open it.
 
     ![](./media/image4.png)
 
