@@ -37,13 +37,13 @@ respond to user input.
 
 6.  On the **Stater layout 1** page, select **Choose this template**.
    
-    ![](./media/image6.1.png)
+    ![](./media/image6.png)
 
     
 8.  Enter the site name as **contoso** in the respected field and click
     on **Done** button to create the website.
 
-    ![](./media/image7.1.png)
+    ![](./media/image7.png)
 
 
 ### Task 2: Create cloud flow
