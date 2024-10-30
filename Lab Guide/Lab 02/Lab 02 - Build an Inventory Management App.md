@@ -372,29 +372,29 @@ sure to select your developer environment.
 
 10.  **Add an action** under **True** condition.
 
-    ![](./media/image56.png)
+        ![](./media/image56.png)
 
 
 11.  Select **Approvals** action.
 
-    ![](./media/image57.png)
+        ![](./media/image57.png)
 
 
 12.  Select **Start and wait for an Approvals.**
 
-    ![](./media/image58.png)
+        ![](./media/image58.png)
 
 
 13.  Select Approval Type as: **Approve/Reject – First to Respond**.
     Enter Title as: **Approve to Restock –** and click on Dynamic button
     to select the data from previous step.
 
-    ![](./media/image59.png)
+        ![](./media/image59.png)
 
 
 14.  Search for **Candy** **Name** and select it.
 
-    ![](./media/image60.png)
+        ![](./media/image60.png)
 
 15.  Enter below details.
 
