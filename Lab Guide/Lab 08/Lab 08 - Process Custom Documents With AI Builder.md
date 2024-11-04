@@ -17,27 +17,25 @@ Power Automate and Power Apps.
 
 1.  Navigate to power automate with the help of +++**https://make.powerautomate.com/**+++ and if asked, sign in using office 365 admin tenant account.
 
-    ![](./media/image1.png)
-
-
-3.  Select the environment **Dev one** from the top bar.
+  
+2.  Select the environment **Dev one** from the top bar.
 
     ![](./media/image2.png)
 
 
-4.  Navigate to the left pane and select **AI Hub**, then click on **AI
+3.  Navigate to the left pane and select **AI Hub**, then click on **AI
     Models.** If you don't see AI Hub, click on **More** to locate it.
 
     ![](./media/image3.png)
 
 
-5.  Choose **Extract custom information from documents** option.
+4.  Choose **Extract custom information from documents** option.
 
     ![](./media/image4.png)
 
 
 
-6.  Scroll Down and click on **Create custom model** to proceed.
+5.  Scroll Down and click on **Create custom model** to proceed.
 
     ![](./media/image5.png)
 
