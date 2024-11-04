@@ -270,9 +270,9 @@ automate inventory restocking workflows with Power Automate.
 19.  Select the **Submit** button and select **OnSelect** function and
     enter below function.
 
-> Note: Form4 in the formula should be replaced with your form name SubmitForm(Form4);NewForm(Form4).
-    
-![](./media/image42.png)
+        > **Note:** Form4 in the formula should be replaced with your form name SubmitForm(Form4);NewForm(Form4).
+            
+        ![](./media/image42.png)
 
 
 
@@ -381,9 +381,9 @@ automate inventory restocking workflows with Power Automate.
         Thanks
         ```
 
-> Note: You can customize the details section as per your requirements.
-    
-![](./media/image61.png)
+        > **Note:** You can customize the details section as per your requirements.
+            
+        ![](./media/image61.png)
 
 
 16. **Add an action** after **approval** action.
@@ -428,9 +428,9 @@ automate inventory restocking workflows with Power Automate.
 25. Enter the below function (you type in your app) and collapse the
     action.
 
-> **Note:** the below function does not work for you as your column schema name might be different. Go to table-\column and copy schema name add(triggerBody()?\['cr8a3_Quantity'\],triggerBody()?\['cr8a3_CandyInStock'\])
-    
-![](./media/image71.png)
+    > **Note:** the below function does not work for you as your column schema name might be different. Go to table-\column and copy schema name add(triggerBody()?\['cr8a3_Quantity'\],triggerBody()?\['cr8a3_CandyInStock'\])
+        
+    ![](./media/image71.png)
 
 
 26. Click on **the Save** button to save the Power Automate flow.
@@ -442,9 +442,9 @@ automate inventory restocking workflows with Power Automate.
 1.  Switch back to **PowerApps** tab and click on **Candy** screen from
     left Tree view and select **play**.
 
-> Note: You can update the Title of the screen
-    
-![](./media/image73.png)
+    > **Note:** You can update the Title of the screen
+        
+    ![](./media/image73.png)
 
 
 2.  Select the Candy and click on **Edit**.
