@@ -109,9 +109,9 @@ analysis has been performed.
 
 This section explains what you can do on the **Analytics** screen.
 
-    ![](./media/image13.png)
+![](./media/image13.png)
 
-    ![](./media/image14.png)
+![](./media/image14.png)
 
 
 **Legend:**
