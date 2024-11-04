@@ -26,9 +26,7 @@ automate inventory restocking workflows with Power Automate.
 3.  Use the same developer environment to execute all the exercises of
     this lab.
 
-    > **Note**: **Dev one** developer environment is used in this lab. The
-name of the environment can be different for different users. Make
-sure to select your developer environment.
+> **Note**: **Dev one** developer environment is used in this lab. The name of the environment can be different for different users. Make sure to select your developer environment.
 
 ### Task 2: Create inventory management app using Copilot.
 
@@ -272,8 +270,10 @@ sure to select your developer environment.
 19.  Select the **Submit** button and select **OnSelect** function and
     enter below function.
 
-> Note: Form4 in the formula should be replaced with your form name SubmitForm(Form4);NewForm(Form4)    
-    ![](./media/image42.png)
+> Note: Form4 in the formula should be replaced with your form name SubmitForm(Form4);NewForm(Form4).
+    
+![](./media/image42.png)
+
 
 
 20. Select the container, under properties, select **Default** mode to
@@ -382,7 +382,8 @@ sure to select your developer environment.
         ```
 
 > Note: You can customize the details section as per your requirements.
-    ![](./media/image61.png)
+    
+![](./media/image61.png)
 
 
 16. **Add an action** after **approval** action.
@@ -428,7 +429,8 @@ sure to select your developer environment.
     action.
 
 > **Note:** the below function does not work for you as your column schema name might be different. Go to table-\column and copy schema name add(triggerBody()?\['cr8a3_Quantity'\],triggerBody()?\['cr8a3_CandyInStock'\])
-    ![](./media/image71.png)
+    
+![](./media/image71.png)
 
 
 26. Click on **the Save** button to save the Power Automate flow.
@@ -441,7 +443,8 @@ sure to select your developer environment.
     left Tree view and select **play**.
 
 > Note: You can update the Title of the screen
-    ![](./media/image73.png)
+    
+![](./media/image73.png)
 
 
 2.  Select the Candy and click on **Edit**.
