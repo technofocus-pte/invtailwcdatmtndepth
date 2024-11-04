@@ -15,32 +15,29 @@ Power Automate and Power Apps.
 
 ### Task 1: Sign in to AI Builder
 
-1.  **Navigate** to power automate with the help of
-    +++**https://www.microsoft.com/en-us/power-platform/products/power-automate**+++
-    .Click on the **Sign in** button from the top right corner. Sign in
-    to Power Automate using Microsoft 365 tenant credentials.
+1.  Navigate to power automate with the help of +++**https://make.powerautomate.com/**+++ using office 365 admin tenant account.
 
     ![](./media/image1.png)
 
 
-2.  Select the environment **Dev one** from the top bar.
+3.  Select the environment **Dev one** from the top bar.
 
     ![](./media/image2.png)
 
 
-3.  Navigate to the left pane and select **AI Hub**, then click on **AI
+4.  Navigate to the left pane and select **AI Hub**, then click on **AI
     Models.** If you don't see AI Hub, click on **More** to locate it.
 
     ![](./media/image3.png)
 
 
-4.  Choose **Extract custom information from documents** option.
+5.  Choose **Extract custom information from documents** option.
 
     ![](./media/image4.png)
 
 
 
-5.  Scroll Down and click on **Create custom model** to proceed.
+6.  Scroll Down and click on **Create custom model** to proceed.
 
     ![](./media/image5.png)
 
