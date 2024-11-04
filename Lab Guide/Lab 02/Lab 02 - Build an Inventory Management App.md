@@ -341,7 +341,7 @@ automate inventory restocking workflows with Power Automate.
     ![](./media/image54.png)
 
 
-9.  Search for the **Reorder points** column and select it.
+9.  Search for the +++**Reorder points**+++ column and select it.
     ![](./media/image55.png)
 
 
@@ -349,26 +349,26 @@ automate inventory restocking workflows with Power Automate.
     ![](./media/image56.png)
 
 
-11.  Select **Approvals** action.
+11.  Select +++**Approvals**+++ action.
     ![](./media/image57.png)
 
 
-12.  Select **Start and wait for an Approvals.**
+12.  Select +++**Start and wait for an Approvals**+++ .
     ![](./media/image58.png)
 
 
-13.  Select Approval Type as: **Approve/Reject – First to Respond**.
-    Enter Title as: **Approve to Restock –** and click on Dynamic button
+13.  Select Approval Type as: +++**Approve/Reject – First to Respond**+++.
+    Enter Title as: +++**Approve to Restock**+++ - and click on Dynamic button
     to select the data from previous step.
     ![](./media/image59.png)
 
 
-14.  Search for **Candy** **Name** and select it.
+14.  Search for **Candy Name**+++ and select it.
     ![](./media/image60.png)
 
 15.  Enter below details.
    
-        ```
+        +++```
         Assigned to: Your work email id.
         
         Details:
@@ -379,18 +379,17 @@ automate inventory restocking workflows with Power Automate.
         restock.  
         
         Thanks
-        ```
+        ```+++
 
-        > **Note:** You can customize the details section as per your requirements.
-            
-        ![](./media/image61.png)
+> **Note:** You can customize the details section as per your requirements.
+    ![](./media/image61.png)
 
 
 16. **Add an action** after **approval** action.
     ![](./media/image62.png)
 
 
-17. Search for **condition** and select **Control – Condition**.
+17. Search for +++**condition**+++ and select **Control – Condition**.
     ![](./media/image63.png)
 
 
@@ -428,7 +427,9 @@ automate inventory restocking workflows with Power Automate.
 25. Enter the below function (you type in your app) and collapse the
     action.
 
-    > **Note:** the below function does not work for you as your column schema name might be different. Go to table-\column and copy schema name add(triggerBody()?\['cr8a3_Quantity'\],triggerBody()?\['cr8a3_CandyInStock'\])
+    > **Note:** The below function does not work for you as your column schema name might be different. Go to table --> column and copy schema name.
+
+    +++add(triggerBody()?\['cr8a3_Quantity'\],triggerBody()?\['cr8a3_CandyInStock'\])+++
         
     ![](./media/image71.png)
 
