@@ -151,63 +151,55 @@ applied discount.
     which button was pressed in the previous step. Enter the following
     details in the respected fields:
 
-        - **First** **operand**: +++%ButtonPressed3%+++
-        - **Operator:** Equal to (=)
-        - **Second operand:** +++Yes+++
+- **First** **operand**: +++%ButtonPressed3%+++
+- **Operator:** Equal to (=)
+- **Second operand:** +++Yes+++
 
-        ![](./media/image15.png)
+    ![](./media/image15.png)
 
 17.  Add the **Increase variable** action to increase
     the +++**Counter**+++ variable by one.
+    ![](./media/image16.png)
 
-        ![](./media/image16.png)
 
-
-18.  Add Write to excel worksheet action below the Increase Variable
+19.  Add Write to excel worksheet action below the Increase Variable
     action and enter the following detail into it:
 
-        - **Excel instance:** +++%ExcelInstance%+++
-        - **Value to writer**: +++%UserInput2%+++
-        - **Write mode:** On specific cell
-        - **Column:** +++0+++
-        - **Row:** +++%Counter%+++
+- **Excel instance:** +++%ExcelInstance%+++
+- **Value to writer**: +++%UserInput2%+++
+- **Write mode:** On specific cell
+- **Column:** +++0+++
+- **Row:** +++%Counter%+++
+    ![](./media/image17.png)
 
-       ![](./media/image17.png)
 
-
-19.  From the top bar **Save** the flow for the test.
-
-        ![](./media/image18.png)
+20.  From the top bar **Save** the flow for the test.
+    ![](./media/image18.png)
 
 
 # Task 2: Test the Flow
 
 1.  Click on the **Run** button to execute the test.
-
     ![](./media/image19.png)
 
 
 2.  First sheet folder will open select the **excel** **file** from it.
-
     ![](./media/image20.png)
 
 
 3.  Header window will pop up, as we set the **Discount** as default
     click on the **ok** button
-
     ![](./media/image21.png)
 
 
 4.  **Add Discount** window appear, which show this product is more then
     **100000**, select **yes** or **no**. In this test we select **yes**
     (**yes**, we give discount on this product.)
-
     ![](./media/image22.png)
 
 
 5.  Then Enter the **amount of the discount** For the test we enter
     **10000** and then click **ok**.
-
     ![](./media/image23.png)
 
 
