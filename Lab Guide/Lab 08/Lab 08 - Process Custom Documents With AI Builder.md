@@ -15,7 +15,7 @@ Power Automate and Power Apps.
 
 ### Task 1: Sign in to AI Builder
 
-1.  Navigate to power automate with the help of +++**https://make.powerautomate.com/**+++ using office 365 admin tenant account.
+1.  Navigate to power automate with the help of +++**https://make.powerautomate.com/**+++ and if asked, sign in using office 365 admin tenant account.
 
     ![](./media/image1.png)
 
