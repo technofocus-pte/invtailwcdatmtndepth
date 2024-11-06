@@ -30,7 +30,7 @@ automate inventory restocking workflows with Power Automate.
 
 ### Task 2: Create inventory management app using Copilot.
 
-1.  Open a browser and go to +++**https://apps.powerapps.comand**+++ sign in
+1.  Open a browser and go to +++**https://make.powerapps.com**+++ sign in
     with office 365 admin tenant account.
 
 2.  Click on the environment on right top corner and select **your
