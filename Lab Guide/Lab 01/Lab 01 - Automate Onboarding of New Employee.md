@@ -1,4 +1,4 @@
-# Lab 1 - Automate Onboarding of New Employee
+# **Lab 1 - Automate Onboarding of New Employee**
 
 **Objective:** The primary objective of this lab is to guide
 participants in automating the employee onboarding process using
@@ -21,12 +21,12 @@ effectively manage and automate HR processes within their organizations.
     +++**https://admin.powerplatform.microsoft.com**+++. Sign in with your
     office 365 tenant credential.
 
-2.  Select **Environments** on the left navigation. The **Developer
-    environment** should have been created for you as shown in the image
+2.  Select **Manage** > **Environments** on the left navigation. The **Dev One** Developer
+    environment should have been created for you as shown in the image
     below.
 
     
-    ![](./media/image1.png)
+    ![](./media/image1.2.1.png)
 
 3.  Use the same developer environment to execute all the exercises of
     this lab.
@@ -96,7 +96,7 @@ effectively manage and automate HR processes within their organizations.
 
   
 
-    ![](./media/image12.png)
+    ![](./media/image3.2.1.png)
 
 
 3.  Click on **Upload file** and browse to **C:\Lab Files** and select
@@ -112,7 +112,7 @@ effectively manage and automate HR processes within their organizations.
     ![](./media/image14.png)
 
 
-5.  Enter then Name as: +++**Employee Onboarding**+++ and Description: +++**New
+5.  Enter then Name as: +++**Employee Onboarding**+++ and if asked, enter Description: +++**New
     Contoso Corp employee**+++ and then click on **Create**.
 
   
@@ -126,7 +126,7 @@ effectively manage and automate HR processes within their organizations.
 
 
 6.  The Employees list is created for you now. Rename the **Title**
-    column to +++**Emp_id**+++.
+    column to +++**Emp_id**+++ by selecting **Title drop-down** > **Column settings** > **Rename**.
 
 
     ![](./media/image17.png)
@@ -162,7 +162,7 @@ effectively manage and automate HR processes within their organizations.
     ![](./media/image22.png)
 
 
-11. Repeat the above step for **Job title** column also
+11. Repeat the above step for **Job title** column.
 
 12. Select **Have you been to orientation yet?** column and make below
     chagnes and then click **OK**.
@@ -176,7 +176,7 @@ effectively manage and automate HR processes within their organizations.
     ![](./media/image23.png)
 
 
-13. Repeat above step for **Orientation Location** with below properties
+13. Repeat above step for **Orientation Location** with below properties and then select **Ok**.
 
     - Type of Column : **Choice**
 
@@ -188,7 +188,7 @@ effectively manage and automate HR processes within their organizations.
     ![](./media/image24.png)
 
 
-14. Repeat above step for **Manager** column with below properties
+14. Repeat above step for **Manager** column with below properties add and then select **Ok**.
 
     - Type of Column : **Choice**
 
@@ -197,6 +197,9 @@ effectively manage and automate HR processes within their organizations.
 
     ![](./media/image25.png)
 
+15. Click on **Home** to go back to the **Site**.
+
+    ![](./media/image3.15.1.png)
 
 ## Task 4: Create a HR list in SharePoint site from CSV file
 
@@ -209,7 +212,7 @@ effectively manage and automate HR processes within their organizations.
 2.  Select **From CSV tile** from **Create a list window.**
 
 
-    ![](./media/image27.png)
+    ![](./media/image4.2.1.png)
 
 
 3.  Click on Upload **file** and browse **C:\Lab Files** and select
@@ -270,13 +273,11 @@ documents.
     ![](./media/image34.png)
 
 
-2.  Open a new tab and go to +++**https://make.powerapps.com/**+++ Sign in
+2.  Open a new tab and go to +++**https://make.powerapps.com/**+++. Sign in
     with your office 365 admin tenant and select your **Dev One**
-    (Developer) environment.
+    (Developer) environment. For now, **disable** the toggle button that says 'Try the new Power Apss experience'.
 
-    > **Note**: For your tenant, the name of the environment can be
-different. Make sure that the environment that you have selected is a
-**developer** environment.
+    ![](./media/image2.2.1.png)
 
 3.  Click on **Apps** from left navigation menu. Select **New App -->
     Start with a page design.**
@@ -563,7 +564,7 @@ Edit( fields) .add field and re-order.
 9.  Select **SharePoint** under **Add Connection.**
 
 
-    ![](./media/image1.png)
+    ![](./media/image2.9.1.png)
 
 
 10. Enter the **SharePoint list URL** copied form step 1 into Enter
@@ -625,7 +626,7 @@ Edit( fields) .add field and re-order.
 
 
 18. Select the **Emp_Id** field name and change **Font size** to **16**
-    and **Font weight** to **Bold** under Properties.
+    and **Font weight** to **Bold** under Properties. If you dont find **Emp_Id** field, then hover the mouse over **Form1**     in the canvas, select **Fields** > **Add fields**, select **Emp_Id** (If you dont see **Emp_Id** in this list too, then      select **Title**) and then select **Add**.  
 
 
     ![](./media/image73.png)
@@ -824,12 +825,12 @@ Edit( fields) .add field and re-order.
     ![](./media/image99.png)
 
 
-2.  Open a new tab and go to https:\\flow.microsoft.com and sign in with
+2.  Open a new tab and go to +++https://make.powerautomate.com/+++ and sign in with
     your admin tenant account.
 
-3.  Select your **developer environment**.
+3.  Select your **Dev One** developer environment.
 
-4.  Click on **Flows** from left navigation menu Click on **New
+4.  Click on **My flows** from left navigation menu Click on **New
     Flow --> Automated Cloud flow.**
 
 
