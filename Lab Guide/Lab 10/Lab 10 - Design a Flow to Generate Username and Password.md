@@ -19,7 +19,7 @@ including handling text manipulation and generating random text.
 2.  Enter the Flow name +++**Generate Username and Password**+++, turn on
     the **Power Fx** and click on the **Create**.
 
-    ![](./media/image2.png)
+    ![](./media/image2.1.png)
 
 
 3.  From left Actions bar search +++**Display input dialog**+++ action and
