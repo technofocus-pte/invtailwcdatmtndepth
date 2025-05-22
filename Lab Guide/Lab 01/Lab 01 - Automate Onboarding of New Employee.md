@@ -385,16 +385,15 @@ documents.
     **Emp_id** field.
 
 
-    ![](./media/image49.png)
+     ![](./media/image49.png)
 
 
 19.  Repeat above two steps for **First Name** and **Last_Name**
 
-    > Note: If you don’t see field then select the container -> properties ->
-Edit( fields) .add field and re-order.
+     **Note**: If you don’t see field then select the container -> properties -> Edit( fields) .add field and re-order.
 
 
-    ![](./media/image50.png)
+     ![](./media/image50.png)
 
 
 20. Select the Rectangular form/FormScreen1 and then click on **Insert
@@ -407,7 +406,7 @@ Edit( fields) .add field and re-order.
 21. Drag and place the button under **Department** filed in the form and
     update below properties.
 
-- **Text: Submit**
+    **Text**: **Submit**
 
 
     ![](./media/image52.png)
@@ -453,7 +452,7 @@ Edit( fields) .add field and re-order.
 27. Click on **HrEmployeeform.** Select **Button** and select
     **Onselect** and enter below formula.
 
-    > **Note:** Update the formula with your SharePoint Form.
+     **Note:** Update the formula with your SharePoint Form.
 
     +++**SubmitForm(*Form1*);ResetForm(*Form1*);Navigate(*Success*)**+++
 
@@ -479,7 +478,7 @@ Edit( fields) .add field and re-order.
 
 
 30. Select the form and change the **Default** mode to **New** and then
-    click on the **Save -\>** **Preview** icon.
+    click on the **Save ->** **Preview** icon.
 
 
     ![](./media/image61.png)
@@ -519,8 +518,8 @@ Edit( fields) .add field and re-order.
 
 
 2.  Open a new tab and go to +++**https://make.powerapps.com/**+++. Sign in
-    with your office 365 admin tenant and select your **developer
-    environment**.
+    with your office 365 admin tenant and select your **Dev One** developer
+    environment.
 
 3.  Click on **Apps** from left navigation menu. Select **New App ->
     Start with a page design.**
