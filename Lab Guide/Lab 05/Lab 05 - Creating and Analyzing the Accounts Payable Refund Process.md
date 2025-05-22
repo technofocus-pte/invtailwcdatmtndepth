@@ -1,4 +1,4 @@
-# Lab 5 - Creating and Analyzing the Accounts Payable Refund Process
+# **Lab 5 - Creating and Analyzing the Accounts Payable Refund Process**
 
 **Objective:** The objective of this lab is to create and analyze an
 accounts payable refund process using Power Automate Process Mining
@@ -36,6 +36,9 @@ refund process.
 
     ![](./media/image5.png)
 
+6. If you are asked to **choose where to export** then select **PowerBi embedded** from **Choose your destination** drop-down and then select **Continue**.
+
+    ![](./media/image6.1.png)
 
 ### Task 2: Import data
 
