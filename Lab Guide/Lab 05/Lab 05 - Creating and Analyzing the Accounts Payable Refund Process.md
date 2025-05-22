@@ -108,23 +108,23 @@ refund process.
 
     ![](./media/image15.png)
 
-13. When you're **finished**, the attribute mapping should look like the
+12. When you're **finished**, the attribute mapping should look like the
     following screenshot.
 
     ![](./media/image16.png)
 
-14. Select **Save and analyze**. The analysis might take a few minutes
+13. Select **Save and analyze**. The analysis might take a few minutes
     to run.
 
     ![](./media/image17.png)
 
 
-15. When the **analysis process is complete**, you’ll see a process map
+14. When the **analysis process is complete**, you’ll see a process map
     and a dashboard with other insights about your process. On the
     dashboard, you can view many metrics that will help you **analyze
     your process.**
 
-    ![](./media/image18.png)
+    ![](./media/image14.1.png)
 
 
 ### Task 3: Analyze a process
