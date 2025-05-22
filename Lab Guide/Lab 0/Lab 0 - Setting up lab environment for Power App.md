@@ -60,15 +60,18 @@
     to +++**https://admin.powerplatform.microsoft.com**+++
     and if required, sign
     in using your given Office 365 tenant admin credentials. **Close**
-    the **Pop-up window** saying, ‘Welcome to the Power Platform admin center'.
-    ![](./media/image8.png)
+    the **Pop-up window** saying, ‘Welcome to the new Power Platform admin center'. Select **Manage** from left navigation       pane.
+
+    ![](./media/image8.1.png)
+
+    ![](./media/image8.2.png)
 
 
-10.  From the left navigation pane, select **Environments** and then you
+9.  From the left navigation pane, select **Environments** and then you
     can see, **Dev One** is your Dataverse environment.
 
-
-    ![](./media/image9.png)
+     ![](./media/image9.2.png)
+    
 
 
 ### Task 2: Create a team in Microsoft Teams
