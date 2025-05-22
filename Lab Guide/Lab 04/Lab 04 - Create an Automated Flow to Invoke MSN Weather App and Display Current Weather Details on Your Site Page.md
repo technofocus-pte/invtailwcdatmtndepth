@@ -43,7 +43,7 @@ respond to user input.
 7.  Enter the site name as +++**contoso**+++ in the respected field and click
     on **Done** button to create the website.
 
-    ![](./media/image7.png)
+    ![](./media/image7.1.png)
 
 
 ### Task 2: Create cloud flow
@@ -53,7 +53,7 @@ respond to user input.
     ![](./media/image8.1.png)
 
 
-    > **Note:** You can close the pop up of **Enable site copilot**.
+     **Note:** You can close the pop up of **Enable site copilot**.
 
    ![](./media/image8.2.png)
 
@@ -179,8 +179,8 @@ respond to user input.
     ![](./media/image26.png)
 
 
-    > **Note:** This is the unique URL used to connect to the associated cloud
-flow. You'll use this URL later to call the current weather flow.
+     **Note:** This is the unique URL used to connect to the associated cloud
+      flow. You'll use this URL later to call the current weather flow.
 
 ### Task 3: Create a page to display MSN weather data
 
@@ -189,13 +189,17 @@ flow. You'll use this URL later to call the current weather flow.
     ![](./media/image27.png)
 
 
-2.  Name the Page +++**Todays_weather_report**+++ and then click on the
-    **Add** button.
+2.  If **Describe a page to create it** window appears then select **Other ways to add a page**.
 
-    ![](./media/image28.png)
+    ![](./media/image3.2.1.png)
+  
+3.  Name the Page +++**Todays_weather_report**+++ and then click on the **Add** button.
 
 
-3.  Select **Edit code** to open Visual Studio Code and then click on
+   ![](./media/image28.png)
+
+
+4.  Select **Edit code** to open Visual Studio Code and then click on
     **open visual studio code.**
 
     ![](./media/image29.png)
