@@ -24,53 +24,41 @@ logged in with their Office 365 credentials.
     ![](./media/image0.2.png)
 
     
-5.  Click **My flows** from left pane. Click **Desktop flows** then
+4.  Click **My flows** from left pane. Click **Desktop flows** then
     click **Install -> Power Automate for Desktop.**
 
     ![](./media/image1.png)
 
-6.  Navigate to **File Explorer** and click **Downloads** from left pane
+5.  Navigate to **File Explorer** and click **Downloads** from left pane
     then double click **Setup.Microsoft.PowerAutomate.exe**.
 
     ![](./media/image2.png)
 
 
-7.  Click **Next** on **Install Power Automate package** pane.
+6.  Click **Next** on **Install Power Automate package** pane.
 
     ![](./media/image3.png)
 
 
-8.  Click check box for **By selecting Install you agree to Microsoft’s
+7.  Click check box for **By selecting Install you agree to Microsoft’s
     terms of use**. Click **Install** on Installation details pane.
 
     ![](./media/image4.png)
 
 
-9.  Click **Yes** on Do you want to allow this app to make changes to
+8.  Click **Yes** on Do you want to allow this app to make changes to
     your device? dialog.
 
     ![](./media/image5.png)
 
-
-10.  After the installation is finished, select the **hyperlinks** in
-    step 1 within the **Installation successful** dialog to navigate to
-    a chosen browser(s) to enable Power Automate for desktop extensions.
-    After your extensions have been set up, you can launch Power
-    Automate for desktop in step 2 within the **Installation
-    successful** dialog.
-
-    ![](./media/image6.png)
-
-> Note: If the Lauch button is not available, select close and restart you VM.
-
-10. After installation of browser extension select **Launch app**.
+9. After installation of browser extension select **Launch app**. Or you can go to VM's **Desktop**, where the shortcut for **Power Automate Desktop** is now available. Double click on the shortcut.
 
     ![](./media/image6.1.png)
 
 
-11.  **Sign in** with your Office 365 tenant credentials.
+11.  Select **Sign in** and sign in with your Office 365 tenant credentials. If asked, select **Work or school account**.
 
-    ![](./media/image7.png)
+     ![](./media/image7.png)
 
 
 12.  You will be navigated to **Power Automate** for Desktop Home page.
