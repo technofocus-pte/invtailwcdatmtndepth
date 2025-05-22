@@ -70,7 +70,7 @@
 9.  From the left navigation pane, select **Environments** and then you
     can see, **Dev One** is your Dataverse environment.
 
-     ![](./media/image9.2.png)
+     ![](./media/image9.1.png)
     
 
 
