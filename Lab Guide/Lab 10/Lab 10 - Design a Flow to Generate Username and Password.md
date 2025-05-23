@@ -44,7 +44,7 @@ including handling text manipulation and generating random text.
 
 
 6.  In the **Text to split** field of Split text action,
-    enter +++**=UserInput**+++ and then click on **Save**.
+    enter +++**%UserInput%**+++ and then click on **Save**.
 
     ![](./media/image6.png)
 
