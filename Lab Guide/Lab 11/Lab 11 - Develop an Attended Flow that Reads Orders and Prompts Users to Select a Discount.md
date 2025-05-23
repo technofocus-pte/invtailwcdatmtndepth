@@ -21,10 +21,9 @@ applied discount.
 
 - ![](./media/image1.png)
 
-3.  Enter +++**Message Box Communication**+++ as flow name and Turn on
-    Power Fx enable (Preview). Then click on the **Create**.
+3.  Enter +++**Message Box Communication**+++ as flow name and Confirm that Power Fx enable (Preview) is turn off. Then click on the **Create**.
 
-- ![](./media/image2.png)
+- ![](./media/imagebz.png)
 
 4.  Start by prompting the user to select an Excel file. Add the
     +++**Display select file dialog**+++ action and configure the File
