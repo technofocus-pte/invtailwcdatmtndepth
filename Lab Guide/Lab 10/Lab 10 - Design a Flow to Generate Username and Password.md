@@ -46,7 +46,7 @@ including handling text manipulation and generating random text.
 6.  In the **Text to split** field of Split text action,
     enter +++**%UserInput%**+++ and then click on **Save**.
 
-    ![](./media/image6.png)
+    ![](./media/image1z.png)
 
 
 7.  From left Actions bar search +++**Change text case**+++ action and double
