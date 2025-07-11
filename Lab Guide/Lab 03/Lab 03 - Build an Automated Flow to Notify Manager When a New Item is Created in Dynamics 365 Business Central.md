@@ -123,7 +123,7 @@ processes and notifications.
 
 1.  Click **+ button** to **Add an action**.
 
-    ![](./media/image4.1.png)
+    ![](./media/image3.5.png)
 
 
 2.  In the **Add an action** window, type +++**Dynamics 365 Business
