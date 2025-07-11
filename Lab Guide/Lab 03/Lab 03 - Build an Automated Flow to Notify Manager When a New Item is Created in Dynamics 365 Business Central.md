@@ -52,7 +52,7 @@ processes and notifications.
 
 8. You will be directed to the Dynamics 365 Business Central home page.
 
-    ![](./media/image5.1.png)
+    ![](./media/image1.5png)
 
   
 ### Task 2: Start Power Automate
