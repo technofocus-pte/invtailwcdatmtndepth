@@ -104,59 +104,60 @@ processes and notifications.
 
 3.  Click **Create**.
 
-    ![](./media/image13.png)
+    ![](./media/image3.3.png)
 
 
-4.  Fill in the trigger details:
+4.  Select **When a
+    record is created (V3)** step. Fill in the trigger details:
 
-    1.  **Environment name**: Enter +++**PRODUCTION**+++.
+    1.  **Environment name**: Select **PRODUCTION** from the drop-down. (Refresh the page if you dont see PRODUCTION in the drop-down)
 
-    2.  **Company name**: Select **CRONUS USA, Inc.** from the list.
+    2.  **Company name**: Select **CRONUS USA, Inc.** from the drop-down list.
 
     3.  **Table name**: Select **items**.
 
-    ![](./media/image14.png)
+    ![](./media/image3.4.png)
 
 
 ### Task 4: Collect Data from Business Central
 
-1.  Click **+ button** add then select **Add an action**.
+1.  Click **+ button** to **Add an action**.
 
-    ![](./media/image15.png)
+    ![](./media/image4.1.png)
 
 
 2.  In the **Add an action** window, type +++**Dynamics 365 Business
     Central**+++ in the search box and choose the **Get record (V3)**
     action.
 
-    ![](./media/image16.png)
+    ![](./media/image4.2.png)
 
 
 3.  Enter the following information:
 
-    1.  **Environment**: +++**PRODUCTION**+++.
+    1.  **Environment**: Select **PRODUCTION** from the drop-down.
 
-    2.  **Company name**: Select **CRONUS USA, Inc.**.
+    2.  **Company name**: Select **CRONUS USA, Inc.** from the drop-down list.
 
     3.  **Table name**: Select **items**.
 
     4.  **Row id**: Select the **Row Id** token from Dynamic content.
 
-    ![](./media/image17.png)
+    ![](./media/image4.3.png)
 
 
 ### Task 5: Make the Condition
 
-1.  Click on the **+ button** below Get record and select **Add an
+1.  Click on the **+ button** below Get record to **Add an
     action**.
 
-    ![](./media/image18.png)
+    ![](./media/image5.1.png)
 
 
-2.  In the **Add an action** search bar, Enter **Control**. Choose the
+2.  In the **Add an action** search bar, enter **Control**. Choose the
     **Condition** action.
 
-    ![](./media/image19.png)
+    ![](./media/image5.2.png)
 
 
 3.  Set the condition:
@@ -168,19 +169,19 @@ processes and notifications.
 
     3.  In the second **Choose a value** box, enter +++**FURNITURE**+++.
 
-    ![](./media/image20.png)
+    ![](./media/image5.3.png)
 
 
 ### Task 6: Create an Action Based on the Condition
 
 1.  In the **If yes or True** condition window, click **Add an action**.
 
-    ![](./media/image21.png)
+    ![](./media/image6.1.png)
 
 
 2.  Search for +++**office 365 outlook**+++ in the Add an action window and
     click on see more. In the office 365 outlook trigger select **Send
-    an Email (V2).**
+    an Email (V2)**.
 
     ![](./media/image22.png)
 
@@ -198,30 +199,30 @@ processes and notifications.
 
         1.  Add the text **New** **furniture**.
 
-        2.  Add the token **Number** from Dynamic content.
+        2.  Add the token **No.** from Dynamic content.
 
         3.  Add the token **displayName** from Dynamic content.
 
         4.  Add the text +++**has just released.**+++
 
-    ![](./media/image24.png)
+    ![](./media/image6.3.png)
 
 
 4.  Click **Save** to finalize your flow.
 
-    ![](./media/image25.png)
+    ![](./media/image6.4.png)
 
 
 ### Task 7: Test the Flow
 
 1. From the top bar, click on the **Test** button.
 
-    ![](./media/image26.png)
+    ![](./media/image7.2.png)
 
 
 2. Select the **Manual** Process and then click on **Test**.
 
-    ![](./media/image27.png)
+    ![](./media/image7.3.png)
 
 
 3.  Navigate back to the **Business Central website** and from the top
@@ -230,30 +231,30 @@ processes and notifications.
     ![](./media/image28.png)
 
 
-4.  Click on the **+ New button**
+4.  Click on the **+ New button**. Select **+New**.
 
-    ![](./media/image29.png)
+    ![](./media/image7.4.png)
 
 
 5.  Select **ITEM**, and then click **OK**.
 
-    ![](./media/image30.png)
+    ![](./media/image7.5.png)
 
 
 6.  In the Item Category Code field, select **FURNITURE** and in the
     Description field, write **Office Chair.**
 
-    ![](./media/image31.png)
+    ![](./media/image7.6.png)
 
 
-7.  Click on the **Save** button.
+7.  Make sure the entry is saved.
 
-    ![](./media/image32.png)
+    ![](./media/image7.7.png)
 
 
 8.  On the Power Automate portal, click on **App launcher** located at the upper left corner. Select **Outlook** and then you can see the automated response is received on MOD Admin’s provided **Email**.
 
-    ![](./media/image33.png)
+    ![](./media/image7.8.png)
 
 
 ### Conclusion: 
