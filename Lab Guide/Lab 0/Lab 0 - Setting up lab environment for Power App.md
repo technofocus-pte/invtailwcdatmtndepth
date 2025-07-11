@@ -59,18 +59,15 @@
 8.  Open the new tab and go to Power Platform admin center by navigating
     to +++**https://admin.powerplatform.microsoft.com**+++
     and if required, sign
-    in using your given Office 365 tenant admin credentials. **Close**
-    the **Pop-up window** saying, ‘Welcome to the new Power Platform admin center'. Select **Manage** from left navigation       pane.
+    in using your given Office 365 tenant admin credentials. If 
+    the **Pop-up** window appears that says, ‘Welcome to the new Power Platform admin center', then close it. 
 
     ![](./media/image8.1.png)
-
-    ![](./media/image8.2.png)
-
-
-9.  From the left navigation pane, select **Environments** and then you
+   
+9.  From the left navigation pane, Select **Manage**, select **Environments** and then you
     can see, **Dev One** is your Dataverse environment.
 
-     ![](./media/image9.1.png)
+     ![](./media/image1.9.png)
     
 
 
@@ -80,9 +77,9 @@
     using +++**https://teams.microsoft.com**+++ with your
     Office 365 tenant credentials.
 
-2.  On Welcome to Teams window, select **Get Started**. 
+2.  On the **Get to Teams** window, select **Get Started**. 
 
-    ![](./media/image10.png)
+    ![](./media/image2.1.png)
 
 
 3.  Close the window which is asking for scanning QR code.
@@ -94,34 +91,26 @@
 4.  On the left side of Teams, click **Teams**, click **+
     sign** to  **Join or create a team**.
 
+    ![](./media/image2.4.png)
 
-    ![](./media/image12.png)
-
-
-5.  Click on **Create team**.
-
-
-    ![](./media/image13.png)
-
-
-6.  Enter the Team name : +++**Test Team**+++, on Name the first
+5.  Enter the Team name : +++**Test Team**+++, on Name the first
     channel
     as +++**TestChannel**+++ and click on **Private**.
 
 
-    ![](./media/image14.png)
+    ![](./media/image2.6.png)
 
 
-7.  Select **Org-wide**.
+6.  Select **Org-wide**.
 
 
     ![](./media/image15.png)
 
 
-8.  Select **Create**.
+7.  Select **Create**.
 
 
-    ![](./media/image16.png)
+    ![](./media/image2.8.png)
 
 
 **Summary:** In this lab, you acquired Power Apps trial license and configure Microsoft Teams.
