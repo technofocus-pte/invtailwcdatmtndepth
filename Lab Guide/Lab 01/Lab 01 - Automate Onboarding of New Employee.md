@@ -33,18 +33,14 @@ effectively manage and automate HR processes within their organizations.
 
 ## Task 2: Create a site in SharePoint 
 
-1.  Navigate to +++**https:\\office.com**+++ and
-    sign in with your office 365 tenant.
-
-2.  Click on matrix in the upper-left corner and select **SharePoint**
+1.  On the **Power Platform admin center**, select App launcher from the top left corner. Select **SharePoint**
     from list of **apps**.
 
+    ![](./media/image2.1.png)
 
-    ![](./media/image2.png)
+2.  Select **NOT NOW** on the **News from sites** pop-up.
 
-
-    ![](./media/image3.png)
-
+    ![](./media/image2.2.png)
 
 4.  Click on **+Create site** on top menu.
 
