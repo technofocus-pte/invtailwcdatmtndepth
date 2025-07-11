@@ -20,7 +20,7 @@ processes and notifications.
 
     ![](./media/image1.png)
 
-2.  Enter your Office 365 tenant ID and click **Next**.
+2.  If asked, complete the verification process by solving the puzzle and if asked, enter your Office 365 tenant ID and click **Next**.
 
     ![](./media/image2.png)
 
@@ -30,23 +30,27 @@ processes and notifications.
     ![](./media/image3.png)
 
 
-4. Select **United states** as country or region, enter your **phone number** and then select **Get started**.
+4. Select **United states** as country or region, enter your **Job title** and the **phone number** and then select **Get started**.
 
-    ![](./media/image4.1.png)
-
+    ![](./media/image1.4.png)
 
  
-5.  Then click on **Get started** to access Business Central.
+5.  Select **Skip & go to Dynamics 365 Business Central**.
+
+    ![](./media/image1.4.1.png)
+    
+
+6.  Then click on **Get started** to access Business Central.
 
     ![](./media/image4.png)
 
 
-6.  Select the **Skip Survey** button to proceed.
+7.  Select the **Skip Survey** button to proceed.
 
     ![](./media/image5.png)
 
 
-7. You will be directed to the Dynamics 365 Business Central home page.
+8. You will be directed to the Dynamics 365 Business Central home page.
 
     ![](./media/image5.1.png)
 
