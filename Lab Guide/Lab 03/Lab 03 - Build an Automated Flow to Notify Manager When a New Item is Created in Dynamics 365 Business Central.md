@@ -133,7 +133,8 @@ processes and notifications.
     ![](./media/image4.2.png)
 
 
-3.  Enter the following information:
+3.  Select the **Get record (V3)**
+    action. Enter the following information:
 
     1.  **Environment**: Select **PRODUCTION** from the drop-down.
 
@@ -244,12 +245,12 @@ processes and notifications.
 6.  In the Item Category Code field, select **FURNITURE** and in the
     Description field, write **Office Chair.**
 
-    ![](./media/image7.6.png)
+    ![](./media/image7.6.1.png)
 
 
 7.  Make sure the entry is saved.
 
-    ![](./media/image7.7.png)
+    ![](./media/image7.7.1.png)
 
 
 8.  On the Power Automate portal, click on **App launcher** located at the upper left corner. Select **Outlook** and then you can see the automated response is received on MOD Admin’s provided **Email**.
