@@ -42,27 +42,27 @@ effectively manage and automate HR processes within their organizations.
 
     ![](./media/image2.2.png)
 
-4.  Click on **+Create site** on top menu.
+3.  Click on **+Create site** on top menu.
 
     ![](./media/image4.png)
 
 
-5.  Select **Communication site** tile in **Create a site** window.
+4.  Select **Communication site** tile in **Create a site** window.
 
     ![](./media/image5.png)
 
 
-6.  Scroll down and select **Blank** template.
+5.  Scroll down and select **Blank** template.
 
     ![](./media/image6.png)
 
 
-7.  Click on **Use template**.
+6.  Click on **Use template**.
 
     ![](./media/image7.png)
 
 
-8.  Enter Site name and description then click on **Next** button.
+7.  Enter Site name and description then click on **Next** button.
 
     - Site Name: +++**Contoso Corp**+++
 
@@ -72,7 +72,7 @@ effectively manage and automate HR processes within their organizations.
     ![](./media/image8.png)
 
 
-9.  Keep the default language and then click on **Create Site.**
+8.  Keep the default language and then click on **Create Site.**
 
     ![](./media/image9.png)
 
@@ -360,7 +360,7 @@ In this exercise, you will build your application to send an email to an employe
     ![](./media/image47.png)
 
 
-17. Select **Emp_Id** field and change value **required**. Click on
+16. Select **Emp_Id** field and change value **required**. Click on
     **Advanced** under **Properties** and select **Unlock to change
     properties**.
 
@@ -370,14 +370,14 @@ In this exercise, you will build your application to send an email to an employe
 
     ![](./media/image2.1.17.png)
 
-18.  Now set the **Required** value to true. You should see a star next
+17.  Now set the **Required** value to true. You should see a star next
     **Emp_id** field.
 
 
      ![](./media/image49.png)
 
 
-19.  Repeat the previous two steps for the **First Name** and **Last Name** fields. 
+18.  Repeat the previous two steps for the **First Name** and **Last Name** fields. 
 
      **Note**: If you don't see these fields, then select **HrEmployeeform**, navigate to **Properties**, click **Edit field**, then proceed to add the fields and reorder accordingly. 
 
@@ -385,13 +385,13 @@ In this exercise, you will build your application to send an email to an employe
      ![](./media/image50.png)
 
 
-20. Click outside of the form control to deselect it and then click on **Insert** --> **Button**. 
+19. Click outside of the form control to deselect it and then click on **Insert** --> **Button**. 
 
 
 
     ![](./media/image51.png)
 
-21. Drag and place the button under **Department** field in the form and
+20. Drag and place the button under **Department** field in the form and
     update below properties.
 
     **Text**: **Submit**
@@ -401,33 +401,33 @@ In this exercise, you will build your application to send an email to an employe
 
 
 
-22. Click on **New Screen** and select the **Success** template.
+21. Click on **New Screen** and select the **Success** template.
 
 
     ![](./media/image53.png)
 
 
-23. Select the newly added screen, and rename it to **Success**, as indicated in the image 
+22. Select the newly added screen, and rename it to **Success**, as indicated in the image 
 below.
 
 
     ![](./media/image54.png)
 
 
-24. Select **Lb1Successmsg1** and change the **Text** property to **New employee
+23. Select **Lb1Successmsg1** and change the **Text** property to **New employee
     added**.
 
 
     ![](./media/image55.png)
 
 
-25. Now, click on **Insert --> Icons --> Back arrow.**
+24. Now, click on **Insert --> Icons --> Back arrow.**
 
 
     ![](./media/image56.png)
 
 
-26. Position and resize the new icon as you see fit. Then, select the newly added icon and update the properties as follows
+25. Position and resize the new icon as you see fit. Then, select the newly added icon and update the properties as follows
 
 
 - Tool Tip: **Go Back**
@@ -438,7 +438,7 @@ below.
     ![](./media/image57.png)
 
 
-27. Click on **HrEmployeeform.** Select the **Submit Button** you added in the step 20 and update the **OnSelect** property with the following formula. 
+26. Click on **HrEmployeeform.** Select the **Submit Button** you added in the step 20 and update the **OnSelect** property with the following formula. 
 
      **Note:** Update the formula with your SharePoint Form.
 
@@ -448,7 +448,7 @@ below.
     ![](./media/image58.png)
 
 
-28. Select **Form1**, ensure the **OnSuccess** property is selected in the dropdown and then update it using the formula below 
+27. Select **Form1**, ensure the **OnSuccess** property is selected in the dropdown and then update it using the formula below 
 
     +++**ResetForm(Self); RequestHide();Notify("New Employee
     added",NotificationType.Success)**+++
@@ -457,67 +457,67 @@ below.
     ![](./media/image59.png)
 
 
-29. Click on the **Save --> Save as** button and enter the name as
+28. Click on the **Save --> Save as** button and enter the name as
     **EmpformforHr** and then click on **Save**.
 
 
     ![](./media/image60.png)
 
 
-30. Select the form and change the **Default mode** to **New** and then
+29. Select the form and change the **Default mode** to **New** and then
     click on the **Save ->** **Preview** icon.
 
 
     ![](./media/image61.png)
 
 
-31. Enter a random **Emp id**, **First Name** and **Last Name** and then click
+30. Enter a random **Emp id**, **First Name** and **Last Name** and then click
     on **Submit** button.
 
 
     ![](./media/image62.png)
 
 
-32. You should see the **New employee added** message. Click on the **Back**
+31. You should see the **New employee added** message. Click on the **Back**
     button.
 
 
     ![](./media/image63.png)
 
 
-33. Colse the **Preview mode** and select **Ok** on the pop-up theat appears on the Power Apps portal. Click on **Publish** button and then click on **Publish this
+32. Colse the **Preview mode** and select **Ok** on the pop-up theat appears on the Power Apps portal. Click on **Publish** button and then click on **Publish this
     version** button.
 
 
     ![](./media/image64.png)
 
 
-34. Go back to the SharePoint tab in a browser. You should see the employee
+33. Go back to the SharePoint tab in a browser. You should see the employee
     record of the new employee added by you in the list.
 
 ## Task 2: Create employee onboarding Canvas app for the employee
 
-2.  Open a new tab and go to +++**https://make.powerapps.com/**+++. Sign in with your Microsoft 365 admin credentials and select your **Dev One** (Developer) environment. 
+1.  Open a new tab and go to +++**https://make.powerapps.com/**+++. Sign in with your Microsoft 365 admin credentials and select your **Dev One** (Developer) environment. 
 
-3.  Click on the **Apps** from the left navigation menu. Select **New App** ->
+2.  Click on the **Apps** from the left navigation menu. Select **New App** ->
     **Start with a page design.**
 
 
     ![](./media/image35.png)
 
-4.  Select **Blank Canvas** tile.
+3.  Select **Blank Canvas** tile.
 
 
     ![](./media/image36.png)
 
 
-5.  Select **Skip** on the **Welcome to Power Apps Studio**. Right click on **Screen1** and select **Rename.**
+4.  Select **Skip** on the **Welcome to Power Apps Studio**. Right click on **Screen1** and select **Rename.**
 
 
     ![](./media/image37.png)
 
 
-6.  Rename to **Employeeform**
+5.  Rename to **Employeeform**
 
    
 
@@ -525,59 +525,59 @@ below.
 
 
 
-7.  Click on **Insert** and select **Edit** form.
+6.  Click on **Insert** and select **Edit** form.
 
 
     ![](./media/image66.png)
 
 
-8.  Search for **SharePoint** and select **SharePoint connector** from
+7.  Search for **SharePoint** and select **SharePoint connector** from
     **Select a data source** dropdown.
 
 
     ![](./media/image40.png)
 
 
-9.  Select the **SharePoint** connection which is already created in the previous task.
+8.  Select the **SharePoint** connection which is already created in the previous task.
 
 
     ![](./media/image2.2.9.png)
 
 
-10. Select the connection created in the previous task from the list.
+9. Select the connection created in the previous task from the list.
 
-12. Select **Employee Onboarding** list and then click on **Connect**.
+10. Select **Employee Onboarding** list and then click on **Connect**.
 
 
     ![](./media/image43.png)
 
 
-13. Drag and fit the form into the screen.
+11. Drag and fit the form into the screen.
 
 
     ![](./media/image68.png)
 
 
-14. Select the **Form 1** and Set the **Display mode**** to **New** under properties.
+12. Select the **Form 1** and Set the **Display mode**** to **New** under properties.
 
 
     ![](./media/image69.png)
 
 
-15. Reduce the size of the **Form1** component as indicated in the image below and then click on **Insert** --> **Rectangle** to insert a header into the screen. 
+13. Reduce the size of the **Form1** component as indicated in the image below and then click on **Insert** --> **Rectangle** to insert a header into the screen. 
 
 
     ![](./media/image70.png)
 
 
-16. Change the width of the rectangle to the screen and select
+14. Change the width of the rectangle to the screen and select
     **Insert --> Text label**.
 
 
     ![](./media/image71.png)
 
 
-17. Select the Label and set below **properties.**
+15. Select the Label and set below **properties.**
 
     - **Text: Employee Onboarding Form**
 
@@ -593,7 +593,7 @@ below.
     ![](./media/image72.png)
 
 
-18. Select the **Emp_Id** field name and change **Font size** to **16**
+16. Select the **Emp_Id** field name and change **Font size** to **16**
     and **Font weight** to **Bold** under Properties.
 
     **Note**: If you don't see the **Emp_Id** field, select the **Form1** on the canvas, then select **Fields** > **Add field**. Choose **Emp_Id** from the list. If **Emp_Id** isn’t available, select **Title** instead, and click **Add**.
@@ -601,33 +601,33 @@ below.
     ![](./media/image73.png)
 
 
-19. Repeat above step for all fields.
+17. Repeat above step for all fields.
 
 
     ![](./media/image74.png)
 
 
-20. Select **Orientation location** item and set **Visible** property to
+18. Select **Orientation location** item and set **Visible** property to
     **Off**.
 
 
     ![](./media/image75.png)
 
 
-21. Select **Have you been to orientation yet**? text field and click on
+19. Select **Have you been to orientation yet**? text field and click on
     **edit** label.
 
 
     ![](./media/image76.png)
 
 
-22. Change label value to **Orientationdropdown**
+20. Change label value to **Orientationdropdown**
 
 
     ![](./media/image77.png)
 
 
-23. Select **Orientation Location data card** from the **Tree view** and replace the **false** value of  **Visible**  property to the formula as shown in below image.
+21. Select **Orientation Location data card** from the **Tree view** and replace the **false** value of  **Visible**  property to the formula as shown in below image.
 
     +++**If(*Orientationdropdown*.Selected.Value="No",true,false)**+++
 
@@ -635,14 +635,14 @@ below.
     ![](./media/image78.png)
 
 
-24. Click on **Save** and enter app name as: **EmployeeOnboardingForm**
+22. Click on **Save** and enter app name as: **EmployeeOnboardingForm**
     and then click on **Save** button.
 
 
     ![](./media/image79.png)
 
 
-26. Select the **Emp_Id**/**Title** field and click **on Advanced --> Unlock to change
+23. Select the **Emp_Id**/**Title** field and click **on Advanced --> Unlock to change
     properties** and update **Display mode** to
     **Parent.DisplayMode.View**. Repeat this for **First Name**, **Last Name** fields too.
 
@@ -665,7 +665,7 @@ below.
     ![](./media/image84.png)
 
 
-27. Select the **Work email** Field **Unlock property** and update
+24. Select the **Work email** Field **Unlock property** and update
     **Required** property to **true.** Repeat for other fields if
     required.
 
@@ -673,7 +673,7 @@ below.
     ![](./media/image85.png)
 
 
-28. Select the **Form1** and update **OnFailure** field value to
+25. Select the **Form1** and update **OnFailure** field value to
 
     +++**Notify("Required Fields can't be empty.",NotificationType.Error)**+++
 
@@ -681,7 +681,7 @@ below.
     ![](./media/image86.png)
 
 
-29. Select **OnSuccess** and set the value to
+26. Select **OnSuccess** and set the value to
 
     +++**Notify("Thank you for filling out the form",NotificationType.Success)**+++
 
@@ -689,14 +689,14 @@ below.
     ![](./media/image87.png)
 
 
-30. Now, Let’s add button to submit at the end of the form. Click on
+27. Now, Let’s add button to submit at the end of the form. Click on
     **Insert --> Button.**
 
 
     ![](./media/image88.png)
 
 
-31. Change the Properties of the button and save the form.
+28. Change the Properties of the button and save the form.
 
     - Text: **Submit.**
 
@@ -706,27 +706,27 @@ below.
     ![](./media/image89.png)
 
 
-32. Click on **Save** and then click on **Preview** app buttons.
+29. Click on **Save** and then click on **Preview** app buttons.
 
 
     ![](./media/image90.png)
 
 
-33. Enter details and then click on **Submit**.
+30. Enter details and then click on **Submit**.
 
 
     ![](./media/image91.png)
 
 
-34. You should see success notification.
+31. You should see success notification.
 
 
     ![](./media/image92.png)
 
 
-35. Close the preview window.
+32. Close the preview window.
 
-36. Click on **App** from **Tree View**. Select **OnStart** and enter
+33. Click on **App** from **Tree View**. Select **OnStart** and enter
     the below formula.
 
     ```
@@ -749,33 +749,33 @@ below.
     ![](./media/image93.png)
 
 
-37. Select the **Form1** from **Tree View**. Select **Item** and enter the
+34. Select the **Form1** from **Tree View**. Select **Item** and enter the
     value as: **onboardinglistitem**
 
 
     ![](./media/image94.png)
 
 
-38. Click on **Save** and **Publish --> Publish this version**.
+35. Click on **Save** and **Publish --> Publish this version**.
 
 
     ![](./media/image95.png)
 
 
-39. Go back to the **Power Apps Home** page, Click on **Apps --> Your
+36. Go back to the **Power Apps Home** page, Click on **Apps --> Your
     app (EmployeeOnboardingForm) --> Details**.
 
 
     ![](./media/image96.png)
 
 
-40. Copy the Weblink to use in next task.
+37. Copy the Weblink to use in next task.
 
 
     ![](./media/image97.png)
 
 
-41. Close the preview window and navigate to your SharePoint tab and
+38. Close the preview window and navigate to your SharePoint tab and
     check the above record in the list.
 
 
