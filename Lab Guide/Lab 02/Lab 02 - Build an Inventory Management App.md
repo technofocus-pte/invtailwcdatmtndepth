@@ -1,4 +1,4 @@
-# Lab 2 - Build an Inventory Management App
+# **Lab 2 - Build an Inventory Management App**
 
 **Objective:** The objective of this lab is to guide participants
 through the creation of a functional inventory management application
@@ -15,82 +15,70 @@ automate inventory restocking workflows with Power Automate.
 1.  Open a browser and go to
     +++**https://admin.powerplatform.microsoft.com**+++. Sign in with your office 365 admin account.
 
-2.  Select **Environments** on the left navigation. The **Developer
-    environment** should have been created for you as shown in the image
-    below. (This environment is created automatically as soon as you
-    provide Microsoft Power App for Developer license using your admin accounts. The name of the environment will be different
-    for every admin account.)
-
-    ![](./media/image1.png)
+2.  From the left navigation pane, select **Manage** > **Environments**. The **Dev one** - **Developer
+    environment** should have been created for you as shown in the image.
+   
+    ![](./media/image1.1.2.png)
 
 3.  Use the same developer environment to execute all the exercises of
     this lab.
 
-> **Note**: **Dev one** developer environment is used in this lab. The name of the environment can be different for different users. Make sure to select your developer environment.
+     **Note**: **Dev one** developer environment is used in this lab. The name of the environment can be different for different users. Make sure to select your developer environment.
 
 ### Task 2: Create inventory management app using Copilot.
 
 1.  Open a browser and go to +++**https://make.powerapps.com**+++ sign in
-    with office 365 admin tenant account.
+    with office 365 admin tenant credentials.
 
-2.  Click on the environment on right top corner and select **your
-    developer** environment (Dev one is a developer environment used in
-    this lab guide)
+2.  Click on the environment on right top corner and select **Dev One** environment. 
 
     ![](./media/image2.png)
 
-3.  Enter the below prompt and click on **the Enter** button.
+3.  From the left navigation pane, select **Apps** and then select **Start with Copilo**t. 
+
+    ![](./media/image1.1.3.png)
+
+4.  Enter the below prompt and click on the **Generate** button.
 
     +++**build a candy inventory management app**+++
 
-    ![](./media/image3.png)
+    ![](./media/image1.2.4.png)
 
-4.  Select the **Start with Copilot** tile
+5.  Copilot generates the tables as shown in the below image.
 
-    ![](./media/image4.png)
-
-
-5.  Enter below prompt and click on **Generate** to create table with
-    the help of Copilot
-
-    +++**Candy Inventory management**+++
-
-    ![](./media/image5.png)
-
-
-6.  Copilot generates the tables as shown in the below image.
+    **Note**: Note that, Copilot may generate different tables for you. 
 
     ![](./media/image6.png)
 
-7.  Click on three dots next to Candy and then click on **View data.**
+6.  Click on three dots next to **Candy** and then click on **View data.**
 
     ![](./media/image7.png)
 
 
-8.  The data in the Candy table should have data as shown in the image
-    below.
+7.  The data in the Candy table should have data as shown in the image
+    below. Again note that, your data may differ 
 
     ![](./media/image8.png)
 
 
-9.  Click on **Supplier --> View data** and explore the data and then
+8.  Click on **Supplier --> View data** and explore the data and then
     close the view window.
 
     ![](./media/image9.png)
 
 
-10. Update one of the Supplier email ids with your work/personal working
+9. Update one of the Supplier email/Contact Email ids with your work/personal working
     email id
 
     ![](./media/image10.png)
 
 
-11. Click on **Order --> View data**
+10. Click on **Order --> View data**. Note that your table name may differ. For example it can be Inventory.
 
     ![](./media/image11.png)
 
 
-12. Ener below prompt in the text box and click on Enter. This column is
+11. Enter below prompt in the text box and click on Enter. This column is
     required to notify when the quantity went below the reorder point.
 
     +++**Add reorder point column to Candy table**+++
@@ -98,25 +86,25 @@ automate inventory restocking workflows with Power Automate.
     ![](./media/image12.png)
 
 
-13. Add candyInStock column with type as Number. If Quantity is less
+12. Add candyInStock column with type as Number. If Quantity is less
     than reorder points, then Quantity column will automate add with
     candyInStock.
 
-    +++**Add **candyInStock** column to Candy table with sample stock count**+++
+    +++Add candyInStock column to Candy table with sample stock count+++
 
     ![](./media/image13.png)
 
-14. The table has been updated with reorder point column and Candy in
+13. The table has been updated with reorder point column and Candy in
     Stock column 
 
     ![](./media/image14.png)
 
 
-15. Click on the **Save and open app** button
+14. Click on the **Save and open app** button
 
     ![](./media/image15.png)
 
-16. On **Done working?** window, click on **Save and open app** and wait
+15. On **Done working?** window, click on **Save and open app** and wait
     for the app to be created.
 
     ![](./media/image16.png)
@@ -124,18 +112,18 @@ automate inventory restocking workflows with Power Automate.
     ![](./media/image17.png)
 
 
-17. Skip the welcome window.
+16. Skip the welcome window.
 
     ![](./media/image18.png)
 
 
-18. The app gets created and should look like the image below.
+17. The app gets created and should look like the image below.
 
     ![](./media/image19.png)
 
 
-19. Click on the **save** button and enter the name **MSCandy Inventory
-    management app**, then click on **Save** button.
+18. Click on the **save** button and enter the name +++**MSCandy Inventory
+    management app**+++, then click on **Save** button.
 
     ![](./media/image20.png)
 
@@ -143,13 +131,13 @@ automate inventory restocking workflows with Power Automate.
     ![](./media/image21.png)
 
 
-20. Explore the app. Click on **the Candy screen** from Tree view. You
+19. Explore the app. Click on **the Candy screen** from Tree view. You
     can update the label of the screen to **Candy Inventory management**
 
     ![](./media/image22.png)
 
 
-21. Explore the Supplier screen and update as per your requirements.
+20. Explore the Supplier screen and update as per your requirements.
 
     ![](./media/image23.png)
 
@@ -170,7 +158,7 @@ automate inventory restocking workflows with Power Automate.
     ![](./media/image26.png)
 
 
-4.  Click on Screen area and select **Create a new table(preview)**
+4.  Click on Screen area and select **With data** then select **Create new tables**
 
     ![](./media/image27.png)
 
@@ -185,54 +173,56 @@ automate inventory restocking workflows with Power Automate.
     ![](./media/image29.png)
 
 
-7.  Enter the Display name as **Candy ID** and then click on **Update**
+7.  Enter the Display name as +++**Candy ID**+++ and then click on **Update**
     button.
 
     ![](./media/image30.png)
 
 
-8.  Click on New column and enter below details and then click on
+8.  Click on **New column** and enter below details and then click on
     **Save**.
 
-    - **Display Name:** Candy Name
+    - **Display Name:** +++Candy Name++
     - **Data Type:** Choice
     - **Required:** Yes.
     - **Choices:** add below choices
 
-        - Chocolate Bar
+        - ++Chocolate Bar++
 
-        - Gummy Bears
+        - ++Gummy Bears++
 
-        - Jellybeans
+        - ++Jellybeans++
 
-        - Lollipop
+        - ++Lollipop++
 
-        - Sour Patch Kids
+        - ++Sour Patch Kids++
 
     ![](./media/image31.png)
 
 
-9.  Click on New Column and add a column with below details and then
+9.  Click on **New Column** and add a column with below details and then
     click on **Save**.
 
-    - **Display Name:** Candy Quality
+    - **Display Name:** ++Candy Quality++
     - **Data type:** Choice
     - **Required:** Yes
-    - **Choice:** labels
-      - Defective
-      - Nondefective
+    - **Choice:** add below choices
+      - ++Defective++
+      - ++Nondefective++
 
     ![](./media/image32.png)
 
 
-> **Note:** You can add more columns as per your app requirements.
+     **Note:** You can add more columns as per your app requirements.
 
-10.  Edit the table name and update with +++**Candy Quality check**+++. 
-    ![](./media/image33.png)
+10.  To edit the table name, click on the **Properties** and update it with +++**Candy Quality check**+++. Select **Save**.
+ 
+     ![](./media/image33.png)
 
 
 11.  Click on **Save and exit -> Save and exit**.
-    ![](./media/image34.png)
+
+     ![](./media/image34.png)
 
 12.  You will navigate back to the Power Apps app page. Select the newly
     added screen and click on Insert and select **Edit form** as shown
@@ -248,7 +238,7 @@ automate inventory restocking workflows with Power Automate.
     ![](./media/image37.png)
 
 
-15.  Adjust the table to the middle of the page. Click on **Insert-\>
+15. Adjust the Form control to the middle of the page. Click on **Insert >
     Text label.**
     ![](./media/image38.png)
 
@@ -262,7 +252,7 @@ automate inventory restocking workflows with Power Automate.
     ![](./media/image40.png)
 
 
-18.  Drag the submit button and place it in the middle of the container.
+18. Drag the Submit button and place it in the middle of the container.
     Select the button and change the **properties** text to **Submit**
     as shown in below image.
     ![](./media/image41.png)
@@ -270,31 +260,35 @@ automate inventory restocking workflows with Power Automate.
 19.  Select the **Submit** button and select **OnSelect** function and
     enter below function.
 
-> **Note:** Form4 in the formula should be replaced with your form name SubmitForm(Form4);NewForm(Form4).
+    +++SubmitForm(Form4);NewForm(Form4)+++
+
+     **Note:** Form4 in the formula should be replaced with your form name .
 
 ![](./media/image42.png)
 
-
-
-20. Select the container, under properties, select **Default** mode to
+20. Select the **Form**, under properties, select **Default** mode to
     **New**.
+  
     ![](./media/image43.png)
 
 
 21. Click on **Save** and then click on **Preview app** button as shown
     in below image.
+
     ![](./media/image44.png)
 
-22. Enter Candy details and then click on the Submit button.
+22. Enter Candy details and then click on the **Submit** button.
+ 
     ![](./media/image45.png)
 
 
-23. Switch back to your Candy quality table in Dataverse environment and
+23. Close the preview window.
+
+24. On the Power Apps portal, click on the **Back** to go back to the **Home** page. From the left navigation pane, select **Tables** and then select **Candy quality check** table from the list and
     you should see the record added above.
+  
     ![](./media/image46.png)
 
-
-24. Close the preview window.
 
 ## Exercise 2: Create a Power Automate flow to restock the inventory.
 
@@ -302,80 +296,87 @@ automate inventory restocking workflows with Power Automate.
 
 1.  Switch back to Power Automate tab and click on **My flows** -\>
     **New flow -\Automated cloud flow.**
-    ![](./media/image47.png)
+
+    ![](./media/image2.1.1.png)
 
 
 2.  Enter the flow name as: +++**Candy Restock Flow**+++. Search for +++**When a
     row**+++ is and select Dataverse’s **When a row is added or modified**
     action and then click on **Create**.
-    ![](./media/image48.png)
+
+    ![](./media/image2.1.2.png)
 
 
-3.  Select the action and set the parameters below.
+3.  Select the step and set the parameters below.
 
-    - Change Type; Added or Modified
-    - Table Nam: Candies
-    - Scope: Organization
-    ![](./media/image49.png)
+    - **Change Type**: Added or Modified
+    - **Table Name**: Candies
+    - **Scope**: Organization
+
+      ![](./media/image49.png)
 
 
-4.  Add an action after an action **“when a row is added, modified or
+5.  Add an action after an action **“when a row is added, modified or
     deleted”.**
+ 
     ![](./media/image50.png)
 
 
-5.  Search for **Condition** and select **Control’s Condition** action.
-    ![](./media/image51.png)
+6.  Search for **Condition** and select **Control’s Condition** action.
 
-6.  Click on Chose value and select choose from previous step dynamic
+      ![](./media/image51.png)
+
+8.  Click on Chose value and select choose from previous step dynamic
     action.
+
     ![](./media/image52.png)
 
 
-7.  Search for +++**Quantity**+++ column and select it.
+9.  Search for +++**Quantity**+++ column and select it. If you dont see **Quantity** in you list then select other appropriate field. For example **candyInStock**.
+ 
     ![](./media/image53.png)
 
 
-8.  Select a condition that **is less than** and click on Enter data
+10.  Select a condition that **is less than** and click on Enter data
     from previous action.
     ![](./media/image54.png)
 
 
-9.  Search for the +++**Reorder points**+++ column and select it.
+11.  Search for the +++**Reorder points**+++ column and select it.
     ![](./media/image55.png)
 
 
-10.  **Add an action** under **True** condition.
+12.  **Add an action** under **True** condition.
     ![](./media/image56.png)
 
 
-11.  Select +++**Approvals**+++ action.
+13.  Select +++**Approvals**+++ action.
     ![](./media/image57.png)
 
 
-12.  Select +++**Start and wait for an Approvals**+++ .
+14.  Select +++**Start and wait for an Approvals**+++ .
     ![](./media/image58.png)
 
 
-13.  Select Approval Type as: +++**Approve/Reject – First to Respond**+++.
+15. If asked, create a new connection. Select Approval Type as: **Approve/Reject – First to Respond**.
     Enter Title as: +++**Approve to Restock**+++ - and click on Dynamic button
     to select the data from previous step.
     ![](./media/image59.png)
 
 
-14.  Search for **Candy Name**+++ and select it.
+16.  Search for +++**Candy Name**+++ and select it.
     ![](./media/image60.png)
 
-15.  Enter below details.
+17.  Enter below details.
    
-        ```
-        Assigned to: Your work email id.
+       
+        **Assigned to**: Start typing Admin, and select **MOD ADmin** from the suggestion.
         
-        Details:
-        
+        **Details**:
+         ```
         Hi Sir,  
         
-        is out of stock - for customers to place an order. Please approve to
+        **Candy Name** (Select from dynamic content) is out of stock - for customers to place an order. Please approve to
         restock.  
         
         Thanks
@@ -400,19 +401,19 @@ automate inventory restocking workflows with Power Automate.
 
 
 19. Select the condition as **is equal to** and enter the value as
-    **Approve**.
+    +++**Approve**+++.
     ![](./media/image65.png)
 
 20. Under **True** condition, **add an action**.
     ![](./media/image66.png)
 
 
-21. Search for **Update Row** and select it from **Microsoft Dataverse**
+21. Search for +++**Update Row**+++ and select it from **Microsoft Dataverse**
     section.
     ![](./media/image67.png)
 
 
-22. Select your **Candy** table and Click on **Row Id** select Dynamic
+22. Select your **Candies** table and Click on **Row Id** select Dynamic
     action.
     ![](./media/image68.png)
 
@@ -422,7 +423,7 @@ automate inventory restocking workflows with Power Automate.
 
 
 24. Click on **Advanced Parameters** drop down and select **Quantity**
-    column.
+    column. Note that, here your column can be different. 
     ![](./media/image70.png)
 
 25. Enter the below function (you type in your app) and collapse the
