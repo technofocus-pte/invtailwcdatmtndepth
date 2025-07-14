@@ -101,7 +101,7 @@ effectively manage and automate HR processes within their organizations.
     ![](./media/image13.png)
 
 
-4.  Change **Work Email** column type to **single line of text** and
+4.  Change the **Work Email** column type to **single line of text** and
     then click on **Next**.
 
 
@@ -143,12 +143,12 @@ effectively manage and automate HR processes within their organizations.
     ![](./media/image20.png)
 
 
-9.  Click on **Department** column link.
+9.  Click on the **Department** column link.
 
     ![](./media/image21.png)
 
 
-10. Change below values and then click on **Ok**.
+10. Change the below values and then click on **Ok**.
 
     - Type of Column : **Choice**
 
@@ -158,10 +158,10 @@ effectively manage and automate HR processes within their organizations.
     ![](./media/image22.png)
 
 
-11. Repeat the above step for **Job title** column.
+11. Repeat the above step for the **Job title** column.
 
-12. Select **Have you been to orientation yet?** column and make below
-    chagnes and then click **OK**.
+12. Select the **Have you been to orientation yet?** column and make below
+    changes and then click **OK**.
 
     - Type of Column : **Choice**
 
@@ -172,16 +172,16 @@ effectively manage and automate HR processes within their organizations.
     ![](./media/image23.png)
 
 
-13. Repeat above step for **Orientation Location** with below properties and then select **Ok**.
+13. Repeat the above step for **Orientation Location** with below properties and then select **Ok**.
 
     - Type of Column : **Choice**
 
     - Allow 'Fill-in' choices: **Yes**
 
-    - Type each choice on a separate line : **Redmon Reno**
+    - Type each choice on a separate line : **Redmond Reno**
 
 
-    ![](./media/image24.png)
+    ![](./media/image3.13.png)
 
 
 14. Repeat above step for **Manager** column with below properties add and then select **Ok**.
@@ -229,7 +229,7 @@ effectively manage and automate HR processes within their organizations.
 
     - Name : +++**Contoso HR**+++
 
-    - Description : +++**Contoso Human Resource**+++, then click on **Create**
+    - Description (If asked) : +++**Contoso Human Resource**+++, then click on **Create**
       button.
 
 
@@ -256,24 +256,19 @@ effectively manage and automate HR processes within their organizations.
 
 # Exercise 2: Create Power Apps for SharePoint Lists
 
-In this exercise, you will build your application to send an email to
-employee with official information and asking him to fill and upload
-documents.
+In this exercise, you will build your application to send an email to an employee with official information and asking them to fill and upload documents.
 
 ## Task 1: Customize Employee form with PowerApps for HRs to fill.
 
-1.  From your **SharePoint --> Employee onboarding**, copy URL and save
-    it in Notepad.
+1.  From your SharePoint **Contoso Corp** site, select **Employee Onboarding** list from the horizontal palette, copy the URL and save it in Notepad. 
 
 
     ![](./media/image34.png)
 
 
-2.  Open a new tab and go to +++**https://make.powerapps.com/**+++. Sign in
-    with your office 365 admin tenant and select your **Dev One**
-    (Developer) environment. For now, **disable** the toggle button that says 'Try the new Power Apss experience'.
+2.  Open a new tab and go to +++**https://make.powerapps.com/**+++. Sign in with your Microsoft 365 admin credentials and select your **Dev One** (Developer) environment. 
 
-    ![](./media/image2.2.1.png)
+    ![](./media/image2.1.2.png)
 
 3.  Click on **Apps** from left navigation menu. Select **New App -->
     Start with a page design.**
@@ -286,7 +281,7 @@ documents.
 
     ![](./media/image36.png)
 
-5.  Right click on **Screen1** and select **Rename.**
+5.  Select **Skip** on the **Welcome to Power Apps Studio**. Right click on **Screen1** and select **Rename.**
 
     ![](./media/image37.png)
 
@@ -304,56 +299,54 @@ documents.
 
 
 
-8.  Search for **SharePoint** and select **SharePoint connector** from
+8.  Search for **SharePoint** and select the **SharePoint connector** from
     **Select a data source** dropdown.
 
 
     ![](./media/image40.png)
 
 
-9.  Select **SharePoint** under **Connect.**
+9.  Under the **SharePoint**, select **Connect deirectly** and then select **Connect.**
 
 
-    ![](./media/image41.png)
+    ![](./media/image2.1.9.png)
 
 
-10. Enter the **SharePoint list URL** copied form step 1 into **Enter
+10. Enter the **SharePoint list URL** copied from step 1 into **Enter
     SharePoint URL** text field and then click on **Connect**.
 
     
     ![](./media/image42.png)
 
 
-11. Select **Employee Onboarding** list and then click on **Connect**.
+11. Select the **Employee Onboarding** list and then click on **Connect**.
 
     
     ![](./media/image43.png)
 
 
-12. Drag and fit the form into the container.
+12. Drag and fit the form on the screen.
 
   
     ![](./media/image44.png)
 
 
-13. Drag the Form1 container little down and click on **Insert -->
-    Rectangle** to insert header to the form.
+13. Reduce the size of the Form1 component as indicated in the image below and then click on **Insert** --> **Rectangle** to insert a header into the screen.
 
    
     ![](./media/image45.png)
 
 
-14. Adjust the rectangle to the container width. Click on **Insert -->
+14. Adjust the rectangle to the screen width. Click on **Insert -->
     Text label**.
 
 
     ![](./media/image46.png)
 
 
-15. Change the width of the text field to the rectangle and update below
-    properties.
+15. Adjust the width and location of the text field component so it's cantered within the rectangle and update the following properties.
 
-    - **Tex: New Employee Onboarding Form**
+    - **Text: New Employee Onboarding Form**
 
     - **Font Size:** 27
 
@@ -361,45 +354,44 @@ documents.
 
     - **Text alignment:** Centre
 
-    - **Colour:** White
+    - **Color:** White
 
 
     ![](./media/image47.png)
 
 
-16. Make **Emp_Id, First Name** and **Last_Name** as required fields.
-
 17. Select **Emp_Id** field and change value **required**. Click on
     **Advanced** under **Properties** and select **Unlock to change
     properties**.
 
+    **Note**: If you don't see the **Emp_Id** field, select the **Form1** on the canvas, then select **Fields** > **Add fields**. Choose **Emp_Id** from the list. If **Emp_Id** isn’t available, select **Title** instead, and click **Add**.
 
     ![](./media/image48.png)
 
+    ![](./media/image2.1.17.png)
 
-18.  Now set the **Required** value to true. You should see star next
+18.  Now set the **Required** value to true. You should see a star next
     **Emp_id** field.
 
 
      ![](./media/image49.png)
 
 
-19.  Repeat above two steps for **First Name** and **Last_Name**
+19.  Repeat the previous two steps for the **First Name** and **Last Name** fields. 
 
-     **Note**: If you don’t see field then select the container -> properties -> Edit( fields) .add field and re-order.
+     **Note**: If you don't see these fields, then select **HrEmployeeform**, navigate to **Properties**, click **Edit field**, then proceed to add the fields and reorder accordingly. 
 
 
      ![](./media/image50.png)
 
 
-20. Select the Rectangular form/FormScreen1 and then click on **Insert
-    --> Button**.
+20. Click outside of the form control to deselect it and then click on **Insert** --> **Button**. 
 
 
 
     ![](./media/image51.png)
 
-21. Drag and place the button under **Department** filed in the form and
+21. Drag and place the button under **Department** field in the form and
     update below properties.
 
     **Text**: **Submit**
@@ -409,33 +401,34 @@ documents.
 
 
 
-22. Click on **New Screen** and select **Success** template.
+22. Click on **New Screen** and select the **Success** template.
 
 
     ![](./media/image53.png)
 
 
-23. Select the new screen and **rename** to **Success** as shown in
-    below images.
+23. Select the newly added screen, and rename it to **Success**, as indicated in the image 
+below.
 
 
     ![](./media/image54.png)
 
 
-24. Select **Lb1Successmsg1** and change the text to **New employee
+24. Select **Lb1Successmsg1** and change the **Text** property to **New employee
     added**.
 
 
     ![](./media/image55.png)
 
 
-25. Now, Click on **Insert --> Icons --> Back arrow.**
+25. Now, click on **Insert --> Icons --> Back arrow.**
 
 
     ![](./media/image56.png)
 
 
-26. Select Back Arrow and set below properties.
+26. Position and resize the new icon as you see fit. Then, select the newly added icon and update the properties as follows
+
 
 - Tool Tip: **Go Back**
 
@@ -445,8 +438,7 @@ documents.
     ![](./media/image57.png)
 
 
-27. Click on **HrEmployeeform.** Select **Button** and select
-    **Onselect** and enter below formula.
+27. Click on **HrEmployeeform.** Select the **Submit Button** you added in the step 20 and update the **OnSelect** property with the following formula. 
 
      **Note:** Update the formula with your SharePoint Form.
 
@@ -456,8 +448,7 @@ documents.
     ![](./media/image58.png)
 
 
-28. Select **Form1,** select **OnSuccess** and replace the formula with
-    below formula.
+28. Select **Form1**, ensure the **OnSuccess** property is selected in the dropdown and then update it using the formula below 
 
     +++**ResetForm(Self); RequestHide();Notify("New Employee
     added",NotificationType.Success)**+++
@@ -466,59 +457,50 @@ documents.
     ![](./media/image59.png)
 
 
-29. Click on **Save --> Save as** button and enter the name as
+29. Click on the **Save --> Save as** button and enter the name as
     **EmpformforHr** and then click on **Save**.
 
 
     ![](./media/image60.png)
 
 
-30. Select the form and change the **Default** mode to **New** and then
+30. Select the form and change the **Default mode** to **New** and then
     click on the **Save ->** **Preview** icon.
 
 
     ![](./media/image61.png)
 
 
-31. Enter random **Emp id, First Name** and **Last Name** and then click
+31. Enter a random **Emp id**, **First Name** and **Last Name** and then click
     on **Submit** button.
 
 
     ![](./media/image62.png)
 
 
-32. You should see **New employee added message.** Click on **Back**
-    button**.**
+32. You should see the **New employee added** message. Click on the **Back**
+    button.
 
 
     ![](./media/image63.png)
 
 
-33. Click on **Publish** button and then click on **Publish this
+33. Colse the **Preview mode** and select **Ok** on the pop-up theat appears on the Power Apps portal. Click on **Publish** button and then click on **Publish this
     version** button.
 
 
     ![](./media/image64.png)
 
 
-34. Go back to SharePoint tab in a browser. You should see the employee
+34. Go back to the SharePoint tab in a browser. You should see the employee
     record of the new employee added by you in the list.
 
 ## Task 2: Create employee onboarding Canvas app for the employee
 
-1.  From your **SharePoint-\Employee onboarding**, copy URL and save
-    it in the Notepad.
+2.  Open a new tab and go to +++**https://make.powerapps.com/**+++. Sign in with your Microsoft 365 admin credentials and select your **Dev One** (Developer) environment. 
 
-
-    ![](./media/image34.png)
-
-
-2.  Open a new tab and go to +++**https://make.powerapps.com/**+++. Sign in
-    with your office 365 admin tenant and select your **Dev One** developer
-    environment.
-
-3.  Click on **Apps** from left navigation menu. Select **New App ->
-    Start with a page design.**
+3.  Click on the **Apps** from the left navigation menu. Select **New App** ->
+    **Start with a page design.**
 
 
     ![](./media/image35.png)
@@ -529,7 +511,7 @@ documents.
     ![](./media/image36.png)
 
 
-5.  Right click on **Screen1** and select **Rename.**
+5.  Select **Skip** on the **Welcome to Power Apps Studio**. Right click on **Screen1** and select **Rename.**
 
 
     ![](./media/image37.png)
@@ -556,21 +538,13 @@ documents.
     ![](./media/image40.png)
 
 
-9.  Select **SharePoint** under **Add Connection.**
+9.  Select the **SharePoint** connection which is already created in the previous task.
 
 
-    ![](./media/image2.9.1.png)
+    ![](./media/image2.2.9.png)
 
 
-10. Enter the **SharePoint list URL** copied form step 1 into Enter
-    SharePoint URL text field and then click on **Connect**.
-
-11. Under **Choose a list** --> select **Employee Onboarding** list and
-    then click on **Next.**
-
-
-    ![](./media/image42.png)
-
+10. Select the connection created in the previous task from the list.
 
 12. Select **Employee Onboarding** list and then click on **Connect**.
 
@@ -578,26 +552,25 @@ documents.
     ![](./media/image43.png)
 
 
-13. Drag and fit the form into the container.
+13. Drag and fit the form into the screen.
 
 
     ![](./media/image68.png)
 
 
-14. Select **Form 1** and **Display** mode to **New** under properties.
+14. Select the **Form 1** and Set the **Display mode**** to **New** under properties.
 
 
     ![](./media/image69.png)
 
 
-15. Drag the Form1 container little down and click on **Insert ->
-    Rectangle** to insert header to the form.
+15. Reduce the size of the **Form1** component as indicated in the image below and then click on **Insert** --> **Rectangle** to insert a header into the screen. 
 
 
     ![](./media/image70.png)
 
 
-16. Change the width of the rectangle to the container and select
+16. Change the width of the rectangle to the screen and select
     **Insert --> Text label**.
 
 
@@ -621,8 +594,9 @@ documents.
 
 
 18. Select the **Emp_Id** field name and change **Font size** to **16**
-    and **Font weight** to **Bold** under Properties. If you dont find **Emp_Id** field, then hover the mouse over **Form1**     in the canvas, select **Fields** > **Add fields**, select **Emp_Id** (If you dont see **Emp_Id** in this list too, then      select **Title**) and then select **Add**.  
+    and **Font weight** to **Bold** under Properties.
 
+    **Note**: If you don't see the **Emp_Id** field, select the **Form1** on the canvas, then select **Fields** > **Add field**. Choose **Emp_Id** from the list. If **Emp_Id** isn’t available, select **Title** instead, and click **Add**.
 
     ![](./media/image73.png)
 
@@ -634,7 +608,7 @@ documents.
 
 
 20. Select **Orientation location** item and set **Visible** property to
-    **false.**
+    **Off**.
 
 
     ![](./media/image75.png)
@@ -653,8 +627,7 @@ documents.
     ![](./media/image77.png)
 
 
-23. Select **Orientation Location data card** and select **Visible** and
-    place below formula as shown in below image.
+23. Select **Orientation Location data card** from the **Tree view** and replace the **false** value of  **Visible**  property to the formula as shown in below image.
 
     +++**If(*Orientationdropdown*.Selected.Value="No",true,false)**+++
 
@@ -669,12 +642,9 @@ documents.
     ![](./media/image79.png)
 
 
-25. **Emp_id**, **First Name**, **Last Name** and **Manager** will be
-    filled by HR, so change the display mode to **View**.
-
-26. Select the field and click **on Advanced --> Unlock to change
+26. Select the **Emp_Id**/**Title** field and click **on Advanced --> Unlock to change
     properties** and update **Display mode** to
-    **Parent.DisplayMode.View**
+    **Parent.DisplayMode.View**. Repeat this for **First Name**, **Last Name** fields too.
 
 
     ![](./media/image80.png)
@@ -703,7 +673,7 @@ documents.
     ![](./media/image85.png)
 
 
-28. Select the **Form1** and update **OnFailed** field value to
+28. Select the **Form1** and update **OnFailure** field value to
 
     +++**Notify("Required Fields can't be empty.",NotificationType.Error)**+++
 
@@ -720,7 +690,7 @@ documents.
 
 
 30. Now, Let’s add button to submit at the end of the form. Click on
-    **Inset --> Button.**
+    **Insert --> Button.**
 
 
     ![](./media/image88.png)
@@ -779,7 +749,7 @@ documents.
     ![](./media/image93.png)
 
 
-37. Select the **Form1** from **Tree View**. Select item and enter the
+37. Select the **Form1** from **Tree View**. Select **Item** and enter the
     value as: **onboardinglistitem**
 
 
@@ -793,7 +763,7 @@ documents.
 
 
 39. Go back to the **Power Apps Home** page, Click on **Apps --> Your
-    app --> Details**.
+    app (EmployeeOnboardingForm) --> Details**.
 
 
     ![](./media/image96.png)
@@ -814,7 +784,7 @@ documents.
 
 ## Task 3: Create Power Automate flow to send a form to the new employee
 
-1.  Go back to **SharePoint** tab and copy the URL.
+1.  Go back to **SharePoint** tab and copy the URL of your **Contoso Corp** site.
 
 
     ![](./media/image99.png)
@@ -834,13 +804,13 @@ documents.
 
 5.  Enter the flow name as: **Onboarding new employee**. Search for
     **When an item is created** and select it from SharePoint and then
-    click on **create**.
+    click on **Create**.
 
 
     ![](./media/image101.png)
 
 
-6.  Select the action. Click on **Site Address --> Enter custom value.**
+6.  Select the **When an item is created** step. Click on **Site Address --> Enter custom value.**
 
 
     ![](./media/image102.png)
@@ -865,9 +835,10 @@ documents.
     ![](./media/image105.png)
 
 
-10. Click on to text field and select **Enter the data from previous
+10. Select **Settings** for the **To** field and select **Use dynamic content**.  Click on to text field and select **Enter the data from previous
     step**.
 
+    ![](./media/image2.3.10.png)
 
     ![](./media/image106.png)
 
@@ -878,19 +849,19 @@ documents.
     ![](./media/image107.png)
 
 
-12. Enter the Subject line as: **Welcome to Firm** select **First Name**
+12. Enter the Subject line as: +++**Welcome to Firm**+++ select **First Name**
     from previous step.
 
 
     ![](./media/image108.png)
 
 
-13. Enter below data in Body of the email. Insert dynamic values as
+13. Enter below data in the **Body** of the email. Insert dynamic values as
     shown in image.
 
-    Hi first name Lastname,
+    +++Hi+++ **First name** (From dynamic content) **Last name** (From dynamic content),
 
-    Please click on link below to complete your onboarding form.
+    +++Please click on link below to complete your onboarding form+++
 
     ![](./media/image109.png)
 
@@ -934,14 +905,14 @@ documents.
     ![](./media/image116.png)
 
 
-2.  IF asked then allow permissions.
+2.  If asked then allow permissions.
 
 
     ![](./media/image117.png)
 
 
 3.  Fill the form with your details. Enter work email as your admin
-    tenant id and **submit** the form.
+    tenant id and **Submit** the form.
 
 
     ![](./media/image118.png)
@@ -952,7 +923,7 @@ documents.
     ![](./media/image119.png)
 
 
-4.  Go back to the Power Automate flow and check flow Status.
+4.  Go back to the **Power Automate** portal, select **My flows** > **Onboarding new employee** flow and check flow **Status**. Click on the run to see the flow status in the designer.
 
 
 
