@@ -1,4 +1,4 @@
-# Lab 3 - Build an Automated Flow to Notify Manager When a New Item is Created in Dynamics 365 Business Central
+# **Lab 3 - Build an Automated Flow to Notify Manager When a New Item is Created in Dynamics 365 Business Central**
 
 **Objective:** In this lab, participants will learn how to create an
 automated flow in Power Automate that sends an email notification
@@ -16,7 +16,7 @@ processes and notifications.
 
 1.  Navigate to
     +++**https://www.microsoft.com/en-us/dynamics-365/products/business-central**+++
-    and click on the **Try for Free.**
+    and click on the **Try for Free** button.
 
     ![](./media/image1.png)
 
@@ -60,10 +60,8 @@ processes and notifications.
 1.  Open a new tab next to Dynamic 365 business central and Navigate to
     +++**https://make.powerautomate.com/**+++ in your browser.
     
-    ![](./media/image6.png)
-
-
-3.  If asked, enter the **Microsoft 365 tenant id** in the respected field and
+ 
+2.  If asked, enter the **Microsoft 365 tenant id** in the respected field and
     click on the **Next** button.  
 
     ![](./media/image7.png)
@@ -163,7 +161,7 @@ processes and notifications.
 
 3.  Set the condition:
 
-    1.  In the first **Choose a value** box, select the **Item Category
+    1.  In the first **Choose a value** box, select **See more** the **Item Category
         Code** token from Dynamic content.
 
     2.  Keep the **is equal to** option.
@@ -242,8 +240,8 @@ processes and notifications.
     ![](./media/image7.5.png)
 
 
-6.  In the Item Category Code field, select **FURNITURE** and in the
-    Description field, write **Office Chair.**
+6.  In the **Item Category Code** field, select **FURNITURE** and in the
+    **Description** field, write **Office Chair.**
 
     ![](./media/image7.6.1.png)
 
@@ -254,6 +252,8 @@ processes and notifications.
 
 
 8.  On the Power Automate portal, click on **App launcher** located at the upper left corner. Select **Outlook** and then you can see the automated response is received on MOD Admin’s provided **Email**.
+
+    **Note**: If you don’t receive an email, repaeat the **Task 7** i.e. test the flow again.
 
     ![](./media/image7.8.png)
 
