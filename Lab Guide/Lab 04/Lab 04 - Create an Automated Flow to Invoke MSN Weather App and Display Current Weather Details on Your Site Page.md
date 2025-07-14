@@ -1,4 +1,4 @@
-# Lab 4 - Create an Automated Flow to Invoke MSN Weather App and Display Current Weather Details on Your Site Page
+# **Lab 4 - Create an Automated Flow to Invoke MSN Weather App and Display Current Weather Details on Your Site Page**
 
 **Objective:** The objective of this lab is to guide participants
 through the process of integrating a Power Automate cloud flow with a
@@ -35,7 +35,7 @@ respond to user input.
     ![](./media/image5.1.png)
 
 
-6.  On the **Stater layout 1** page, select **Choose this template**.
+6.  If appeared, on the **Stater layout 1** page, select **Choose this template**.
    
     ![](./media/image6.png)
 
@@ -48,23 +48,23 @@ respond to user input.
 
 ### Task 2: Create cloud flow
 
-1.  You can see, you are navigated to your site. If you see pop up regarding **Introducing Copilot in Power Pages**, select **Next** till you come to last step and can        select **Done**. 
+1.  You can see, you are navigated to your site. If you see a pop up regarding **Introducing Copilot in Power Pages**, select **Next** till you come to last step and can        select **Done**. 
 
     ![](./media/image8.1.png)
 
 
      **Note:** You can close the pop up of **Enable site copilot**.
 
-   ![](./media/image8.2.png)
+    ![](./media/image8.2.png)
 
 
-2.  Flow the left navigation bar select the Setup, and then select
-    **Cloud flow.**
+2.  Flow the left navigation bar select the **Set up**, and then select
+    **Cloud flows**.
 
     ![](./media/image9.png)
 
 
-3.  Select **+ Create** new flow from the top bar.
+3.  Select **+ Create new flow** from the top bar.
 
     ![](./media/image10.png)
 
@@ -184,7 +184,7 @@ respond to user input.
 
 ### Task 3: Create a page to display MSN weather data
 
-1.  Select Pages workspace, Select **+ Page.**
+1.  Select **Pages** workspace, Select **+ Page.**
 
     ![](./media/image27.png)
 
@@ -196,7 +196,7 @@ respond to user input.
 3.  Name the Page +++**Todays_weather_report**+++ and then click on the **Add** button.
 
 
-   ![](./media/image28.png)
+    ![](./media/image28.png)
 
 
 4.  Select **Edit code** to open Visual Studio Code and then click on
@@ -210,7 +210,7 @@ respond to user input.
     ![](./media/image29.1.png)
 
 
-5.  **Paste** this code:
+5.  **Paste** this code (JavaScript of the weather report) at the end of the existing code.
 
     ```
       <style>
