@@ -36,7 +36,7 @@ refund process.
 
     ![](./media/image5.png)
 
-6. If you are asked to **choose where to export** then select **PowerBi embedded** from **Choose your destination** drop-down and then select **Continue**.
+6. If you are asked to **choose where to export** then select **Power Bi embedded** from **Choose your destination** drop-down and then select **Continue**.
 
     ![](./media/image6.1.png)
 
@@ -47,8 +47,7 @@ refund process.
     ![](./media/image6.png)
 
 
-2.  Under the **Connection settings** heading, select **Upload file
-    (Preview)**.
+2.  Under the **Connection settings** heading, select **Upload file**.
 
     ![](./media/image7.png)
 
@@ -86,7 +85,7 @@ refund process.
     ![](./media/image13.png)
 
 10. Match the **Attribute Name** from sample data to the **Attribute
-    Type** as appropriate.
+    Type** as metioned in the next step.
 
     ![](./media/image14.png)
 
@@ -96,7 +95,7 @@ refund process.
     
     **InvoiceValue** – Financial per case (first event)
     
-    **Resource** – Resourse
+    **Resource** – Resource
     
     **StartTimestamp** – Event Start
     
@@ -148,11 +147,11 @@ processes created in the process mining capability.
 
     ![](./media/image21.png)
 
-4. After Installing Processmining app, the app is automatically launch, if not please please launch app manually. After launching app, select **English** as language and click on **Next Step**.
+4. After Installing Processmining app, the app is automatically launched, if not please please launch app manually. After launching app, select **English** as language and click on **Next Step**.
 
     ![](./media/image21a.png)
 
-5. Select all the **check boxes** as shown in image and click on the **Next**.
+5. Select all the **check boxes** as shown in image and click on the **Next Step**.
 
     ![](./media/image21b.png)
 
@@ -160,7 +159,7 @@ processes created in the process mining capability.
 
     ![](./media/image21c.png)
 
-7. Then select **Use** button, it will navigate to login window.
+7. If the following screen appears, then select **Use** button, it will navigate to login window.
 
     ![](./media/image21d.png)
 
@@ -174,7 +173,7 @@ processes created in the process mining capability.
 
 10. If pop up appears saying ‘Stay signed in to all your apps’ then select **No, sign in to this app only**.
 
-    ![](./media/image22.1.png)
+    
 
 11. On the Power Automate Process Mining app toolbar, select the
     environment – **Dev** **One** from the top right.
