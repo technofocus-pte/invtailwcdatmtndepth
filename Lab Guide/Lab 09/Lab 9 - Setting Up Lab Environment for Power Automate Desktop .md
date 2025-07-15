@@ -29,6 +29,8 @@ logged in with their Office 365 credentials.
 
     ![](./media/9a1.png)
 
+
+
 5.  Navigate to the **File Explorer** and select **Downloads** from the left pane
     then double click ont the **Setup.Microsoft.PowerAutomate.exe**.
 
@@ -51,17 +53,44 @@ logged in with their Office 365 credentials.
 
     ![](./media/image5.png)
 
-9. After the installation of browser extension select **Launch app**. Or you can go to VM's **Desktop**, where the shortcut for **Power Automate Desktop** is now available. Double click on the shortcut.
+9. Click on the **Microsoft Edge** to install microsoft desktop
 
-    ![](./media/image6.1.png)
+    ![](./media/9a2.png)
+
+10. Click on the **Get** button to install extension and then click on the **Add extension**.
+
+    ![](./media/9a3.png)
 
 
-11.  Select **Sign in** and sign in with your Office 365 tenant credentials. If asked, select **Work or school account**.
+    ![](./media/9a4.png)
 
-     ![](./media/image7.png)
+11. Navigate back to power automate desktop installation window then click on the **close** button.
+
+    ![](./media/9a5.png)
+
+12. open power automate desktop app and click on the **Sign in** button.
+
+    ![](./media/9a6.png)
+
+13. Select **Work or school account** type and then click on the **continue** button.
+
+    ![](./media/9a7.png)
+
+14. Enter admin tenant and password in the field and then click on the **Sign in** button.
 
 
-12.  You will be navigated to **Power Automate** for Desktop Home page.
+    ![](./media/9a8.png)
+
+    ![](./media/9a9.png)
+
+15. Click on the **No, this app only** option.
+
+    ![](./media/9a10.png)
+
+16. Wait a few minutes while Power Automate prepares Dataverse. Once the Dataverse installation is complete, the environment becomes active and the + New option is enabled.
+
+    ![](./media/9a11.png)
+
 
 ### Conclusion:
 
