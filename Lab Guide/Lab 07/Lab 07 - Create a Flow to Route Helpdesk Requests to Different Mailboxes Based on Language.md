@@ -13,7 +13,12 @@ streamline communication workflows within the organization.
 
 1.  Sign in to  +++https://make.powerautomate.com/using+++ with office 365 admin tenant account.
 
-2.  Select **Templates** from left navigation pane, enter +++**Summarize emails using GPT**+++ in the search box at the top and select the flow when it appears.
+2. From the top bar click on the environment and select **dev one** environment.
+
+    ![](./media/a1.png)
+
+
+2.  Select **Templates** from left navigation pane, enter +++**Summarize emails using GPT**+++ in the search box at the top, press enter and select the flow when it appears.
 
     ![](./media/image2.1.png)
 
@@ -30,46 +35,23 @@ streamline communication workflows within the organization.
     Subject Filter parameter. Currently, the **Subject filter** is AI
     Builder.
 
-5.  Update the subject filter to **Project Kick-off**.
+5.  Update the subject filter to +++**Project Kick-off**+++.
 
     ![](./media/image3.png)
 
 
-6.  Select the **Create text with a GPT using a prompt** action for the
-    properties panel to open on the left. In the properties panel, the
-    Prompt field shows **AI Summarize**.
-
-7.  Select **Test prompt** to open the Prompt settings.
-
-    ![](./media/image4.png)
-
-
-8.  The template has a predefined prompt that the GPT will use, but you
-    can update and test a new prompt in this window. Follow the next step to update prompt.
-
-9.  To test a prompt, enter given sample data in the **Input** section. Then
-    select **Test prompt** at the bottom of the Prompt section. You can see the response under Prompt response section.
-
-    +++Once upon a time in the quaint town of Eldoria, nestled between rolling hills and dense forests, lived a young girl named Elara. Her days were spent exploring the mystical woods that bordered the town, and whispers of ancient tales filled her imagination.+++
-
-    ![](./media/image5.png)
-
-
-11. For this exercise, we'll leave everything as it was when we opened
-    the Prompt Settings.
-
-12.  **Save** the flow in the top right-hand corner. Now we can run the
+6.  **Save** the flow in the top right-hand corner. Now we can run the
     flow.
 
- ![](./media/image11.1.png)
+    ![](./media/image11.1.png)
 
 
-> Note: Ignore if you see the given warning: The 'Create text with GPT using a prompt' action doesn't have a content approval action after it.
+    > Note: Ignore if you see the given warning: The 'Create text with GPT using a prompt' action doesn't have a content approval action after it.
 
 ### **Task 2: Test the flow**
 
 1.  Send an email from MOD Admin's tenant id or your email id to MOD Admin's tenant id with the subject
-    **Project Kick-off** and the following in the body of the email:
+    +++**Project Kick-off**+++ and the following in the body of the email:
 
     ```
     Dear Team,
@@ -90,6 +72,10 @@ streamline communication workflows within the organization.
     
     Contoso
     ```
+2. Open edge browser new tab and navigate to +++https://teams.microsoft.com/v2/+++ microsoft teams and click on the sign in button. If required use the admin tenant credentials for sign in.
+
+    ![](./media/imageb2.png)
+
 
 3. You'll receive a message in Teams with a summary of the email. In
     the bottom right-hand corner, you can find a link to go to your
