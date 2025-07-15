@@ -97,7 +97,7 @@ including handling text manipulation and generating random text.
     ![](./media/image12.png)
 
 
-18. To generate a random password, add a **Create random text** action.
+18. To generate a random password, Search for +++Create random text+++ from left search bar, double click on the action to add in the flow.
     The action’s properties can be left at their default values. Then
     click on **Save.**
 
@@ -114,7 +114,7 @@ including handling text manipulation and generating random text.
     and in the **Message to display** field, enter the following
     content:
 
-        +++Hello, %UserInput%, your username is: %SubText%%TextWithNewCase2% Your temporary password is: %RandomText%+++
++++Hello, %UserInput%, your username is: %SubText%%TextWithNewCase2% Your temporary password is: %RandomText%+++
 
 21. The username (first letter of first name, combined with family name)
     is displayed and the result of the **Generate random text** action
