@@ -60,7 +60,7 @@ Power Automate and Power Apps.
       This model type comes with standards fields, and you can teach this
       model to extract additional custom data or update the standard data.
 
-2.  Select Fixed template documents and click **Next**.
+2.  Select **Fixed template documents** and click **Next**.
 
     ![](./media/image6.png)
 
@@ -83,7 +83,7 @@ Define the fields and tables you want your model to extract. We'll extract the f
 
 
 2.  Enter the text field name as +++**Invoice Number**+++ and select **Done**.
-    Repeat this step for **Customer** **ID**.
+    Repeat this step for +++Customer ID+++.
 
     ![](./media/image9.png)
 
@@ -101,7 +101,7 @@ Define the fields and tables you want your model to extract. We'll extract the f
 
     ![](./media/image12.1.png)
 
-5.  Click **+ Add** and select Date field.
+5.  Click **+ Add** and select **Date** field.
 
     ![](./media/image13.png)
 
