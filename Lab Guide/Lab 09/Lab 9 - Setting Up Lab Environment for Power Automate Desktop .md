@@ -27,7 +27,7 @@ logged in with their Office 365 credentials.
 4.  Select **My flows** from the left pane. Click on the **Desktop flows** then
     click on the **Install -> Power Automate for Desktop.**
 
-    ![](./media/image1.4.png)
+    ![](./media/9a1.png)
 
 5.  Navigate to the **File Explorer** and select **Downloads** from the left pane
     then double click ont the **Setup.Microsoft.PowerAutomate.exe**.
