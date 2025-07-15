@@ -1,4 +1,4 @@
-# Lab 6 - Using Task Mining Capability to Analyze the Order Fulfillment Process
+# **Lab 6 - Using Task Mining Capability to Analyze the Order Fulfillment Process**
 
 
 **Objective:** The lab focuses on utilizing Power Automate task mining
@@ -10,7 +10,7 @@ steps and using analytics to gain insights into the process efficiency.
 
 **Estimated Time:** 30 mins
 
-### Task 1: Get ready for task mining
+### **Task 1: Get ready for task mining**
 
 1.  **Sign in** to Power Automate using
     +++**https://make.powerautomate.com/**+++ with your Office 365 tenant
@@ -20,7 +20,7 @@ steps and using analytics to gain insights into the process efficiency.
 
     ![](./media/image1.png)
 
-### Task 2: Import a solution
+### **Task 2: Import a solution**
 
 1.  On the navigation pane to the left, select **Solutions** and then in
     the toolbar at the top, select **Import solution**.
@@ -46,7 +46,7 @@ steps and using analytics to gain insights into the process efficiency.
     ![](./media/image6.png)
 
 
-### Task 3: View sample recordings
+### **Task 3: View sample recordings**
 
 1.  Once you've successfully imported the .zip file, on the navigation
     pane to the left, select **Process mining** and then select
@@ -67,7 +67,7 @@ steps and using analytics to gain insights into the process efficiency.
 4.  To be sure you see the entire list of existing recordings,
     select **See all**.
 
-### Task 4: Explore the features
+### **Task 4: Explore the features**
 
 You'll see the following features:
 
@@ -77,10 +77,12 @@ You'll see the following features:
 - **Create activity names**: Create activity names for your process.
 - **Delete process**: Delete your process.
 
+    **Note**: Zoom in or out on the screen to make all buttons visible.
+
     ![](./media/image10.png)
 
 
-### Task 5: Analyze a process
+### **Task 5: Analyze a process**
 
 When you analyze a process, the process mining capability analyzes
 existing recordings to identify any bottlenecks within the business
@@ -105,7 +107,7 @@ process, a status message displays under the **New recording** button.
     > **Note:** This step may take a couple minutes to complete after the    
 analysis has been performed.
 
-### Task 6: Analytics page layout
+### **Task 6: Analytics page layout**
 
 This section explains what you can do on the **Analytics** screen.
 
@@ -139,7 +141,7 @@ This section explains what you can do on the **Analytics** screen.
     process, and where to potentially use desktop flows, as there’s no
     existing connector.
 
-### Task 7: Business process step relationships
+### **Task 7: Business process step relationships**
 
 You see the various steps in the business process and their related
 durations. These steps include:
@@ -153,7 +155,7 @@ durations. These steps include:
 
     ![](./media/image15.png)
 
-### Task 8: View analytics data
+### **Task 8: View analytics data**
 
 1.  Look at the top analytics data. The average process time is 1.47
     minutes out of five recordings.
