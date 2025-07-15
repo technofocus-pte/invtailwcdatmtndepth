@@ -186,10 +186,12 @@ processes created in the process mining capability.
 13. Select **Default** to display the default view. You’re ready to use
     the advanced capabilities of the Process Mining desktop app.
 
+    **Note**: If you get an error - '**Loading process model failed**' then close the **Process Mining** app and **reopen** it from the **Start** menu of the VM.
+
     ![](./media/image24.png)
 
 
-    > Note: If It shows an message related to **Model size is too large for your PC configuration** and give Yes and No option for execution, select **Yes**.
+    **Note**: If It shows an message related to **Model size is too large for your PC configuration** and give Yes and No option for execution, select **Yes**.
 
     ![](./media/image21g.png)
 
