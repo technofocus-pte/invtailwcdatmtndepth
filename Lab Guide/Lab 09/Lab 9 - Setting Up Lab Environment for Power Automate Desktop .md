@@ -1,4 +1,4 @@
-# Lab 9 - Setting Up Lab Environment for Power Automate Desktop 
+# **Lab 9 - Setting Up Lab Environment for Power Automate Desktop** 
 
 **Objective:** The objective of this lab is to guide participants
 through the process of setting up the Power Automate Desktop
@@ -8,50 +8,50 @@ logged in with their Office 365 credentials.
 
 **Estimated Time:** 15 mins
 
-### Task 1 - Sign into Power Automate Desktop application
+### **Task 1 - Sign into Power Automate Desktop application**
 
-1.  **Sign in** to +++**https://www.microsoft.com/en-us/power-platform/products/power-automate**+++ with your Office
+1.  Navigate to +++**https://make.powerautomate.com/**+++ and if required, sign in with your Office
     365 tenant credentials.
 
     ![](./media/image0.png)
 
-2. Click **My flows** from left pane and then select **Desktop flows**.
+2. Select **My flows** from the left pane and then select **Desktop flows**.
 
     ![](./media/image0.1.png)
 
-3. On the Desktop flow window select **Start a free trail**. If it required, please enter your admin tenant id and login again.
+3. On the Desktop flow window, if you see **Start a free trial** as shown in the image below then select it . If required, please enter your admin tenant credentials and login again.
 
     ![](./media/image0.2.png)
 
     
-4.  Click **My flows** from left pane. Click **Desktop flows** then
-    click **Install -> Power Automate for Desktop.**
+4.  Select **My flows** from the left pane. Click on the **Desktop flows** then
+    click on the **Install -> Power Automate for Desktop.**
 
-    ![](./media/image1.png)
+    ![](./media/image1.4.png)
 
-5.  Navigate to **File Explorer** and click **Downloads** from left pane
-    then double click **Setup.Microsoft.PowerAutomate.exe**.
+5.  Navigate to the **File Explorer** and select **Downloads** from the left pane
+    then double click ont the **Setup.Microsoft.PowerAutomate.exe**.
 
     ![](./media/image2.png)
 
 
-6.  Click **Next** on **Install Power Automate package** pane.
+6.  Select **Next** on the **Install Power Automate package** pane.
 
     ![](./media/image3.png)
 
 
-7.  Click check box for **By selecting Install you agree to Microsoft’s
-    terms of use**. Click **Install** on Installation details pane.
+7.  Click the check box for **By selecting Install you agree to Microsoft’s
+    terms of use**. Click on the **Install** button on the Installation details pane.
 
     ![](./media/image4.png)
 
 
-8.  Click **Yes** on Do you want to allow this app to make changes to
-    your device? dialog.
+8.  Click **Yes** on **Do you want to allow this app to make changes to
+    your device?** dialog.
 
     ![](./media/image5.png)
 
-9. After installation of browser extension select **Launch app**. Or you can go to VM's **Desktop**, where the shortcut for **Power Automate Desktop** is now available. Double click on the shortcut.
+9. After the installation of browser extension select **Launch app**. Or you can go to VM's **Desktop**, where the shortcut for **Power Automate Desktop** is now available. Double click on the shortcut.
 
     ![](./media/image6.1.png)
 
