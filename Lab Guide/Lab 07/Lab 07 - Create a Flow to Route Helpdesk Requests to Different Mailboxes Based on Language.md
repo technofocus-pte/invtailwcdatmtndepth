@@ -72,7 +72,7 @@ streamline communication workflows within the organization.
     
     Contoso
     ```
-2. Open edge browser new tab and navigate to +++https://teams.microsoft.com/v2/+++ microsoft teams and click on the sign in button. If required use the admin tenant credentials for sign in.
+2. Open edge browser new tab and navigate to +++https://teams.microsoft.com/v2/+++ microsoft teams and click on the **sign in** button. If required use the admin tenant credentials for sign in.
 
     ![](./media/b2.png)
 
