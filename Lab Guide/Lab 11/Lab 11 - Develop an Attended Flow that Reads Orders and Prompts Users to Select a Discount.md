@@ -1,4 +1,4 @@
-# Lab 11 - Develop an Attended Flow that Reads Orders and Prompts Users to Select a Discount
+# **Lab 11 - Develop an Attended Flow that Reads Orders and Prompts Users to Select a Discount**
 
 **Objective:** The objective of this lab is to develop an **attended
 Power Automate Desktop flow** that automates the process of reading
@@ -35,38 +35,30 @@ applied discount.
 - ![](./media/image4.png)
 
 6.  Before reading any data from the selected file, you have to launch
-    it using the **Launch Excel** action. Add **Launch Excel** from the
+    it using the **Launch Excel** action. Add +++Launch Excel+++ from the
     action. Then configure the following setting.
 
     - Launch Excel: **add open the following document**
 
     - Document path: +++**%SelectedFile%**+++
 
-    - Click on the save button
+    - Click on the **save** button
 
 - ![](./media/image5.png)
 
-7.  To read the data from the Excel file, add the **Read from Excel
-    worksheet** action Enter **%ExcelInstance%** in the excel instance
-    and select **All available values from worksheet** in the Retrieve
-    field. Click on the **Save** button.
+7.  To read the data from the Excel file, search +++**Read from Excel worksheet**+++ action, double click to select action Enter +++**%ExcelInstance%**+++ in the excel instance and select **All available values from worksheet** in the Retrieve field. Click on the **Save** button.
 
 - ![](./media/image6.png)
 
-8.  Add the **Get first free column/row from Excel worksheet** action to
-    retrieve the first free column and row in the Excel worksheet. Enter
-    **%ExcelInstance%** in the Excel instance and then click on the
-    **save** button.
+8.  Add the +++**Get first free column/row from Excel worksheet**+++ action to retrieve the first free column and row in the Excel worksheet. Enter +++**%ExcelInstance%**+++ in the Excel instance and then click on the **save** button.
 
 - ![](./media/image7.png)
 
-9.  Add a Set Variable from action named **Counter** and initialize it
-    to **1** and then click on the save.
+9.  Add +++Set Variable+++ from action named **Counter** and initialize it to **1** and then click on the **save**.
 
 - ![](./media/image8.png)
 
-10. Add **Display input dialog** from the action and configure the
-    following fields.
+10. Add +++**Display input dialog**+++ from the action and configure the following fields.
 
     - **Input Dialog Title**: +++**Header**+++
 
@@ -78,10 +70,9 @@ applied discount.
 
 - ![](./media/image9.png)
 
-11. Add **Write to Excel worksheet** from actions and configure it with
-    following detail:
+11. Add +++**Write to Excel worksheet**+++ from actions and configure it with following detail:
 
-    - **Excel instance**: %ExcelInstance%
+    - **Excel instance**: +++%ExcelInstance%+++
 
     - **Value to write**: +++**%UserInput%**+++
 
@@ -95,22 +86,15 @@ applied discount.
 
 - ![](./media/image10.png)
 
-12. Add a **For each** loop for action to iterate through the retrieved
-    data and add the +++**%ExcelData%**+++ into value to iterate
-    section. Then click on save.
+12. Add a +++**For each**+++ loop for action to iterate through the retrieved data and add the +++**%ExcelData%**+++ into value to iterate section. Then click on **save**.
 
 - ![](./media/image11.png)
 
-13. To check the value of the **Gross** column (column G or the sixth
-    column in the worksheet, in the sheet the name of the column is
-    “6”), add **convert text to number** action. Configure text to
-    convert as +++**%CurrentItem\[6\]%**+++ and then click on the save
-    button.
+13. To check the value of the **Gross** column (column G or the sixth column in the worksheet, in the sheet the name of the column is “6”), add +++**convert text to number**+++ action. Configure text to convert as +++**%CurrentItem\[6\]%**+++ and then click on the **save** button.
 
 - ![](./media/image12.png)
 
-14. Add an **If** action to check whether it exceeds 100,000 and
-    configure it as below details:
+14. Add an +++**If**+++ action to check whether it exceeds 100,000 and configure it as below details:
 
     - **First operand**: +++**%TextAsNumber%**+++
 
@@ -120,23 +104,18 @@ applied discount.
 
 - ![](./media/image13.png)
 
-15. Add the **Display message** action under **If**, to provide the
-    necessary information to the user, and prompt them to
-    choose **Yes** or **No**. Then click on the **Save** button. Enter
-    the following detail in the it:
+15. Add the +++**Display message**+++ action under **If**, to provide the necessary information to the user, and prompt them to choose **Yes** or **No**. Then click on the **Save** button. Enter the following detail in the it:
 
     - **Message Box title**: +++**Add discount**+++
     - **Message to display**:
-      - +++**Product:** %CurrentItem\[2\]%+++
-      - +++**Units**: %CurrentItem\[3\]%+++
-      - +++**Gross:** %TextAsNumber%+++
+      - **Product:** +++%CurrentItem\[2\]%+++
+      - **Units**: +++%CurrentItem\[3\]%+++
+      - **Gross:** +++%TextAsNumber%+++
     - **Message box button**: Yes – No
 
 - ![](./media/image14.png)
 
-16. Add a second **If** action under Display message action to check
-    which button was pressed in the previous step. Enter the following
-    details in the respected fields:
+16. Add a second +++**If**+++ action under Display message action to check which button was pressed in the previous step. Enter the following details in the respected fields:
 
 - **First** **operand**: +++%ButtonPressed3%+++
 
@@ -144,12 +123,10 @@ applied discount.
 
 - **Second operand:** +++Yes+++
 
-&nbsp;
 
 - ![](./media/image15.png)
 
-17. Under Second If Add **Display Input Dialog** action. Add the given
-    below parameter in the field and click on the **Save** button.
+17. Under Second If Add +++**Display Input Dialog**+++ action. Add the given below parameter in the field and click on the **Save** button.
 
 Input dialog title: +++Discount Value+++
 
@@ -157,8 +134,7 @@ Input dialog message: +++Enter the Discount Value+++
 
 ![](./media/image16.png)
 
-18. Add **Write to excel worksheet** action below the second **IF**
-    action and enter the following detail into it:
+18. Add +++**Write to excel worksheet**+++ action below the second **IF** action and enter the following detail into it:
 
 - **Excel instance:** +++%ExcelInstance%+++
 - **Value to writer**: +++%UserInput2%+++
@@ -168,9 +144,7 @@ Input dialog message: +++Enter the Discount Value+++
     
   ![](./media/image17.png)
 
-20. Under First **IF End,** Add action **Increase Variable,** add
-    variable name as **%Counter%** ,Increase by **1** and then click on
-    Save button.
+20. Under First **IF End,** Add action +++**Increase Variable**+++, add variable name as +++**%Counter%**+++ ,Increase by **1** and then click on **Save** button.
 
 > ![](./media/image18.png)
 
@@ -188,19 +162,15 @@ Input dialog message: +++Enter the Discount Value+++
 
 > ![](./media/image21.png)
 
-3.  Header window will pop up, as we set the **Discount** as default
-    click on the **OK** button.
+3.  Header window will pop up, as we set the **Discount** as default click on the **OK** button.
 
 > ![](./media/image22.png)
 
-4.  **Add Discount** window appear, which show this product is more then
-    **100000**, select **yes** or **no**. In this test we select **yes**
-    (**yes**, we give discount on this product.)
+4.  **Add Discount** window appear, which show this product is more then **100000**, select **yes** or **no**. In this test we select **yes** (**yes**, we give discount on this product.)
 
 > ![](./media/image23.png)
 
-5.  Then Enter the **Discount Value** For the test we enter **10000**
-    and then click **ok**.
+5.  Then Enter the **Discount Value** For the test we enter +++**10000**+++ and then click **ok**.
 
 > ![](./media/image24.png)
 
