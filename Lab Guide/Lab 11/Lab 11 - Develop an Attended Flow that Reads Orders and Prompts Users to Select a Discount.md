@@ -16,8 +16,8 @@ applied discount.
 1.  Open **Power automate desktop** and login with **office 365 tenant
     credential**.
 
-2.  Choose the environment **Contoso** and click on the **+ New then
-    Flow** and start creating new flow.
+2.  Choose the environment **Contoso** and click on the **+ New** then
+    **Flow** and start creating new flow.
 
 - ![](./media/image1.png)
 
@@ -25,16 +25,12 @@ applied discount.
 
 - ![](./media/imagebz.png)
 
-4.  Start by prompting the user to select an Excel file. Add the
-    +++**Display select file dialog**+++ action and configure the File
+4.  Start by prompting the user to select an Excel file. Add the +++**Display select file dialog**+++ action and configure the File
     filter field to allow only xlsx files.
 
 - ![](./media/image3.png)
 
-5.  Enter **Dialog Title** as +++**Select Excel**+++, Enter the location
-    of the folder in the **initial** **folder** as +++ C:\Lab
-    Files\Orders+++ Filter as **\*.xlsx** and then click on the **Save**
-    button.
+5.  Enter **Dialog Title** as +++**Select Excel**+++, Enter the location of the folder in the **initial** **folder** as +++ C:\LabFiles\Orders+++ Filter as **\*.xlsx** and then click on the **Save** button.
 
 - ![](./media/image4.png)
 
