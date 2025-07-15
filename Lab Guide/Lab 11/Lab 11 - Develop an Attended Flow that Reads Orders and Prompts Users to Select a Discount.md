@@ -54,7 +54,7 @@ applied discount.
 
 - ![](./media/image7.png)
 
-9.  Add +++Set Variable+++ from action named **Counter** and initialize it to **1** and then click on the **save**.
+9.  Add +++Set Variable+++ from action named +++Counter+++ and enter +++1+++ into value field and then click on the **save**.
 
 - ![](./media/image8.png)
 
@@ -108,14 +108,14 @@ applied discount.
 
     - **Message Box title**: +++**Add discount**+++
     - **Message to display**:
-      - **Product:** +++%CurrentItem\[2\]%+++
-      - **Units**: +++%CurrentItem\[3\]%+++
-      - **Gross:** +++%TextAsNumber%+++
+      - +++**Product:** %CurrentItem\[2\]%+++
+      - +++**Units**: %CurrentItem\[3\]%+++
+      - +++**Gross:** %TextAsNumber%+++
     - **Message box button**: Yes – No
 
 - ![](./media/image14.png)
 
-16. Add a second +++**If**+++ action under Display message action to check which button was pressed in the previous step. Enter the following details in the respected fields:
+16. Add a second +++**If**+++ action under Display message action to check which button was pressed in the previous step. Enter the following details in the respected field and then click on the **Save** button.
 
 - **First** **operand**: +++%ButtonPressed3%+++
 
