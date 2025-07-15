@@ -74,7 +74,7 @@ streamline communication workflows within the organization.
     ```
 2. Open edge browser new tab and navigate to +++https://teams.microsoft.com/v2/+++ microsoft teams and click on the sign in button. If required use the admin tenant credentials for sign in.
 
-    ![](./media/imageb2.png)
+    ![](./media/b2.png)
 
 
 3. You'll receive a message in Teams with a summary of the email. In
