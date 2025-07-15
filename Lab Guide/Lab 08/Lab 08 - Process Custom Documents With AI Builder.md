@@ -150,15 +150,15 @@ with the same layout. Create a collection for each unique layout your
 model needs to process. Since there are two invoice providers using
 different templates, we'll create two collections.
 
-1.  Click **New collection** and rename the first collection to
-    **Adatum**.
+1.  Click **New collection** name and rename the first collection as
+    +++Adatum+++.
 
-2.  Add another **New collection** and name it **Contoso**.
+2.  Add another **New collection** and name it +++Contoso+++.
 
     ![](./media/image20.png)
 
 
-3.  Click on the Adatum and then click on the Add document. Then select
+3.  Click on the Adatum and then click on the **Add document**. Then select
     My device, For **Adatum**, upload the five documents which is available in **C:\Lab Files\AI Builder Document Processing
     Sample Data\Invoices\Adatum\Train** folder.
 
@@ -176,7 +176,7 @@ different templates, we'll create two collections.
     ![](./media/image24.png)
 
 
-5.  Click on the Contoso and then click on the Add document. Then select
+5.  Click on the Contoso and then click on the **Add document**. Then select
     My device, For **Contoso**, upload the five documents from the **C:\Lab Files\AI
     Builder Document Processing Sample Data/Contoso /Train** folder.
 
@@ -233,16 +233,12 @@ red dot at the top corner will disappear.
         ![](./media/image33.png)
 
 
-3.  Field or Table Not in Document:
-
-    - If a field or table isn’t present, like the Customer ID in the Contoso
-      collection, select the ellipsis **(…)** next to the field on the right
-      panel and choose **Not available in the document**.
+3.  Go to Customer ID in the Contoso collection, select the ellipsis **(…)** next to the field on the right panel and choose **Not available in the document**.
     
-        ![](./media/image34.png)
+    ![](./media/image34.png)
 
 
-4.  Tag Tables:
+4.  **Tag Tables:**
 
     - Draw a rectangle around the table you want to tag and select the table
       name.
@@ -303,7 +299,7 @@ red dot at the top corner will disappear.
     ![](./media/image43.png)
 
 
-9.  Tag Tables:
+9.  **Tag Tables:**
 
     - Draw a rectangle around the table you want to tag and select the
       table name.
@@ -350,13 +346,20 @@ red dot at the top corner will disappear.
 
     ![](./media/image49.png)
 
+4. Click on the **Go to model** button while training.
+
+    ![](./media/c3.png)
+
 
 ## Exercise 2: Use your model
 
 ### Task 1: Quick test
 
-1.  After your model completes training, you can view important details
+1.  After your model completes training, Click on the model name to view important details
     about your newly trained model on a details page.
+
+    ![](./media/d4.png)
+
 
     ![](./media/image50.png)
 
@@ -374,7 +377,7 @@ red dot at the top corner will disappear.
 
 4.  You can now view the detected fields that you chose and the
     associated confidence scores for retrieving the individual fields
-    compared to the trained model.
+    compared to the trained model.Click on the **Close** button.
 
     ![](./media/image52.png)
 
