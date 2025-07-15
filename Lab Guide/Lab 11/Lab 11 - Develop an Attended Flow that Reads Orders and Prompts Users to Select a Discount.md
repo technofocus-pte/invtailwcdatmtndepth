@@ -30,7 +30,7 @@ applied discount.
 
 - ![](./media/image3.png)
 
-5.  Enter **Dialog Title** as +++Select Excel+++, Enter the location of the folder in the **initial folder** as +++C:\LabFiles\Orders+++ Filter as **\*.xlsx** and then click on the **Save** button.
+5.  Enter +++Select Excel+++ in the **Dialog Title** field, Enter the location of the folder in the **initial folder** as +++C:\LabFiles\Orders+++, filter as **\*.xlsx** and then click on the **Save** button.
 
 - ![](./media/image4.png)
 
