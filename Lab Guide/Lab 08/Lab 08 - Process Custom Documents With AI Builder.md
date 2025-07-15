@@ -128,9 +128,9 @@ Define the fields and tables you want your model to extract. We'll extract the f
 
 10. Select Column1, Click on **Edit column** and rename it to +++Description+++, then click **Confirm**.
 
-     ![](./media/imagea1.png)
+     ![](./media/a1.png)
 
-     ![](./media/imageb2.png)
+     ![](./media/b2.png)
 
 11. Click **+ New column**, enter the column name as +++Item total+++, then
     select Add. Finally, click **Done**.
