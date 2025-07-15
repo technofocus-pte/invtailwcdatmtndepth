@@ -12,7 +12,7 @@ including handling text manipulation and generating random text.
 
 1.  Navigate to +++**https://make.powerautomate.com/**+++ and if required, sign in with your Office 365 tenant credentials. Select **My flows** from the left pane and then select **Desktop flows**. Select **+New desktop flow**.
 
-    ![](./media/image1.1png)
+    ![](./media/image1.1.png)
 
 2.  Select **Open** on the pop-up that says **This site is trying to open Power Automate**.
 
