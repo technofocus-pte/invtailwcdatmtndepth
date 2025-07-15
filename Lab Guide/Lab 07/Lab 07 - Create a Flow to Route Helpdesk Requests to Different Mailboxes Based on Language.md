@@ -1,4 +1,4 @@
-# **Lab 07 - Create a Flow to Route Helpdesk Requests to Different Mailboxes Based on Language**
+# **Lab 7 - Create a Flow to Route Helpdesk Requests to Different Mailboxes Based on Language**
 
 **Objective:** The objective of this lab is to guide participants
 through the process of creating a Power Automate flow that routes
@@ -11,8 +11,7 @@ streamline communication workflows within the organization.
 
 ### **Task 1: Create a flow to route Helpdesk requests to different mailboxes based on language**
 
-1.  Sign in to  +++**https://make.powerautomate.com/using**+++ **office 365
-    admin tenant account**.
+1.  Sign in to  +++https://make.powerautomate.com/using+++ with office 365 admin tenant account.
 
 2.  Select **Templates** from left navigation pane, enter +++**Summarize emails using GPT**+++ in the search box at the top and select the flow when it appears.
 
