@@ -220,7 +220,7 @@ automate inventory restocking workflows with Power Automate.
      ![](./media/image33.png)
 
 
-11.  Click on **Save and exit -> Save and exit**.
+11.  Click on **Save and exit -> Save and exit**. Zoom out the screen for the button to become visible.
 
      ![](./media/image34.png)
 
