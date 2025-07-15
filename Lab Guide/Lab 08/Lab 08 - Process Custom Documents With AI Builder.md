@@ -1,4 +1,4 @@
-# Lab 8 - Process custom documents with AI builder
+# **Lab 8 - Process custom documents with AI builder**
 
 **Objective:** The objective of this lab is to guide participants
 through creating their first AI model using AI Builder in Power
@@ -29,7 +29,7 @@ Power Automate and Power Apps.
     ![](./media/image3.png)
 
 
-4.  Choose **Extract custom information from documents** option.
+4.  Choose the **Extract custom information from documents** option.
 
     ![](./media/image4.png)
 
@@ -88,7 +88,7 @@ Define the fields and tables you want your model to extract. We'll extract the f
     ![](./media/image9.png)
 
 
-3.  Click **+ Add** and select +++**Number field**+++, then click
+3.  Click **+ Add** and select **Number field**, then click
     Next.
 
     ![](./media/image10.png)
@@ -101,7 +101,7 @@ Define the fields and tables you want your model to extract. We'll extract the f
 
     ![](./media/image12.1.png)
 
-5.  Click **+ Add** and select Date field (preview).
+5.  Click **+ Add** and select Date field.
 
     ![](./media/image13.png)
 
@@ -109,7 +109,7 @@ Define the fields and tables you want your model to extract. We'll extract the f
     ![](./media/image14.png)
 
 
-6.  Enter the date field name as **Due Date** and select **Done**.
+6.  Enter the date field name as +++**Due Date**+++ and select **Done**.
 
     ![](./media/image15.png)
 
@@ -124,11 +124,11 @@ Define the fields and tables you want your model to extract. We'll extract the f
     ![](./media/image17.png)
 
 
-9.  Define the table name as **Items**.
+9.  Define the table name as +++**Items**+++.
 
-10. Select Column1 and rename it to Description, then click Confirm.
+10. Select Column1, navigate to edit column and rename it to +++Description+++, then click Confirm.
 
-11. Click **+ New column**, enter the column name as Item total, then
+11. Click **+ New column**, enter the column name as +++Item total+++, then
     select Add. Finally, click **Done**.
 
     ![](./media/image18.png)
@@ -211,31 +211,31 @@ red dot at the top corner will disappear.
 
 2.  **Tag Fields:**
 
-- Start by tagging fields like **Invoice Number,** **Due date, and Total
-  amount.**
-
-- Draw a rectangle around each field in the document, then select the
-  corresponding field name.
-
-- Resize your selection if needed. Hovering over words will show light
-  blue boxes, indicating where you can draw rectangles.
-
-    ![](./media/image31.png)
-
-
-    ![](./media/image32.png)
-
-
-    ![](./media/image33.png)
+    - Start by tagging fields like **Invoice Number,** **Due date, and Total
+      amount.**
+    
+    - Draw a rectangle around each field in the document, then select the
+      corresponding field name.
+    
+    - Resize your selection if needed. Hovering over words will show light
+      blue boxes, indicating where you can draw rectangles.
+    
+        ![](./media/image31.png)
+    
+    
+        ![](./media/image32.png)
+    
+    
+        ![](./media/image33.png)
 
 
 3.  Field or Table Not in Document:
 
-- If a field or table isn’t present, like the Customer ID in the Contoso
-  collection, select the ellipsis **(…)** next to the field on the right
-  panel and choose **Not available in the document**.
-
-    ![](./media/image34.png)
+    - If a field or table isn’t present, like the Customer ID in the Contoso
+      collection, select the ellipsis **(…)** next to the field on the right
+      panel and choose **Not available in the document**.
+    
+        ![](./media/image34.png)
 
 
 4.  Tag Tables:
@@ -392,7 +392,7 @@ model in a canvas app. A special component is available for you to add
 that analyzes any image and extracts the text based on your trained
 Document processing mode.
 
-1.  From the  <https://make.powerautomate.com/, select **AI Hub**, and
+1.  From the  +++https://make.powerautomate.com/+++, select **AI Hub**, and
     select your model under Recently Created.
 
     ![](./media/image61.png)
@@ -427,9 +427,9 @@ published models appear in the drop-down list.
 
 6.  With the label selected, make sure that **Text** property is
     selected in the top left-hand corner. In the formula bar,
-    write FormProcessor1.Fields. This code gives you access to the other
+    write +++FormProcessor1.Fields+++. This code gives you access to the other
     properties from the model as well. For this exercise, we choose
-    Invoice Number. The result looks similar to this image.
+    **Invoice Number**. The result looks similar to this image.
 
     ![](./media/image65.png)
 
@@ -447,7 +447,7 @@ single quotes and your code may look like this image instead.
     invoice. Select **Insert** and then **Vertical Gallery**.
 
 8.  In the Items property of the gallery,
-    write: FormProcessor1.Tables.Items
+    write: +++FormProcessor1.Tables.Items+++
 
     ![](./media/image67.png)
 
