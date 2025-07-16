@@ -11,6 +11,30 @@ applied discount.
 
 **Estimated Time:** 25 mins
 
+### Task 0: Install Microsoft Excel
+
+1. Open edge browse and navigate to +++https://www.office.com+++ office 365 portal. Enter admin tenant ID and Password in the respected field and click on the **Sign in** button.
+
+    ![](./media/12a2.png)
+
+    ![](./media/12a3.png)
+
+2. Click on the **Yes** button to stay signed in.
+
+    ![](./media/12a4.png)
+
+3. After login, click on the **Apps** from left menu bar the click on the **Install apps** and select **Microsoft 365 apps**. It will navigate to different portal. If required please sign in again.
+
+    ![](./media/12a5.png)
+
+4. Click on the **Install Office** button.
+
+    ![](./media/12a6.png)
+
+5. Wait for few minutes while system installing Office 365 in the VM.
+
+    ![](./media/12a7.png)
+
 ### Task 1: Create Power Automate desktop flow
 
 1.  Open **Power automate desktop** and login with **office 365 tenant
