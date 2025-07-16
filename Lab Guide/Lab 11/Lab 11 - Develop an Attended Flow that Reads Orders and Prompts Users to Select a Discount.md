@@ -31,6 +31,11 @@ applied discount.
 
     ![](./media/12a6.png)
 
+5. Navigate to **Download** folder in VM and Click on the **OfficeSetup.exe** and install Office.
+
+    ![](./media/12a8.png)
+
+
 5. Wait for few minutes while system installing Office 365 in the VM.
 
     ![](./media/12a7.png)
