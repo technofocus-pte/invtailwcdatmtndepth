@@ -11,7 +11,7 @@ applied discount.
 
 **Estimated Time:** 25 mins
 
-### Task 0: Install Microsoft Excel
+### **Task 0: Install Microsoft Excel**
 
 1. Open edge browse and navigate to +++https://www.office.com+++ office 365 portal. Enter admin tenant ID and Password in the respected field and click on the **Sign in** button.
 
@@ -40,9 +40,9 @@ applied discount.
 
     ![](./media/12a7.png)
 
-    > Must Remember : After installation of Office, open excel app, login with adminn tenant-Password, accept all terms and condition and activate the office in the VM.
+    > **Must Remember** : After the installation of Office, open excel app, login with adminn tenant-Password, accept all terms and condition and activate the office in the VM.
 
-### Task 1: Create Power Automate desktop flow
+### **Task 1: Create Power Automate desktop flow**
 
 1.  Open **Power automate desktop** and login with **office 365 tenant
     credential**.
@@ -73,7 +73,7 @@ applied discount.
 
     - Document path: +++**%SelectedFile%**+++
 
-    - Click on the **save** button
+    - Click on the **Save** button
 
 - ![](./media/image5.png)
 
@@ -81,11 +81,11 @@ applied discount.
 
 - ![](./media/image6.png)
 
-8.  Add the +++**Get first free column/row from Excel worksheet**+++ action to retrieve the first free column and row in the Excel worksheet. Enter +++**%ExcelInstance%**+++ in the Excel instance and then click on the **save** button.
+8.  Add the +++**Get first free column/row from Excel worksheet**+++ action to retrieve the first free column and row in the Excel worksheet. Enter +++**%ExcelInstance%**+++ in the Excel instance and then click on the **Save** button.
 
 - ![](./media/image7.png)
 
-9.  Add +++Set Variable+++ from action named +++Counter+++ and enter +++1+++ into value field and then click on the **save**.
+9.  Add +++Set Variable+++ from action named +++Counter+++ and enter +++1+++ into value field and then click on the **Save**.
 
 - ![](./media/image8.png)
 
@@ -97,7 +97,7 @@ applied discount.
 
     - **Default Value**: +++**Discount**+++
 
-    - Click on the **save** button.
+    - Click on the **Save** button.
 
 - ![](./media/image9.png)
 
@@ -113,7 +113,7 @@ applied discount.
 
     - **Row**: +++**%Counter%**+++
 
-    - Click on the **save** button.
+    - Click on the **Save** button.
 
 - ![](./media/image10.png)
 
@@ -121,7 +121,7 @@ applied discount.
 
 - ![](./media/image11.png)
 
-13. To check the value of the **Gross** column (column G or the sixth column in the worksheet, in the sheet the name of the column is “6”), add +++**convert text to number**+++ action. Configure text to convert as +++**%CurrentItem\[6\]%**+++ and then click on the **save** button.
+13. To check the value of the **Gross** column (column G or the sixth column in the worksheet, in the sheet the name of the column is “6”), add +++**convert text to number**+++ action. Configure text to convert as +++**%CurrentItem\[6\]%**+++ and then click on the **Save** button.
 
 - ![](./media/image12.png)
 
@@ -183,7 +183,7 @@ Input dialog message: +++Enter the Discount Value+++
       
     ![](./media/image19.png)
 
-# Task 2: Test the Flow
+# **Task 2: Test the Flow**
 
 1.  Click on the **Run** button to execute the test.
 
@@ -201,7 +201,7 @@ Input dialog message: +++Enter the Discount Value+++
 
 > ![](./media/image23.png)
 
-5.  Then Enter the **Discount Value** For the test we enter +++**10000**+++ and then click **ok**.
+5.  Then Enter the **Discount Value** For the test we enter +++**10000**+++ and then click **OK**.
 
 > ![](./media/image24.png)
 
