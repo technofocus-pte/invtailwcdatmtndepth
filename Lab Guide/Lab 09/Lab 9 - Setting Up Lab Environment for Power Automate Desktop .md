@@ -87,7 +87,7 @@ logged in with their Office 365 credentials.
 
     ![](./media/9a10.png)
 
-16. Wait a few minutes while Power Automate prepares Dataverse. Once the Dataverse installation is complete, the environment becomes active and the + New option is enabled.
+16. Wait for few minutes while Power Automate prepares Dataverse. Once the Dataverse installation is complete, the environment becomes active and the + New option is enabled.
 
     ![](./media/9a11.png)
 
