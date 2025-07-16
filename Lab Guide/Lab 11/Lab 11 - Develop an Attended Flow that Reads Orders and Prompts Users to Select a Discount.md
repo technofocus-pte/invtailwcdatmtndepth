@@ -40,6 +40,8 @@ applied discount.
 
     ![](./media/12a7.png)
 
+    > Must Remember : After installation of Office, open excel app, login with adminn tenant-Password, accept all terms and condition and activate the office in the VM.
+
 ### Task 1: Create Power Automate desktop flow
 
 1.  Open **Power automate desktop** and login with **office 365 tenant
