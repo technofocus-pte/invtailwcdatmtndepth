@@ -98,7 +98,7 @@ dynamic date and time formats.
     ![](./media/image13.png)
 
 14. From the left-hand **Actions** navigation bar, Search for +++**Rename
-    file(s)**+++ action to the workspace. Select the action by double
+    file**+++ action to the workspace. Select the action by double
     clicking on it to add into the flow.
 
     ![](./media/image14.png)
