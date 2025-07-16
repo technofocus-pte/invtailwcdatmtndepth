@@ -13,8 +13,7 @@ logged in with their Office 365 credentials.
 1.  Navigate to +++**https://make.powerautomate.com/**+++ and if required, sign in with your Office
     365 tenant credentials.
 
-    ![](./media/image0.png)
-
+  
 2. Select **My flows** from the left pane and then select **Desktop flows**.
 
     ![](./media/image0.1.png)
@@ -64,19 +63,19 @@ logged in with their Office 365 credentials.
 
     ![](./media/9a4.png)
 
-11. Navigate back to power automate desktop installation window then click on the **close** button.
+11. Navigate back to the Power Automate desktop installation window then click on the **close** button.
 
     ![](./media/9a5.png)
 
-12. open power automate desktop app and click on the **Sign in** button.
+12. Open the Power Automate desktop app and click on the **Sign in** button.
 
     ![](./media/9a6.png)
 
-13. Select **Work or school account** type and then click on the **continue** button.
+13. Select **Work or school account** type and then click on the **Continue** button.
 
     ![](./media/9a7.png)
 
-14. Enter admin tenant and password in the field and then click on the **Sign in** button.
+14. Enter then admin tenant credentials in the field and then click on the **Sign in** button.
 
 
     ![](./media/9a8.png)
