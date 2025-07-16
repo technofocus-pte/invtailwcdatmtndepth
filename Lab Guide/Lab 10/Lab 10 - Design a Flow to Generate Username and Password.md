@@ -62,7 +62,7 @@ including handling text manipulation and generating random text.
     the list, which is the first name. Set the Convert to as **Lower
     case** and then click on the **Save**.
 
-    ![](./media/image8.png)
+     ![](./media/image8.png)
 
 
 11. From left Actions bar search +++**Change text case**+++ action and double
