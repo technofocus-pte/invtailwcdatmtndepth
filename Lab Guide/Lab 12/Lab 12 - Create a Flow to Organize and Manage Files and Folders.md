@@ -1,4 +1,4 @@
-# Lab 12 - Create a Flow to Organize and Manage Files and Folders 
+# **Lab 12 - Create a Flow to Organize and Manage Files and Folders** 
 
 **Objective:** The objective of this lab is to automate the process of
 backing up files from a designated folder on the desktop using **Power
@@ -13,7 +13,7 @@ dynamic date and time formats.
 
 ### Task 1: Create folder and Desktop flow
 
-1.  Create a folder on your desktop and rename as **Contoso_Files.**
+1.  Create a folder on your desktop and rename as +++Contoso_Files+++
 
     ![](./media/image1.png)
 
@@ -76,7 +76,7 @@ dynamic date and time formats.
 
 11. In the **Create new folder into** field of Create folder action,
     enter +++**C:\Users\Admin\Desktop**+++ In the **New folder
-    name** field, enter **Contoso_Backup**. After entering the
+    name** field, enter +++Contoso_Backup+++. After entering the
     information slick on the **Save** button.
 
     ![](./media/image11.png)
