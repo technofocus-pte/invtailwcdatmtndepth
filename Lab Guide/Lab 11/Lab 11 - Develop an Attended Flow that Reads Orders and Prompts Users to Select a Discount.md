@@ -1,3 +1,14 @@
+---
+lab:
+  title: Lab 11 - Develop an Attended Flow that Reads Orders and Prompts Users to Select a Discount
+  description: In this lab, participants developed an attended Power Automate Desktop flow that reads order data from an Excel file, checks if the order amount exceeds a set threshold, and prompts the user to apply a discount. The flow efficiently automates the decision-making process by allowing users to interact with the flow through prompts and enter discount values. This lab provides hands-on experience in automating tasks involving Excel, user inputs, and conditional logic, empowering participants to streamline similar business processes using Power Automate Desktop.
+  duration: 25 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Power Automate
+---
+
 # **Lab 11 - Develop an Attended Flow that Reads Orders and Prompts Users to Select a Discount**
 
 **Objective:** The objective of this lab is to develop an **attended
