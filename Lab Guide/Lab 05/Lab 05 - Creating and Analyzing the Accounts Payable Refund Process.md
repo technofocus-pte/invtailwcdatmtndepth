@@ -1,3 +1,14 @@
+---
+lab:
+  title: Lab 5 - Creating and Analyzing the Accounts Payable Refund Process
+  description: In this lab, participants created and analyzed an accounts payable refund process using Power Automate Process Mining capabilities. By importing CSV data, they constructed a detailed process map and dashboard, allowing them to examine key performance indicators (KPIs) and process metrics. Through the Power Automate Process Mining desktop app, participants performed deeper analysis, identifying inefficiencies such as long durations and lower invoice values in specific steps. This lab demonstrated how Process Mining can help organizations optimize financial workflows, improve efficiency, and streamline accounts payable operations.
+  duration: 30 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Power Automate
+---
+
 # **Lab 5 - Creating and Analyzing the Accounts Payable Refund Process**
 
 **Objective:** The objective of this lab is to create and analyze an
