@@ -1,3 +1,12 @@
+---
+lab:
+  title: Lab 8 - Process custom documents with AI builder
+  description: Define collections and upload documents. A collection groups documents with the same layout. Create a collection for each unique layout your model needs to process. Since there are two invoice providers using different templates, we'll create two collections.
+  duration: 45 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 8 - Process custom documents with AI builder**
 
 **Objective:** The objective of this lab is to guide participants
