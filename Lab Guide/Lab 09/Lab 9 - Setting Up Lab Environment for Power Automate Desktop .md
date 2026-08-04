@@ -1,3 +1,15 @@
+---
+lab:
+  title: Lab 9 - Setting Up Lab Environment for Power Automate Desktop
+  description: In this lab, participants successfully set up the Power Automate Desktop environment by installing the application, configuring browser extensions, and logging in with their Office 365 credentials. By completing the setup process, participants are now ready to use Power Automate Desktop to automate workflows and tasks. This lab provides the foundational step to explore automation, ensuring that the environment is configured correctly for future desktop automation tasks.
+  duration: 15 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Power Automate
+    - Office 365
+---
+
 # **Lab 9 - Setting Up Lab Environment for Power Automate Desktop** 
 
 **Objective:** The objective of this lab is to guide participants
