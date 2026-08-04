@@ -1,3 +1,12 @@
+---
+lab:
+  title: Lab 0 - Setting up lab environment for Power App
+  description: selector, select the developer environment – Dev One which is created for you.
+  duration: 7 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 0 - Setting up lab environment for Power App**
 
 **Objective:** In this lab, you will acquire Power Apps trial license and configure the Micorsoft Teams apps.
