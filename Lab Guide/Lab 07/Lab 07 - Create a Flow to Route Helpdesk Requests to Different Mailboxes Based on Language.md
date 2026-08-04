@@ -1,3 +1,14 @@
+---
+lab:
+  title: Lab 7 - Create a Flow to Route Helpdesk Requests to Different Mailboxes Based on Language
+  description: In this lab, participants successfully created a Power Automate flow to streamline helpdesk requests by routing emails based on language detection and using GPT to summarize the content. By integrating automation into the email workflow, the lab demonstrated how to efficiently manage communication across multiple teams or departments based on language triggers. The exercise also showed how to use GPT within Power Automate to enhance productivity and reduce manual sorting. This solution helps organizations improve workflow efficiency and reduce the response time for helpdesk inquiries.
+  duration: 15 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Power Automate
+---
+
 # **Lab 7 - Create a Flow to Route Helpdesk Requests to Different Mailboxes Based on Language**
 
 **Objective:** The objective of this lab is to guide participants
