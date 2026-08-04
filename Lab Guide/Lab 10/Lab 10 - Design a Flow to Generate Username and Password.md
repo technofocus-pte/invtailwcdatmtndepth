@@ -1,3 +1,12 @@
+---
+lab:
+  title: Lab 10 - Design a flow to generate username and password​
+  description: '+++Hello, %UserInput%, your username is: %SubText%%TextWithNewCase2% Your temporary password is: %RandomText%+++'
+  duration: 20 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 10 - Design a flow to generate username and password**​
 
 **Objective:** The objective of this lab is to create and test a Power
