@@ -1,3 +1,14 @@
+---
+lab:
+  title: Lab 6 - Using Task Mining Capability to Analyze the Order Fulfillment Process
+  description: In this lab, participants utilized Power Automate task mining capabilities to analyze and optimize the order fulfillment process. By importing a pre-built solution with sample recordings, they explored key features of task mining, including process analysis, identifying bottlenecks, and generating automation recommendations. Participants learned how to assess process efficiency through detailed analytics on time spent across various tasks and applications. The lab highlighted how task mining can streamline business processes by identifying automation opportunities, ultimately improving operational efficiency and reducing manual workloads in the order fulfillment process.
+  duration: 30 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Power Automate
+---
+
 # **Lab 6 - Using Task Mining Capability to Analyze the Order Fulfillment Process**
 
 

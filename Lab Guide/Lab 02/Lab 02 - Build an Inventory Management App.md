@@ -1,3 +1,15 @@
+---
+lab:
+  title: Lab 2 - Build an Inventory Management App
+  description: By the end of this lab, participants will be able to verify their Dataverse environment, build an inventory management app utilizing Copilot, design a Candy Quality Check screen with custom fields, and implement Power Automate flows to trigger restock requests based on inventory levels. Additionally, they will gain skills in testing and validating automated workflows to ensure accurate inventory updates following approval processes. This structured approach will empower participants to effectively leverage the capabilities of Power Apps and Power Automate, enhancing their skills in app development and process automation.
+  duration: 40 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Power Apps
+    - Power Automate
+---
+
 # **Lab 2 - Build an Inventory Management App**
 
 **Objective:** The objective of this lab is to guide participants

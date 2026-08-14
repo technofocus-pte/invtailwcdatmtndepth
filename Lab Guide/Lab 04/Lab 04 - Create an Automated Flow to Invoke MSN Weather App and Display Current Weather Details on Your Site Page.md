@@ -1,3 +1,14 @@
+---
+lab:
+  title: Lab 4 - Create an Automated Flow to Invoke MSN Weather App and Display Current Weather Details on Your Site Page
+  description: In this lab, participants successfully integrated Power Automate with a Power Pages site, enhancing their skills in website creation, cloud flow development, and web page customization. They learned to design a user-friendly interface that retrieves and displays dynamic weather data using Power Automate. By testing the flow integration, participants also developed troubleshooting skills, empowering them to create interactive applications within the Power Platform effectively.
+  duration: 25 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Power Automate
+---
+
 # **Lab 4 - Create an Automated Flow to Invoke MSN Weather App and Display Current Weather Details on Your Site Page**
 
 **Objective:** The objective of this lab is to guide participants

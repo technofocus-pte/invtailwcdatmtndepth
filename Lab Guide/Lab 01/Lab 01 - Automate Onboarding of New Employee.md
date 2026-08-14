@@ -1,3 +1,12 @@
+---
+lab:
+  title: Lab 1 - Automate Onboarding of New Employee
+  description: In this exercise, you will build your application to send an email to an employee with official information and asking them to fill and upload documents.
+  duration: 60 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 1 - Automate Onboarding of New Employee**
 
 **Objective:** The primary objective of this lab is to guide

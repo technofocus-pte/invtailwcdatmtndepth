@@ -1,3 +1,16 @@
+---
+lab:
+  title: Lab 10 - Design a flow to generate username and password​
+  description: The objective of this lab is to create and test a Power
+Automate Desktop flow that generates a username, and a random password
+based on user input. By completing this lab, participants will learn how
+to design and automate a flow using Power Automate Desktop actions,
+including handling text manipulation and generating random text.
+  duration: 20 minutes
+  level: 100
+  islab: true
+---
+
 # **Lab 10 - Design a flow to generate username and password**​
 
 **Objective:** The objective of this lab is to create and test a Power

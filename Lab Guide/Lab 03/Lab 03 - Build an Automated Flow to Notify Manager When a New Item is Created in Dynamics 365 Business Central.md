@@ -1,3 +1,15 @@
+---
+lab:
+  title: Lab 3 - Build an Automated Flow to Notify Manager When a New Item is Created in Dynamics 365 Business Central
+  description: By the end of this lab, participants will have successfully created an automated email notification flow in Power Automate for new items in Business Central. They will have gained practical experience in setting up triggers, actions, and conditions, which are essential skills for automating workflows. Participants will also understand how to gather and manipulate data from Business Central effectively, enabling them to streamline communications and enhance productivity in their respective organizations. This knowledge will serve as a foundation for further exploration of Power Automate capabilities in automating various business processes.
+  duration: 15 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Dynamics 365
+    - Power Automate
+---
+
 # **Lab 3 - Build an Automated Flow to Notify Manager When a New Item is Created in Dynamics 365 Business Central**
 
 **Objective:** In this lab, participants will learn how to create an
